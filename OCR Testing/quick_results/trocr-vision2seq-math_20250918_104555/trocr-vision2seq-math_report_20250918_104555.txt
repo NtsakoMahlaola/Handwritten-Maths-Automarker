@@ -1,0 +1,157 @@
+====================================================================================================
+LATEX-OCR BENCHMARK REPORT - TROCR-VISION2SEQ-MATH
+====================================================================================================
+
+BENCHMARK INFORMATION
+--------------------------------------------------
+Model Name: trocr-vision2seq-math
+Benchmark Start: 2025-09-18T10:34:26.761424
+Benchmark End: 2025-09-18T10:45:55.283159
+Device Used: CPU
+
+SUMMARY STATISTICS
+--------------------------------------------------
+Total Images: 15
+Successfully Processed: 15
+Failed Processing: 0
+Success Rate: 100.0%
+
+ACCURACY METRICS
+--------------------------------------------------
+Exact Match Rate: 0.0%
+Average Character Accuracy: 0.428
+Median Character Accuracy: 0.383
+Std Character Accuracy: 0.186
+Average Levenshtein Distance: 22.5
+Average Word Error Rate: 1.000
+Average Token Accuracy: 0.000
+
+PERFORMANCE METRICS
+--------------------------------------------------
+Total Processing Time: 688.4s
+Average Inference Time: 45.896s
+Average Memory Usage: 145.43MB
+
+DETAILED PREDICTIONS (15)
+====================================================================================================
+
+IMAGE 1: 01650d074915628e.png
+Ground Truth: i_{Q}:Q\hookrightarrow E
+Prediction:   \c{}{a2:Q\hookrightrightrightarrow3 E3
+Exact Match:  ❌ NO
+Char Accuracy: 0.526 | Time: 44.200s | Memory: 2172.48MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 2: 04fc9a7665035a0d.png
+Ground Truth: a_{b,i}=\gamma_{b,i}\frac{b_{i}}{b^{\ominus}}
+Prediction:   a_{,i=\gamma_{b,}c{b2^}\frac3^{}{}} \ (b2
+Exact Match:  ❌ NO
+Char Accuracy: 0.467 | Time: 48.151s | Memory: 45.66MB
+Token Accuracy: 0.000 | Levenshtein: 24
+----------------------------------------------------------------------------------------------------
+
+IMAGE 3: 05882db6930f636c.png
+Ground Truth: \Rightarrow ln\frac{x(t)}{x(0)}=kt
+Prediction:   \right-frac{nfrac4\c{}{}}times(0^)}\ancel-k1
+Exact Match:  ❌ NO
+Char Accuracy: 0.364 | Time: 41.198s | Memory: 15.98MB
+Token Accuracy: 0.000 | Levenshtein: 28
+----------------------------------------------------------------------------------------------------
+
+IMAGE 4: 038ccb46ae3443db.png
+Ground Truth: \mathbb{E}[logX!]=\overline{logX!}
+Prediction:   \c{}{ \ (a-)}8=logx1
+Exact Match:  ❌ NO
+Char Accuracy: 0.206 | Time: 30.674s | Memory: -6.58MB
+Token Accuracy: 0.000 | Levenshtein: 27
+----------------------------------------------------------------------------------------------------
+
+IMAGE 5: 04852f06a82865c1.png
+Ground Truth: \frac{\partial\Pi}{\partial x_{j}}
+Prediction:   \frac{\partial\c{\{}{}} \c{\partial x_{j{-}} \ancel3
+Exact Match:  ❌ NO
+Char Accuracy: 0.640 | Time: 46.285s | Memory: 4.61MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 6: 0368471ca4fbe892.png
+Ground Truth: R_{U}\in R_{U}\iff R_{U}\notin R_{U}
+Prediction:   R_{n \c{}{R_{U}} \left-}R_{u}\ancel R_{U
+Exact Match:  ❌ NO
+Char Accuracy: 0.513 | Time: 40.311s | Memory: -0.20MB
+Token Accuracy: 0.000 | Levenshtein: 19
+----------------------------------------------------------------------------------------------------
+
+IMAGE 7: 04026cefc5bee356.png
+Ground Truth: (0,1)^{n}\subseteq R^{n}
+Prediction:   \c{0,1)^{n}\c{\c{}{R}Rancel2
+Exact Match:  ❌ NO
+Char Accuracy: 0.357 | Time: 36.036s | Memory: -5.11MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 8: 06b2711e539715e0.png
+Ground Truth: \Leftrightarrow1-\frac{1}{r}<\left[\frac{m}{r}\right]_{1}
+Prediction:   \left-frac1-\c{}{\}}times{\c{n2}\ (a2]4
+Exact Match:  ❌ NO
+Char Accuracy: 0.283 | Time: 40.793s | Memory: 4.86MB
+Token Accuracy: 0.000 | Levenshtein: 33
+----------------------------------------------------------------------------------------------------
+
+IMAGE 9: 0656e77f512563c5.png
+Ground Truth: \hat{A}_{n,\alpha}^{\dagger}
+Prediction:   \hat{A}n_{12^}n2
+Exact Match:  ❌ NO
+Char Accuracy: 0.321 | Time: 33.538s | Memory: -34.60MB
+Token Accuracy: 0.000 | Levenshtein: 19
+----------------------------------------------------------------------------------------------------
+
+IMAGE 10: 067a327b0c92095f.png
+Ground Truth: \underline{x}\in\mathbb{R}^{n}
+Prediction:   \underancel\in\mathancel R}\right
+Exact Match:  ❌ NO
+Char Accuracy: 0.455 | Time: 25.336s | Memory: -3.08MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 11: 0050464363a7d02d.png
+Ground Truth: q=\frac{1}{\sqrt{1\cdot\frac{v^{5}}{c^{5}}}}\xi
+Prediction:   a{\{-}}frac1{\rt4\c{b-}\frac{v3}{}} \c{a2
+Exact Match:  ❌ NO
+Char Accuracy: 0.383 | Time: 64.173s | Memory: 39.74MB
+Token Accuracy: 0.000 | Levenshtein: 29
+----------------------------------------------------------------------------------------------------
+
+IMAGE 12: 01751ea13ceb1817.png
+Ground Truth: C(X)>X^{0.332}
+Prediction:   c(x)>x10^c{-}x3
+Exact Match:  ❌ NO
+Char Accuracy: 0.267 | Time: 30.203s | Memory: -38.23MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 13: 04fc707abea3e7a1.png
+Ground Truth: B=\nabla\times\hat{A}
+Prediction:   B=\nabla\times\hat A
+Exact Match:  ❌ NO
+Char Accuracy: 0.905 | Time: 45.955s | Memory: -2.89MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 14: 025f579aa67dfd7c.png
+Ground Truth: \{A_{i}|i\in\underline{m}\backslash A\}
+Prediction:   \{A,1\c{}{ \c{-}}\c{A\ge3
+Exact Match:  ❌ NO
+Char Accuracy: 0.179 | Time: 58.075s | Memory: 6.15MB
+Token Accuracy: 0.000 | Levenshtein: 32
+----------------------------------------------------------------------------------------------------
+
+IMAGE 15: 05fa73b7807336c8.png
+Ground Truth: \frac{d}{dt}\frac{\partial R}{\partial\dot{\zeta}_{j}}=\frac{\partial R}{\partial\zeta_{j}}
+Prediction:   \frac4\c{\{}{}}frac{\partial R}{\partial\dot{\z{\zeta3}} \frac{\z{}{}}} \frac3^ \ (b2
+Exact Match:  ❌ NO
+Char Accuracy: 0.549 | Time: 103.505s | Memory: -17.38MB
+Token Accuracy: 0.000 | Levenshtein: 41
+----------------------------------------------------------------------------------------------------
+

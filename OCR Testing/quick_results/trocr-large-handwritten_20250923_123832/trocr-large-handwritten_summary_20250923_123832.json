@@ -1,0 +1,23 @@
+{
+  "model_name": "trocr-large-handwritten",
+  "total_images": 15,
+  "successfully_processed": 15,
+  "failed_processing": 0,
+  "success_rate": 1.0,
+  "total_processing_time_seconds": 103.22978401184082,
+  "average_inference_time_seconds": 6.881985600789388,
+  "total_memory_used_mb": 2011.8125,
+  "average_memory_used_mb": 134.12083333333334,
+  "exact_match_rate": 0.0,
+  "average_character_accuracy": 0.11272017948554411,
+  "median_character_accuracy": 0.0888888888888889,
+  "std_character_accuracy": 0.09177047621640577,
+  "average_levenshtein_distance": 33.266666666666666,
+  "median_levenshtein_distance": 28.0,
+  "timestamp": "2025-09-23T12:38:32.896059",
+  "device": "CPU",
+  "average_word_error_rate": 1.0,
+  "median_word_error_rate": 1.0,
+  "average_token_accuracy": 0.0,
+  "median_token_accuracy": 0.0
+}

@@ -1,0 +1,23 @@
+{
+  "model_name": "trocr-vision2seq-math",
+  "total_images": 15,
+  "successfully_processed": 15,
+  "failed_processing": 0,
+  "success_rate": 1.0,
+  "total_processing_time_seconds": 761.2694225311279,
+  "average_inference_time_seconds": 50.75129483540853,
+  "total_memory_used_mb": 2138.86328125,
+  "average_memory_used_mb": 142.59088541666668,
+  "exact_match_rate": 0.0,
+  "average_character_accuracy": 0.42762615253853453,
+  "median_character_accuracy": 0.3829787234042553,
+  "std_character_accuracy": 0.18648325921049538,
+  "average_levenshtein_distance": 22.466666666666665,
+  "median_levenshtein_distance": 19.0,
+  "timestamp": "2025-09-17T23:15:02.543903",
+  "device": "CPU",
+  "average_word_error_rate": 1.0,
+  "median_word_error_rate": 1.0,
+  "average_token_accuracy": 0.0,
+  "median_token_accuracy": 0.0
+}

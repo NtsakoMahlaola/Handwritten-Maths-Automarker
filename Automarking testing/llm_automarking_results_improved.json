@@ -1,0 +1,1042 @@
+{
+  "metadata": {
+    "grading_model": "mistral",
+    "timestamp": "2025-10-09 19:46:24",
+    "total_questions": 10,
+    "input_file": "automarking_results_final_only.json",
+    "processing_time_seconds": 4108.67,
+    "students_processed": 40,
+    "total_students": 40,
+    "successful_json_parses": 37,
+    "parse_success_rate": "92.5%"
+  },
+  "questions": {
+    "Question_1": {
+      "metadata": {
+        "field": "Calculus",
+        "topic": "Differentiation",
+        "question_text": "Differentiate f(x) = x^3 * cos(x) with respect to x.",
+        "expected_answer": "3*x**2*cos(x) - x**3*sin(x)"
+      },
+      "student_verdicts": [
+        {
+          "student_id": "A",
+          "submitted_derivation": [
+            "x^3 * cos(x)",
+            "3*x**2*cos(x) + x**3*(-sin(x))",
+            "3*x**2*cos(x) - x**3*sin(x)"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "3*x**2*cos(x) - x**3*sin(x)",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 5,
+            "mistakes_made": [],
+            "agrees_with_sympy": true
+          }
+        },
+        {
+          "student_id": "B",
+          "submitted_derivation": [
+            "x^3 * cos(x)",
+            "3*x**2*cos(x) + x**3*(sin(x))",
+            "3*x**2*cos(x) + x**3*sin(x)"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "3*x**2*cos(x) + x**3*sin(x)",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 3,
+            "mistakes_made": [
+              "Final answer"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "C",
+          "submitted_derivation": [
+            "x^3 * cos(x)",
+            "(3*x**2) * (-sin(x))",
+            "-3*x**2*sin(x)"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "-3*x**2*sin(x)",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 3,
+            "mistakes_made": [
+              "incorrect_sign",
+              "forgot_cosine_term"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "D",
+          "submitted_derivation": [
+            "x^3 * cos(x)",
+            "3*x**2*cos(x) + x**3*sin(x)",
+            "3*x**2*cos(x) - x**3*sin(x)"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "3*x**2*cos(x) - x**3*sin(x)",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "extra term in step 2"
+            ],
+            "agrees_with_sympy": true
+          }
+        }
+      ]
+    },
+    "Question_2": {
+      "metadata": {
+        "field": "Algebra",
+        "topic": "Quadratic Equations",
+        "question_text": "Solve for x: x**2 - 5*x + 6 = 0",
+        "expected_answer": "{2.0, 3.0}"
+      },
+      "student_verdicts": [
+        {
+          "student_id": "A",
+          "submitted_derivation": [
+            "x**2 - 5*x + 6 = 0",
+            "(x - 2)*(x - 3) = 0",
+            "x = 2, x = 3"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x = 2, x = 3",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "Final answer"
+            ],
+            "agrees_with_sympy": true
+          }
+        },
+        {
+          "student_id": "B",
+          "submitted_derivation": [
+            "x**2 - 5*x + 6 = 0",
+            "(x + 2)*(x - 3) = 0",
+            "x = -2, x = 3"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x = -2, x = 3",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "No mistakes in mathematical accuracy or logical progression.",
+              "Incorrect final answer as it doesn't match the expected solution"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "C",
+          "submitted_derivation": [
+            "x**2 - 5*x + 6 = 0",
+            "I think the answers are 2 and 3",
+            "x=2, x=3"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x=2, x=3",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 3,
+            "mistakes_made": [
+              "Mathematical accuracy"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "D",
+          "submitted_derivation": [
+            "x**2 - 5*x + 6 = 0",
+            "(x - 2)*(x - 3) = 0",
+            "x = 2"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x = 2",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "mistake1",
+              "mistake2"
+            ],
+            "agrees_with_sympy": false
+          }
+        }
+      ]
+    },
+    "Question_3": {
+      "metadata": {
+        "field": "Trigonometry",
+        "topic": "Identities",
+        "question_text": "Prove the identity: tan(x) + cot(x) = sec(x)*csc(x)",
+        "expected_answer": "sec(x)*csc(x)"
+      },
+      "student_verdicts": [
+        {
+          "student_id": "A",
+          "submitted_derivation": [
+            "tan(x) + cot(x)",
+            "sin(x)/cos(x) + cos(x)/sin(x)",
+            "(sin(x)**2 + cos(x)**2) / (cos(x)*sin(x))",
+            "1 / (cos(x)*sin(x))",
+            "sec(x)*csc(x)"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "sec(x)*csc(x)",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 5,
+            "mistakes_made": [],
+            "agrees_with_sympy": true
+          }
+        },
+        {
+          "student_id": "B",
+          "submitted_derivation": [
+            "tan(x) + cot(x)",
+            "sin(x)/cos(x) + cos(x)/sin(x)",
+            "(sin(x)**2 + cos(x)**2) / (cos(x)*sin(x))",
+            "0 / (cos(x)*sin(x))"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "0 / (cos(x)*sin(x))",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 0,
+            "mistakes_made": [
+              "mistake1",
+              "mistake2",
+              "mistake3"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "C",
+          "submitted_derivation": [
+            "tan(x) + cot(x)",
+            "sin(x)/cos(x) + sin(x)/cos(x)",
+            "2*tan(x)"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "2*tan(x)",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 0,
+            "mistakes_made": [
+              "incorrect final answer",
+              "skipped a crucial step to simplify the expression"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "D",
+          "submitted_derivation": [
+            "tan(x) + cot(x)",
+            "1 / cos(x) + 1 / sin(x)",
+            "sec(x)*csc(x)"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "sec(x)*csc(x)",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 5,
+            "mistakes_made": [],
+            "agrees_with_sympy": true
+          }
+        }
+      ]
+    },
+    "Question_4": {
+      "metadata": {
+        "field": "Calculus",
+        "topic": "Integration",
+        "question_text": "Find the indefinite integral of f(x) = 4*x**3 + 3*x**2.",
+        "expected_answer": "x**4 + x**3 + C"
+      },
+      "student_verdicts": [
+        {
+          "student_id": "A",
+          "submitted_derivation": [
+            "4*x**3 + 3*x**2",
+            "x**4 + x**3 + C"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x**4 + x**3 + C",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 5,
+            "mistakes_made": [],
+            "agrees_with_sympy": true
+          }
+        },
+        {
+          "student_id": "B",
+          "submitted_derivation": [
+            "4*x**3 + 3*x**2",
+            "x**4 + x**3"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x**4 + x**3",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 3,
+            "mistakes_made": [
+              "Final answer",
+              "Logical progression"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "C",
+          "submitted_derivation": [
+            "4*x**3 + 3*x**2",
+            "12*x**2 + 6*x"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "12*x**2 + 6*x",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 1,
+            "mistakes_made": [
+              "Final answer"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "D",
+          "submitted_derivation": [
+            "4*x**3 + 3*x**2",
+            "x**4 + x**3 + C"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x**4 + x**3 + C",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 5,
+            "mistakes_made": [],
+            "agrees_with_sympy": true
+          }
+        }
+      ]
+    },
+    "Question_5": {
+      "metadata": {
+        "field": "Algebra",
+        "topic": "Simplification",
+        "question_text": "Simplify the expression: (x**2 - 9) / (x + 3)",
+        "expected_answer": "x - 3"
+      },
+      "student_verdicts": [
+        {
+          "student_id": "A",
+          "submitted_derivation": [
+            "(x**2 - 9) / (x + 3)",
+            "(x - 3)*(x + 3) / (x + 3)",
+            "x - 3"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x - 3",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "The student forgot to factor out (x+3) in the denominator as well."
+            ],
+            "agrees_with_sympy": true
+          }
+        },
+        {
+          "student_id": "B",
+          "submitted_derivation": [
+            "(x**2 - 9) / (x + 3)",
+            "(x**2 / x) - (9 / 3)",
+            "x - 3"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x - 3",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 5,
+            "mistakes_made": [],
+            "agrees_with_sympy": true
+          }
+        },
+        {
+          "student_id": "C",
+          "submitted_derivation": [
+            "(x**2 - 9) / (x + 3)",
+            "(x - 3)*(x - 3) / (x + 3)"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "(x - 3)*(x - 3) / (x + 3)",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 1,
+            "mistakes_made": [
+              "Method selection",
+              "Final answer"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "D",
+          "submitted_derivation": [
+            "(x**2 - 9) / (x + 3)",
+            "(x-3)*(x+3)/(x+3)"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "(x-3)*(x+3)/(x+3)",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "logical progression"
+            ],
+            "agrees_with_sympy": true
+          }
+        }
+      ]
+    },
+    "Question_6": {
+      "metadata": {
+        "field": "Calculus",
+        "topic": "Limits",
+        "question_text": "Evaluate the limit of (x**2 - 4)/(x - 2) as x approaches 2.",
+        "expected_answer": "4"
+      },
+      "student_verdicts": [
+        {
+          "student_id": "A",
+          "submitted_derivation": [
+            "(x**2 - 4)/(x - 2)",
+            "limit as x->2 of (x-2)(x+2)/(x-2)",
+            "limit as x->2 of (x+2)",
+            "4"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "4",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 5,
+            "mistakes_made": [],
+            "agrees_with_sympy": true
+          }
+        },
+        {
+          "student_id": "B",
+          "submitted_derivation": [
+            "(x**2 - 4)/(x - 2)",
+            "(2**2 - 4)/(2-2)",
+            "0/0",
+            "Undefined"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "Undefined",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 1,
+            "mistakes_made": [
+              "skipped the substitution of x with 2 in step 2",
+              "failed to recognize the indeterminate form as having a limit and provided an incorrect final answer"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "C",
+          "submitted_derivation": [
+            "(x**2 - 4)/(x - 2)",
+            "Using L'Hopital's Rule: limit of (2*x)/(1) as x->2",
+            "4"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "4",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [],
+            "agrees_with_sympy": true
+          }
+        },
+        {
+          "student_id": "D",
+          "submitted_derivation": [
+            "(x**2 - 4)/(x - 2)",
+            "limit as x->2 of (x-2)(x-2)/(x-2)",
+            "limit as x->2 of (x-2)",
+            "0"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "0",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 3,
+            "mistakes_made": [
+              "incorrect final answer",
+              "skipped simplification step"
+            ],
+            "agrees_with_sympy": false
+          }
+        }
+      ]
+    },
+    "Question_7": {
+      "metadata": {
+        "field": "Algebra",
+        "topic": "Logarithms",
+        "question_text": "Solve for x: log(x, 2) + log(x-2, 2) = 3",
+        "expected_answer": "4"
+      },
+      "student_verdicts": [
+        {
+          "student_id": "A",
+          "submitted_derivation": [
+            "log(x, 2) + log(x-2, 2) = 3",
+            "log(x*(x-2), 2) = 3",
+            "x*(x-2) = 2**3",
+            "x**2 - 2*x = 8",
+            "x**2 - 2*x - 8 = 0",
+            "(x-4)*(x+2) = 0",
+            "x=4"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x=4",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "error": "No JSON object found",
+            "raw_response_preview": "[ERROR] ollama call timed out."
+          }
+        },
+        {
+          "student_id": "B",
+          "submitted_derivation": [
+            "log(x, 2) + log(x-2, 2) = 3",
+            "log(x*(x-2), 2) = 3",
+            "x**2 - 2*x - 8 = 0",
+            "(x-4)*(x+2) = 0",
+            "x=4, x=-2"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x=4, x=-2",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "No mistake in steps 1-4",
+              "Incorrect final answer"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "C",
+          "submitted_derivation": [
+            "log(x, 2) + log(x-2, 2) = 3",
+            "log(x + (x-2), 2) = 3",
+            "log(2*x - 2, 2) = 3",
+            "2*x - 2 = 8",
+            "x=5"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x=5",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "Incorrect final answer"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "D",
+          "submitted_derivation": [
+            "log(x, 2) + log(x-2, 2) = 3",
+            "log(x*(x-2), 2) = 3",
+            "x*(x-2) = 3**2",
+            "x**2 - 2*x - 9 = 0"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x**2 - 2*x - 9 = 0",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "Incorrect final answer"
+            ],
+            "agrees_with_sympy": false
+          }
+        }
+      ]
+    },
+    "Question_8": {
+      "metadata": {
+        "field": "Trigonometry",
+        "topic": "Solving Equations",
+        "question_text": "Find the general solution for 2*sin(x) - 1 = 0.",
+        "expected_answer": "x = pi/6 + 2*k*pi or x = 5*pi/6 + 2*k*pi"
+      },
+      "student_verdicts": [
+        {
+          "student_id": "A",
+          "submitted_derivation": [
+            "2*sin(x) - 1 = 0",
+            "sin(x) = 1/2",
+            "Reference angle is pi/6",
+            "x = pi/6 + 2*k*pi and x = pi - pi/6 + 2*k*pi",
+            "x = 5*pi/6 + 2*k*pi"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x = 5*pi/6 + 2*k*pi",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "Incorrect reference angle"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "B",
+          "submitted_derivation": [
+            "2*sin(x) - 1 = 0",
+            "sin(x) = 1/2",
+            "x = pi/6 and x = 5*pi/6"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x = pi/6 and x = 5*pi/6",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 3,
+            "mistakes_made": [
+              "The student did not consider all possible solutions (considering periodicity of sine function)"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "C",
+          "submitted_derivation": [
+            "2*sin(x) - 1 = 0",
+            "sin(x) = 1/2",
+            "x = pi/6 + 2*k*pi"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x = pi/6 + 2*k*pi",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "The mathematical accuracy is incorrect. The correct value for sin(x) is the square root of (1 - (2*sin(x) - 1)^2), which results in approximately 0.4142135623730951, not exactly 1/2."
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "D",
+          "submitted_derivation": [
+            "2*sin(x) - 1 = 0",
+            "sin(x) = 1/2",
+            "x = pi/3 + 2*k*pi and x = 2*pi/3 + 2*k*pi"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x = pi/3 + 2*k*pi and x = 2*pi/3 + 2*k*pi",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 3,
+            "mistakes_made": [
+              "Incorrect range of inverse sine function"
+            ],
+            "agrees_with_sympy": false
+          }
+        }
+      ]
+    },
+    "Question_9": {
+      "metadata": {
+        "field": "Algebra",
+        "topic": "Financial Maths",
+        "question_text": "R1500 is invested at 8% p.a. compounded monthly. What is the value after 2 years? Formula: A = P*(1 + i)**n",
+        "expected_answer": "1759.39"
+      },
+      "student_verdicts": [
+        {
+          "student_id": "A",
+          "submitted_derivation": [
+            "R1500 at 8% p.a. compounded monthly for 2 years",
+            "P = 1500, i = 0.08/12, n = 2*12",
+            "A = 1500 * (1 + 0.08/12)**24",
+            "1759.39"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "1759.39",
+              "status": "Correct",
+              "comment": "Final answer matches expected result"
+            }
+          ],
+          "llm_grading": {
+            "error": "No JSON object found",
+            "raw_response_preview": "[ERROR] ollama call timed out."
+          }
+        },
+        {
+          "student_id": "B",
+          "submitted_derivation": [
+            "R1500 at 8% p.a. compounded monthly for 2 years",
+            "P = 1500, i = 0.08/12, n = 2",
+            "A = 1500 * (1 + 0.08/12)**2",
+            "1520.08"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "1520.08",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "final answer"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "C",
+          "submitted_derivation": [
+            "R1500 at 8% p.a. compounded monthly for 2 years",
+            "P = 1500, i = 0.08, n = 24",
+            "A = 1500 * (1 + 0.08)**24",
+            "9511.92"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "9511.92",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "final_answer"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "D",
+          "submitted_derivation": [
+            "R1500 at 8% p.a. compounded monthly for 2 years",
+            "P = 1500, i = 0.08/12, n = 24",
+            "A = 1500 * (1.00666)**24",
+            "1755.50"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "1755.50",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "Final answer"
+            ],
+            "agrees_with_sympy": false
+          }
+        }
+      ]
+    },
+    "Question_10": {
+      "metadata": {
+        "field": "Calculus",
+        "topic": "Stationary Points",
+        "question_text": "Find the x-coordinates of the stationary points of f(x) = 2*x**3 - 3*x**2 - 12*x + 1.",
+        "expected_answer": "x = -1 or x = 2"
+      },
+      "student_verdicts": [
+        {
+          "student_id": "A",
+          "submitted_derivation": [
+            "f(x) = 2*x**3 - 3*x**2 - 12*x + 1",
+            "f'(x) = 6*x**2 - 6*x - 12",
+            "Set f'(x) = 0: 6*x**2 - 6*x - 12 = 0",
+            "x**2 - x - 2 = 0",
+            "(x-2)*(x+1) = 0",
+            "x = 2, x = -1"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x = 2, x = -1",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "error": "No JSON object found",
+            "raw_response_preview": "[ERROR] ollama call timed out."
+          }
+        },
+        {
+          "student_id": "B",
+          "submitted_derivation": [
+            "f(x) = 2*x**3 - 3*x**2 - 12*x + 1",
+            "f'(x) = 6*x**2 - 6*x - 12x",
+            "f'(x) = 6*x**2 - 18*x = 0",
+            "6x(x-3) = 0",
+            "x=0, x=3"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x=0, x=3",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "The solutions are missed. The correct solutions are x = -1 or x = 2"
+            ],
+            "agrees_with_sympy": true
+          }
+        },
+        {
+          "student_id": "C",
+          "submitted_derivation": [
+            "f(x) = 2*x**3 - 3*x**2 - 12*x + 1",
+            "f'(x) = 6*x**2 - 6*x - 12",
+            "x**2 - x - 2 = 0",
+            "(x-1)*(x+2) = 0",
+            "x=1, x=-2"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "x=1, x=-2",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "Incorrect sign of the solution"
+            ],
+            "agrees_with_sympy": false
+          }
+        },
+        {
+          "student_id": "D",
+          "submitted_derivation": [
+            "f(x) = 2*x**3 - 3*x**2 - 12*x + 1",
+            "2*x**3 - 3*x**2 - 12*x + 1 = 0"
+          ],
+          "sympy_grading": [
+            {
+              "step": "Final Answer",
+              "student_work": "2*x**3 - 3*x**2 - 12*x + 1 = 0",
+              "status": "Incorrect",
+              "comment": "Final answer does not match expected result"
+            }
+          ],
+          "llm_grading": {
+            "final_mark": 4,
+            "mistakes_made": [
+              "Incorrect final answer"
+            ],
+            "agrees_with_sympy": false
+          }
+        }
+      ]
+    }
+  }
+}

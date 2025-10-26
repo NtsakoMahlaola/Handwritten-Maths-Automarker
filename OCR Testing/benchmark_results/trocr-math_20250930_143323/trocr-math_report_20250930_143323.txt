@@ -1,0 +1,941 @@
+====================================================================================================
+LATEX-OCR BENCHMARK REPORT - TROCR-MATH
+====================================================================================================
+
+BENCHMARK INFORMATION
+--------------------------------------------------
+Model Name: trocr-math
+Benchmark Start: 2025-09-30T14:03:39.459508
+Benchmark End: 2025-09-30T14:33:23.389732
+Device Used: CPU
+
+SUMMARY STATISTICS
+--------------------------------------------------
+Total Images: 113
+Successfully Processed: 113
+Failed Processing: 0
+Success Rate: 100.0%
+
+ACCURACY METRICS
+--------------------------------------------------
+Exact Match Rate: 0.0%
+Average Character Accuracy: 0.569
+Median Character Accuracy: 0.577
+Std Character Accuracy: 0.130
+Average Levenshtein Distance: 28.4
+Average Word Error Rate: 1.000
+Average Token Accuracy: 0.000
+
+PERFORMANCE METRICS
+--------------------------------------------------
+Total Processing Time: 1783.6s
+Average Inference Time: 15.784s
+Average Memory Usage: 17.04MB
+
+DETAILED PREDICTIONS (113)
+====================================================================================================
+
+IMAGE 1: bd85ee85-2549-4539-9cd9-122d0ea3dca2.jpg
+Ground Truth: \lim_{a\to\frac{\pi}{4}}\frac{\frac{d}{da}\left(\sin{a}-6\sec{a}\right)}{\frac{d}{da}\left(a-\pi\right)}
+Prediction:   lim_{\frac{d}{delta(\delta\eta a^{+}-6sec\alpha)}{2\frac{\pi}{4}}\frac{d}{d\Pi}+\frac{d}{4})}
+Exact Match:  ❌ NO
+Char Accuracy: 0.355 | Time: 29.237s | Memory: 2168.32MB
+Token Accuracy: 0.000 | Levenshtein: 60
+----------------------------------------------------------------------------------------------------
+
+IMAGE 2: e97b0b1f-08bf-4c2b-86cb-f264af2160df.jpg
+Ground Truth: \lim_{w\to\pi/5^{-}}\frac{\tan^{2}{w}}{2\frac{-4}{3w+\left(-3\pi\right)^{4}}}
+Prediction:   lim_{\tau\rightarrow\frac{1}{5}}=\frac{tan^{2}w}{2\frac{-H}{\mu H}(-\frac{1}{2P\mu k})^{4}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.462 | Time: 18.888s | Memory: 23.61MB
+Token Accuracy: 0.000 | Levenshtein: 49
+----------------------------------------------------------------------------------------------------
+
+IMAGE 3: 3c72e1a1-c1de-4d67-a0ad-9f7afb6cee01.jpg
+Ground Truth: e^{\lim_{b\to4^{+}}\frac{\frac{7}{b+3}}{\cos{b}}}
+Prediction:   e^{lim_{D\rightarrow4}+\frac{\frac{7}{D+3}}{cosD}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.640 | Time: 10.074s | Memory: -1.43MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 4: 54459370-7cbe-423a-88bb-697d3864d12a.jpg
+Ground Truth: \lim_{\theta\to\pi/8}\tan^{3}{\theta}+\lim_{\theta\to\pi/6}\cos^{7}{\theta}
+Prediction:   lim_{\theta\rightarrow\mu\prime_{s}}tan^{3}\theta+lim_{\theta\rightarrow\Pi_{\theta}}cos^{\prime}\theta
+Exact Match:  ❌ NO
+Char Accuracy: 0.534 | Time: 16.965s | Memory: 1.40MB
+Token Accuracy: 0.000 | Levenshtein: 48
+----------------------------------------------------------------------------------------------------
+
+IMAGE 5: da71ce9d-e1a1-4bb2-abce-77a29c45024f.jpg
+Ground Truth: \lim_{x\to8^{+}}\frac{-9\tan{x}\sec{x}}{\sin{x}+\left(x\tan{x}+3\right)\sin^{5}{x}}
+Prediction:   =lim_{x\rightarrow8^{+}}\frac{9+anx_{s}e_{x}^{\prime}x}{sin(x+1+x+3)sin^{5}}x
+Exact Match:  ❌ NO
+Char Accuracy: 0.519 | Time: 18.806s | Memory: 13.80MB
+Token Accuracy: 0.000 | Levenshtein: 37
+----------------------------------------------------------------------------------------------------
+
+IMAGE 6: 706bb6b8-945c-463f-a6a2-cd2b279f8257.jpg
+Ground Truth: \lim_{y\to\pi/4^{-}}\frac{\sin^{5}{y}}{8\frac{-3}{9y+\left(-4\pi\right)^{4}}}
+Prediction:   =\frac{lim_{x}\frac{5}{x}/4\cdot\frac{sin^{5}y}{8-\frac{3}{y_{t}+4\pi y_{y}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.487 | Time: 17.628s | Memory: -0.05MB
+Token Accuracy: 0.000 | Levenshtein: 39
+----------------------------------------------------------------------------------------------------
+
+IMAGE 7: 7be30176-42d9-4281-9434-32a9fe19bfbc.jpg
+Ground Truth: \lim_{h\to5}\frac{\cos{\left(6h\right)}}{h\sin{\left(6h\right)}}\frac{2}{3}
+Prediction:   lim_{h\rightarrow5}\frac{cos(6h)}{hsin(6h)}3
+Exact Match:  ❌ NO
+Char Accuracy: 0.528 | Time: 9.363s | Memory: -1.05MB
+Token Accuracy: 0.000 | Levenshtein: 25
+----------------------------------------------------------------------------------------------------
+
+IMAGE 8: 01ee16e7-690f-4422-adbd-740c80945389.jpg
+Ground Truth: \lim_{k\to\frac{\pi}{9}^{-}}\frac{\tan^{5}{k}}{2\frac{8}{4k+\left(7\pi\right)^{3}}}
+Prediction:   m_{\frac{m}{d^{2}}\cdot\frac{(m^{3}k)}{8}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.389 | Time: 10.717s | Memory: 0.39MB
+Token Accuracy: 0.000 | Levenshtein: 44
+----------------------------------------------------------------------------------------------------
+
+IMAGE 9: ee8bc699-e481-4738-80d2-aeade4776033.jpg
+Ground Truth: \lim_{g\to9}\frac{\frac{d}{dg}\left(e^{g}-4\tan{g}-9\right)}{\frac{d}{dg}\left(g^{4}+2g^{7}+22g^{5}\right)}
+Prediction:   lim_{g+4}^{\frac{\frac{d}{d_{9}}(e^{9}+4+a\eta g^{4})}{\frac{d}{g^{\prime}}(9+2g^{\prime}+2)^{5})}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.576 | Time: 22.976s | Memory: 1.49MB
+Token Accuracy: 0.000 | Levenshtein: 42
+----------------------------------------------------------------------------------------------------
+
+IMAGE 10: 436008a6-638f-4bd0-82cf-d696f383eebe.jpg
+Ground Truth: \lim_{x\to1^{+}}-71\csc{x}
+Prediction:   lim_{x\rightarrow1}-7\iota_{s}e_{x}
+Exact Match:  ❌ NO
+Char Accuracy: 0.400 | Time: 8.846s | Memory: 0.53MB
+Token Accuracy: 0.000 | Levenshtein: 21
+----------------------------------------------------------------------------------------------------
+
+IMAGE 11: 3da996e0-dca3-46d7-bc9a-e90a60dad1c5.jpg
+Ground Truth: \lim_{\theta\to\infty}\frac{\frac{d}{d\theta}7\theta^{3}}{\frac{d}{d\theta}e^{\theta}}
+Prediction:   lim_{\theta\rightarrow0}\frac{\frac{0}{\theta\theta}7\theta^{3}}{\frac{0}{\theta}e^{0}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.690 | Time: 16.937s | Memory: 0.69MB
+Token Accuracy: 0.000 | Levenshtein: 27
+----------------------------------------------------------------------------------------------------
+
+IMAGE 12: f556f079-15fd-434d-b6be-18e2d295771c.jpg
+Ground Truth: \lim_{x\to-\infty}\frac{x^{6}-2x}{x-4\sqrt{x^{9}-4x}}
+Prediction:   lim_{x\rightarrow\infty}\frac{x^{6}+O(x^{3}+2x)}{x+4\sqrt{x^{9}+4x}
+Exact Match:  ❌ NO
+Char Accuracy: 0.672 | Time: 17.017s | Memory: 0.05MB
+Token Accuracy: 0.000 | Levenshtein: 22
+----------------------------------------------------------------------------------------------------
+
+IMAGE 13: acfd4543-21e5-49a0-9f2f-99caa53b0ad5.jpg
+Ground Truth: \lim_{r\to9^{+}}e^{\tan{r}\ln{\left(8+r\right)}}
+Prediction:   lim_{r\rightarrow9}e^{tanrln(8+r)}
+Exact Match:  ❌ NO
+Char Accuracy: 0.541 | Time: 7.702s | Memory: -0.18MB
+Token Accuracy: 0.000 | Levenshtein: 17
+----------------------------------------------------------------------------------------------------
+
+IMAGE 14: 63cbb58d-1520-4f5c-84ce-9c67d4f8a293.jpg
+Ground Truth: \lim_{n\to3^{+}}\frac{\frac{d}{dn}\left(4-4\sec^{9}{n}\right)}{\frac{d}{dn}\left(\sin{n}+n\sin^{9}{n}\right)}
+Prediction:   =lim_{n\rightarrow3^{+}}\frac{\frac{1}{n}(4+4)sec^{n})}{\frac{1}{n}(sin+nsin^{9}n)
+Exact Match:  ❌ NO
+Char Accuracy: 0.701 | Time: 18.684s | Memory: 0.97MB
+Token Accuracy: 0.000 | Levenshtein: 26
+----------------------------------------------------------------------------------------------------
+
+IMAGE 15: 56595616-8165-4380-8ab1-be1170060c89.jpg
+Ground Truth: \lim_{w\to0^{-}}\frac{w^{9}-4w+8}{w-1}
+Prediction:   lim_{w\rightarrow0}\frac{w^{9}+4w+8}{w^{-1^{3}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.617 | Time: 11.086s | Memory: -1.28MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 16: 7f17d3ef-970f-43cf-9d95-2f795c4dc0ed.jpg
+Ground Truth: \frac{\lim_{u\to2}\frac{d}{du}\left(3u^{9}-2u^{9}-3u+8\right)}{\lim_{u\to2}\frac{d}{du}\left(6u^{2}+u-3\right)}
+Prediction:   \frac{11^{4}\cdot2}(\frac{3}{1}\cdot\frac{3}{4}\cdot2\cdot\frac{1}{3\cdot\frac{3}{n}+8)}}{4\cdot2\cdot2\cdot2})}
+Exact Match:  ❌ NO
+Char Accuracy: 0.304 | Time: 29.724s | Memory: 27.92MB
+Token Accuracy: 0.000 | Levenshtein: 78
+----------------------------------------------------------------------------------------------------
+
+IMAGE 17: 95e0b6ff-f30f-4369-8a82-edd88d8f75d3.jpg
+Ground Truth: \lim_{x\to\infty}\frac{2}{x^{18}}
+Prediction:   lim_{x}||_{\infty}\frac{2}{x^{18}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.824 | Time: 10.668s | Memory: -0.92MB
+Token Accuracy: 0.000 | Levenshtein: 6
+----------------------------------------------------------------------------------------------------
+
+IMAGE 18: 5341f1b1-e105-4620-9495-d67ba7dd2589.jpg
+Ground Truth: \lim_{y\to6^{+}}e^{\ln{y^{7y}}}
+Prediction:   lim_{j=0}^{m}e^{m\cdot y^{2}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.452 | Time: 8.776s | Memory: -0.46MB
+Token Accuracy: 0.000 | Levenshtein: 17
+----------------------------------------------------------------------------------------------------
+
+IMAGE 19: f80f4a82-bfd8-4092-84c3-42f2894578b6.jpg
+Ground Truth: \lim_{w\to\frac{\pi}{7}}\frac{\sin{w}-4\cot{w}}{w-\frac{3\pi}{4}}
+Prediction:   lim_{u\rightarrow\frac{\eta}{7}}\frac{sin\omega t-4cot\omega}{\omega t-3\frac{\pi}{4}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.547 | Time: 16.671s | Memory: 1.03MB
+Token Accuracy: 0.000 | Levenshtein: 39
+----------------------------------------------------------------------------------------------------
+
+IMAGE 20: 632608e4-80a4-4e06-a318-b672e23e5232.jpg
+Ground Truth: \lim_{u\to9^{-}}\frac{\left|u-8\right|}{u^{7}-8u+8}
+Prediction:   lim_{u\rightarrow9^{-}}\frac{|u-8|}{u^{+}+8u+8}
+Exact Match:  ❌ NO
+Char Accuracy: 0.766 | Time: 12.243s | Memory: -0.91MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 21: 484aa9e7-f195-4a16-8ee9-f6e780f8459b.jpg
+Ground Truth: \lim_{x\to\pi/3^{-}}\tan^{\cos{\left(x\right)}}{x}
+Prediction:   \prod_{x=\pi/3}tan(x)(x)
+Exact Match:  ❌ NO
+Char Accuracy: 0.410 | Time: 7.557s | Memory: 0.52MB
+Token Accuracy: 0.000 | Levenshtein: 23
+----------------------------------------------------------------------------------------------------
+
+IMAGE 22: 6a275218-4b54-4dcd-b952-cc037ee4f696.jpg
+Ground Truth: \lim_{x\to6}6x^{9}+7x-31
+Prediction:   |\mu_{x\rightarrow6}6x^{9}+7x-3|
+Exact Match:  ❌ NO
+Char Accuracy: 0.594 | Time: 9.276s | Memory: -0.44MB
+Token Accuracy: 0.000 | Levenshtein: 13
+----------------------------------------------------------------------------------------------------
+
+IMAGE 23: 1e9b228b-9879-4a67-9a4a-83c1d724e3fc.jpg
+Ground Truth: \lim_{p\to\frac{\pi}{9}}\sin^{7}{p}+\lim_{p\to\frac{\pi}{8}}\cos^{2}{p}
+Prediction:   lim_{p\rightarrow\frac{\tau}{4}}sin^{\prime}p+lim_{p\rightarrow\frac{1}{8}}cos^{2}p
+Exact Match:  ❌ NO
+Char Accuracy: 0.566 | Time: 15.745s | Memory: 0.65MB
+Token Accuracy: 0.000 | Levenshtein: 36
+----------------------------------------------------------------------------------------------------
+
+IMAGE 24: cf5ac551-7929-4aad-b79d-35dbcc9fa03c.jpg
+Ground Truth: \lim_{g\to\frac{\pi}{2}}\frac{2\sin^{3}{g}+2\sin^{3}{g}}{2}
+Prediction:   lim_{y\rightarrow\frac{2}{2}}\frac{2sin^{3}y+2sin^{3}y}{2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.644 | Time: 13.073s | Memory: 0.72MB
+Token Accuracy: 0.000 | Levenshtein: 21
+----------------------------------------------------------------------------------------------------
+
+IMAGE 25: d7275d3e-cf0f-46a3-aa58-5a7825b20b4d.jpg
+Ground Truth: \lim_{t\to\pi/2}\frac{4}{\cos{t}+9}
+Prediction:   lim_{t\rightarrow\frac{\pi}{\pi}}/2\frac{4}{cost+q}
+Exact Match:  ❌ NO
+Char Accuracy: 0.471 | Time: 10.588s | Memory: -1.45MB
+Token Accuracy: 0.000 | Levenshtein: 27
+----------------------------------------------------------------------------------------------------
+
+IMAGE 26: 37399046-b837-47b8-a253-22e4f5994a38.jpg
+Ground Truth: \lim_{b\to4}\frac{\sin{\left(3b\right)}}{\cos{\left(0\right)}}
+Prediction:   lim_{b+4}\frac{sin(3b)}{cos(0)}
+Exact Match:  ❌ NO
+Char Accuracy: 0.750 | Time: 8.220s | Memory: 0.58MB
+Token Accuracy: 0.000 | Levenshtein: 10
+----------------------------------------------------------------------------------------------------
+
+IMAGE 27: 0f4b11ca-5282-4870-b6e2-607a90e6b82e.jpg
+Ground Truth: \ln{b}=\lim_{z\to\pi/3^{-}}-7\sin{z}
+Prediction:   lnb=lim_{z\rightarrow\frac{\pi}{3}-7sinz}
+Exact Match:  ❌ NO
+Char Accuracy: 0.415 | Time: 9.644s | Memory: -0.43MB
+Token Accuracy: 0.000 | Levenshtein: 24
+----------------------------------------------------------------------------------------------------
+
+IMAGE 28: c4a3aa61-7a80-4181-9571-b63e055d6e85.jpg
+Ground Truth: \lim_{p\to\frac{\pi}{9}}\frac{8}{\sin{p}+2}
+Prediction:   lim_{p\rightarrow\frac{\pi}{q}}\frac{8}{sinp+2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.723 | Time: 10.570s | Memory: -0.23MB
+Token Accuracy: 0.000 | Levenshtein: 13
+----------------------------------------------------------------------------------------------------
+
+IMAGE 29: d11d8d80-2c78-4558-8e66-23e6cb969c84.jpg
+Ground Truth: \lim_{x\to-8}\frac{\tan{\left(x+9\right)}}{x^{2}+3x+47}
+Prediction:   lim_{x\rightarrow0}\frac{tan(x+9)}{x^{\prime}+3x+47}
+Exact Match:  ❌ NO
+Char Accuracy: 0.635 | Time: 12.181s | Memory: 0.11MB
+Token Accuracy: 0.000 | Levenshtein: 19
+----------------------------------------------------------------------------------------------------
+
+IMAGE 30: 9d0ae1ee-3c9b-4de8-a529-38b26fa8c757.jpg
+Ground Truth: \lim_{y\to\infty}\frac{-3y}{y^{9}+y^{2}}
+Prediction:   lim_{y\rightarrow0}\frac{-3y^{\prime}}{y^{9}+y^{\prime}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.518 | Time: 11.917s | Memory: 0.01MB
+Token Accuracy: 0.000 | Levenshtein: 27
+----------------------------------------------------------------------------------------------------
+
+IMAGE 31: 349ec4ee-02da-4a6c-9da4-fd02d27c695e.jpg
+Ground Truth: \frac{7}{9}\lim_{u\to4}\frac{\sin{\left(8u\right)}}{u}
+Prediction:   \frac{7}{9}lim_{l\rightarrow4}\frac{sin(8u)}{n}
+Exact Match:  ❌ NO
+Char Accuracy: 0.702 | Time: 10.918s | Memory: -0.04MB
+Token Accuracy: 0.000 | Levenshtein: 14
+----------------------------------------------------------------------------------------------------
+
+IMAGE 32: 53337534-4535-40f6-9854-163a6de43652.jpg
+Ground Truth: \lim_{p\to\infty}\frac{\log_{2}{5}}{\log_{58}{0}}
+Prediction:   lim_{p\rightarrow\infty}\frac{log_{7}5}{log_{\delta\infty}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.559 | Time: 11.243s | Memory: 0.20MB
+Token Accuracy: 0.000 | Levenshtein: 26
+----------------------------------------------------------------------------------------------------
+
+IMAGE 33: 5f1a96bf-7c42-4fa7-af22-a02c6098caab.jpg
+Ground Truth: \lim_{u\to7^{+}}-23\tan{u}
+Prediction:   lim_{\frac{1}{4}}-23/a_{\eta}u
+Exact Match:  ❌ NO
+Char Accuracy: 0.400 | Time: 8.237s | Memory: 0.51MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 34: 5f4850b4-1494-4edd-bb85-5bd33b23ab5a.jpg
+Ground Truth: \lim_{v\to\pi/8^{-}}\frac{\cos^{5}{v}}{8\frac{-9}{5v+\left(-6\pi\right)^{2}}}
+Prediction:   \frac{lim_{\pi}}{\frac{1}{5}}\frac{cos^{5}\gamma}{8-\frac{4}{5\gamma+6\pi^{2}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.513 | Time: 18.985s | Memory: 0.23MB
+Token Accuracy: 0.000 | Levenshtein: 38
+----------------------------------------------------------------------------------------------------
+
+IMAGE 35: 9323c977-97ee-4a5b-b2a2-5f3458479d2b.jpg
+Ground Truth: \ln{w}=\frac{\lim_{v\to\frac{\pi}{4}^{-}}\frac{d}{dv}\cos{v}}{\lim_{v\to\frac{\pi}{6}^{-}}\frac{d}{dv}-4\sin^{5}{v}}
+Prediction:   nw=\frac{lim_{v+\frac{T}{4}-\frac{d}{dv}cos\nu}{lim_{v+\frac{1}{6}-\frac{d}{dv}-4sin^{5}}v}
+Exact Match:  ❌ NO
+Char Accuracy: 0.716 | Time: 32.516s | Memory: 0.78MB
+Token Accuracy: 0.000 | Levenshtein: 33
+----------------------------------------------------------------------------------------------------
+
+IMAGE 36: 76f6c0ce-20d1-447b-bed8-56009cf07a1a.jpg
+Ground Truth: \frac{7}{2}\lim_{x\to\frac{\pi}{8}^{-}}\frac{6x-3\pi}{\tan{x}\sin{x}}
+Prediction:   \frac{7}{2}lim_{x\frac{1}{3}}\frac{6xt-3\pi}{tanxsin^{2}n\times\frac{1}{n}x}
+Exact Match:  ❌ NO
+Char Accuracy: 0.539 | Time: 31.893s | Memory: -0.74MB
+Token Accuracy: 0.000 | Levenshtein: 35
+----------------------------------------------------------------------------------------------------
+
+IMAGE 37: 3fe9cc5a-e029-4d73-be5a-30a01f108489.jpg
+Ground Truth: \lim_{w\to7}\frac{\cos{\left(3w\right)}}{\cos{\left(7w\right)}}
+Prediction:   lim_{W\rightarrow7}\frac{cos(3W)}{cos(7W)}
+Exact Match:  ❌ NO
+Char Accuracy: 0.571 | Time: 12.106s | Memory: -0.64MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 38: 151d7aff-353f-47b3-81c6-3ae6227a7be8.jpg
+Ground Truth: \lim_{t\to\infty}\frac{4}{t^{-2}}-7\frac{\sec{\frac{3}{t}}}{t^{-8}}
+Prediction:   lim_{t\rightarrow\infty}\frac{4}{t^{-2}}+-\frac{7^{\frac{s_{\theta}c^{3}}{t^{-8}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.679 | Time: 24.764s | Memory: 0.66MB
+Token Accuracy: 0.000 | Levenshtein: 26
+----------------------------------------------------------------------------------------------------
+
+IMAGE 39: d1969d06-2701-43fb-be6f-744271f46186.jpg
+Ground Truth: \lim_{n\to\frac{\pi}{2}}\sec^{2}{n}+\lim_{n\to\frac{\pi}{5}}\sec^{7}{n}
+Prediction:   \frac{1}{5}^{1}
+Exact Match:  ❌ NO
+Char Accuracy: 0.183 | Time: 5.349s | Memory: -0.20MB
+Token Accuracy: 0.000 | Levenshtein: 58
+----------------------------------------------------------------------------------------------------
+
+IMAGE 40: 139a07ed-11a7-4577-b404-0a871b1adca0.jpg
+Ground Truth: \lim_{h\to1}\frac{1+\sin{h}}{\cos^{2}{h}}
+Prediction:   lim_{h\rightarrow n}\frac{1+sinh}{cos^{2}n}
+Exact Match:  ❌ NO
+Char Accuracy: 0.581 | Time: 8.805s | Memory: -0.43MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 41: 0fdfa992-2aee-431a-b597-f955f544a255.jpg
+Ground Truth: \lim_{y\to6^{+}}\sin{y}\sqrt{\frac{y\left(4-7y\right)}{y^{2}}}
+Prediction:   lim_{y\rightarrow6}sin\sqrt[4]{\frac{4(4\gamma-74)}{y^{2}}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.559 | Time: 13.123s | Memory: 1.38MB
+Token Accuracy: 0.000 | Levenshtein: 26
+----------------------------------------------------------------------------------------------------
+
+IMAGE 42: 40138778-4770-4015-a3fe-2b1e7b8a7e85.jpg
+Ground Truth: \lim_{n\to\frac{\pi}{4}^{-}}\frac{6}{5}\csc^{9}{n}\left(2n+\left(-2\pi\right)^{9}\right)
+Prediction:   =lim_{n\rightarrow\frac{\pi}{4}}\frac{6}{5}csc^{9}n(2\pi+1)-2\pi)^{9}
+Exact Match:  ❌ NO
+Char Accuracy: 0.681 | Time: 16.428s | Memory: -0.43MB
+Token Accuracy: 0.000 | Levenshtein: 22
+----------------------------------------------------------------------------------------------------
+
+IMAGE 43: 695fa29b-e47d-4162-8826-dd20080d8a18.jpg
+Ground Truth: \lim_{x\to\frac{\pi}{2}}\frac{\cos^{7}{x}+\csc^{5}{x}}{2}
+Prediction:   lim_{x+\infty}\frac{cos^{7}x+csc^{5}x}{l}
+Exact Match:  ❌ NO
+Char Accuracy: 0.614 | Time: 10.260s | Memory: -1.11MB
+Token Accuracy: 0.000 | Levenshtein: 22
+----------------------------------------------------------------------------------------------------
+
+IMAGE 44: cf783a1e-7d14-4d38-afde-767e880a9bff.jpg
+Ground Truth: \lim_{z\to8}\frac{z-6}{z+3}
+Prediction:   lim_{x+1}\frac{x-b}{x+1}
+Exact Match:  ❌ NO
+Char Accuracy: 0.630 | Time: 6.924s | Memory: 0.68MB
+Token Accuracy: 0.000 | Levenshtein: 10
+----------------------------------------------------------------------------------------------------
+
+IMAGE 45: 0839efd4-091c-41d1-a390-3d2abce94ce8.jpg
+Ground Truth: \lim_{a\to8^{+}}\frac{\frac{d}{da}\left(3-6\sec{a}\right)}{\frac{d}{da}\left(\cot{a}+a\cos{a}\right)}
+Prediction:   lim_{d\alpha^{2}(3t-6se^{1}\alpha)}{\frac{d}{\partial\alpha}(0+\partial+\alpha)
+Exact Match:  ❌ NO
+Char Accuracy: 0.241 | Time: 15.811s | Memory: 0.23MB
+Token Accuracy: 0.000 | Levenshtein: 60
+----------------------------------------------------------------------------------------------------
+
+IMAGE 46: 47b4b07d-a454-4268-b5cd-9e9e41ed7bfe.jpg
+Ground Truth: \lim_{n\to\pi/2}\frac{3\cos^{8}{n}+6\csc^{4}{n}}{2}
+Prediction:   =lim_{\mu\mu}\frac{\pi}{2}}^{\frac{3cos\frac{8}{2}\epsilon_{\mu}^{\prime}}{2}}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.418 | Time: 15.782s | Memory: 0.29MB
+Token Accuracy: 0.000 | Levenshtein: 46
+----------------------------------------------------------------------------------------------------
+
+IMAGE 47: 4172e034-4562-4d55-aa70-36422d457076.jpg
+Ground Truth: \lim_{t\to\pi/8}\frac{3\sec^{3}{t}+6\tan^{8}{t}}{9}
+Prediction:   lim_{t\rightarrow\frac{\pi}{8}}_{\frac{3\epsilon_{c}^{3}+16tan^{8}+1}{9}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.507 | Time: 15.535s | Memory: -0.21MB
+Token Accuracy: 0.000 | Levenshtein: 36
+----------------------------------------------------------------------------------------------------
+
+IMAGE 48: 9e873dfc-5dd4-4da7-ab14-5961711ddd7a.jpg
+Ground Truth: \lim_{w\to2}\frac{\cos{\left(7w\right)}}{w}
+Prediction:   lim_{W\rightarrow2}\frac{log(7W)}{W}
+Exact Match:  ❌ NO
+Char Accuracy: 0.528 | Time: 8.481s | Memory: -0.20MB
+Token Accuracy: 0.000 | Levenshtein: 17
+----------------------------------------------------------------------------------------------------
+
+IMAGE 49: a3646cfa-6f3b-4f7d-83ed-5f1a248cb833.jpg
+Ground Truth: \lim_{w\to7}\frac{\ln{\left(7+w^{2}\right)}}{e^{w}-\cos{w}}
+Prediction:   lim_{w}^{|n|n|\frac{ln(7t_{w}^{2})}{e^{n}f-(0.5\omega})}
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 17.889s | Memory: 0.23MB
+Token Accuracy: 0.000 | Levenshtein: 28
+----------------------------------------------------------------------------------------------------
+
+IMAGE 50: 12d08691-f841-43d4-a540-c90b9c316c4c.jpg
+Ground Truth: \lim_{u\to6^{+}}\frac{-3\tan{u}}{4+8u\sin{u}}
+Prediction:   lim_{u\rightarrow u}=\frac{\frac{\eta tanu}{4+u\pi n}u
+Exact Match:  ❌ NO
+Char Accuracy: 0.426 | Time: 15.486s | Memory: -0.72MB
+Token Accuracy: 0.000 | Levenshtein: 31
+----------------------------------------------------------------------------------------------------
+
+IMAGE 51: 4fbc44b3-fea7-4aa4-a9ba-6b1767ed5873.jpg
+Ground Truth: \lim_{v\to\frac{\pi}{2}}\frac{\frac{d}{dv}\left(\sin{v}-7\cos{v}\right)}{\frac{d}{dv}\left(v-\frac{7\pi}{6}\right)}
+Prediction:   lim_{i\rightarrow\frac{d}{d\nu}(\frac{d}{sin\nu t}-7cos\nu)}{\frac{d}{d\nu}(\nu t-\frac{1}{6})}
+Exact Match:  ❌ NO
+Char Accuracy: 0.516 | Time: 27.958s | Memory: 1.50MB
+Token Accuracy: 0.000 | Levenshtein: 46
+----------------------------------------------------------------------------------------------------
+
+IMAGE 52: 8b46aad8-03f5-40ae-adb2-0b5e8939b3ed.jpg
+Ground Truth: \ln{u}=\frac{\lim_{t\to\pi/7^{-}}\frac{d}{dt}\cos{t}}{\lim_{t\to\pi/7^{-}}\frac{d}{dt}-4\cos^{2}{t}}
+Prediction:   n:u=\frac{lim_{\mu}\frac{M}{\mu^{\prime}}-\frac{d}{\mu\prime}cos\frac{1}{N_{\prime}}\frac{d}{\mu}-\frac{d}{4}cos^{2}}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.415 | Time: 36.721s | Memory: 0.08MB
+Token Accuracy: 0.000 | Levenshtein: 69
+----------------------------------------------------------------------------------------------------
+
+IMAGE 53: 30491b66-817e-4f54-a218-551804fde527.jpg
+Ground Truth: \lim_{t\to y}t+\left(-6y\right)^{17}-1
+Prediction:   lim_{t\rightarrow H}t^{+}(-bd)^{7}-1
+Exact Match:  ❌ NO
+Char Accuracy: 0.556 | Time: 12.871s | Memory: -1.41MB
+Token Accuracy: 0.000 | Levenshtein: 16
+----------------------------------------------------------------------------------------------------
+
+IMAGE 54: 44e630c7-50d3-45f4-9ada-edb0f86ec734.jpg
+Ground Truth: \lim_{k\to9}\frac{2}{k+5}
+Prediction:   lim_{k\rightarrow0}\frac{2}{k+5}
+Exact Match:  ❌ NO
+Char Accuracy: 0.688 | Time: 11.382s | Memory: 0.48MB
+Token Accuracy: 0.000 | Levenshtein: 10
+----------------------------------------------------------------------------------------------------
+
+IMAGE 55: 9abbeaa1-6f32-492c-86a0-9507379bab8c.jpg
+Ground Truth: \lim_{u\to\infty}\frac{u+\cot{u}}{2u+\tan{u}}
+Prediction:   lim_{u\rightarrow\infty}\frac{U+cotu}{2U+tanu}
+Exact Match:  ❌ NO
+Char Accuracy: 0.630 | Time: 16.179s | Memory: -0.62MB
+Token Accuracy: 0.000 | Levenshtein: 17
+----------------------------------------------------------------------------------------------------
+
+IMAGE 56: 8e1ccf72-0aee-4e87-a8e5-dfe2910d3087.jpg
+Ground Truth: \lim_{y\to8^{-}}\frac{y^{6}-3y}{\left|y\right|}
+Prediction:   lim_{y\rightarrow8^{-}}\frac{y^{5}+3y}{|y|}
+Exact Match:  ❌ NO
+Char Accuracy: 0.744 | Time: 18.937s | Memory: -0.02MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 57: 7f56e0bf-ea0e-42f2-b9be-99fb7b6950fd.jpg
+Ground Truth: \lim_{h\to\pi/4}\sin^{3}{h}+\sin^{7}{h}
+Prediction:   lim_{k}\pi/4)sin^{3}n+sin^{7}h
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 15.951s | Memory: 0.19MB
+Token Accuracy: 0.000 | Levenshtein: 13
+----------------------------------------------------------------------------------------------------
+
+IMAGE 58: 102f74f6-d971-4452-a411-a684314988c2.jpg
+Ground Truth: \lim_{t\to\pi}\frac{\csc{t}}{t-2\pi}
+Prediction:   lim_{t\rightarrow t}\frac{csc}{t+2\pi}
+Exact Match:  ❌ NO
+Char Accuracy: 0.579 | Time: 14.976s | Memory: -45.33MB
+Token Accuracy: 0.000 | Levenshtein: 16
+----------------------------------------------------------------------------------------------------
+
+IMAGE 59: 9cfcf4f7-e8ac-4b47-8e22-3084d34f1c0a.jpg
+Ground Truth: \frac{\lim_{v\to1}\frac{d}{dv}79\sin{\left(3v\right)}\sin{\left(8v\right)}}{\lim_{v\to7}\frac{d}{dv}9v}
+Prediction:   \frac{lim_{v\rightarrow1}\frac{d}{d_{v}}\gamma sin(3v)sin(8v)}{lim_{v\rightarrow7}\frac{d_{l}}{d_{l}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.594 | Time: 43.598s | Memory: 1.41MB
+Token Accuracy: 0.000 | Levenshtein: 41
+----------------------------------------------------------------------------------------------------
+
+IMAGE 60: a1134ceb-5039-4e60-bb11-ae968af2af82.jpg
+Ground Truth: \lim_{x\to-3}\sqrt{x^{3}+9}
+Prediction:   lim_{x\rightarrow3}\sqrt{x^{3}+9}
+Exact Match:  ❌ NO
+Char Accuracy: 0.727 | Time: 12.959s | Memory: -0.90MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 61: addbc426-8842-41a3-8112-c5a33522c54e.jpg
+Ground Truth: \lim_{v\to9}\frac{9\cos{\left(8v\right)}}{3v\cos{\left(6v\right)}}
+Prediction:   \begin{matrix}4&4\\ 4&0&5&(8&4\\ 3&1&0.5&0&5\\ \end{matrix})
+Exact Match:  ❌ NO
+Char Accuracy: 0.167 | Time: 29.492s | Memory: 0.28MB
+Token Accuracy: 0.000 | Levenshtein: 50
+----------------------------------------------------------------------------------------------------
+
+IMAGE 62: 7e846505-cf1d-4a92-b978-37ad661b7d57.jpg
+Ground Truth: \lim_{w\to\infty}\frac{\frac{\log_{50}{w}}{\log_{8}{2}}}{\frac{\log_{94}{w}}{\log_{61}{0}}}
+Prediction:   lim_{w\rightarrow\infty}\frac{\frac{log_{g}u}{log_{g}^{7}}}{\frac{log_{g}u}{log_{l}^{0}}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.681 | Time: 30.040s | Memory: 0.01MB
+Token Accuracy: 0.000 | Levenshtein: 29
+----------------------------------------------------------------------------------------------------
+
+IMAGE 63: 7e8a3e13-ac8f-4936-a869-fae18a926d4c.jpg
+Ground Truth: \lim_{h\to-2}\frac{h^{3}+6h+2}{h+6}
+Prediction:   lim_{n=2}n^{3}+6n+2}{n+6}
+Exact Match:  ❌ NO
+Char Accuracy: 0.571 | Time: 10.812s | Memory: -0.74MB
+Token Accuracy: 0.000 | Levenshtein: 15
+----------------------------------------------------------------------------------------------------
+
+IMAGE 64: 6fbd1022-1aeb-4480-9ca6-3beecca015b9.jpg
+Ground Truth: \lim_{s\to\frac{\pi}{3}}\tan^{2}{s}+\lim_{s\to\frac{\pi}{2}}\tan^{7}{s}
+Prediction:   lim_{s\frac{\pi^{3}}{3}}tan^{2}s+lim_{s\frac{\pi}{7}}tan^{4}s
+Exact Match:  ❌ NO
+Char Accuracy: 0.718 | Time: 16.063s | Memory: 1.46MB
+Token Accuracy: 0.000 | Levenshtein: 20
+----------------------------------------------------------------------------------------------------
+
+IMAGE 65: 91add651-f919-4b0b-af95-388e54d2ffda.jpg
+Ground Truth: \lim_{b\to-9}\frac{0\left(b+0\right)\left(b+3\right)}{b+5}
+Prediction:   lim_{b\rightarrow-9}\frac{O(b+O)(b+3)}{b+5}
+Exact Match:  ❌ NO
+Char Accuracy: 0.744 | Time: 12.764s | Memory: -1.54MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 66: 4314e37a-eabd-4216-98c6-228888ca3e3a.jpg
+Ground Truth: \lim_{g\to8^{+}}\frac{\frac{d}{dg}\left(2-2\sin^{6}{g}\right)}{\frac{d}{dg}\left(\sin{g}+g\sin^{8}{g}\right)}
+Prediction:   lim_{\frac{d}{dg}(z+z+iu^{6})}{\frac{1}{dg}(g+g+sin^{0}g)}
+Exact Match:  ❌ NO
+Char Accuracy: 0.575 | Time: 17.146s | Memory: 1.40MB
+Token Accuracy: 0.000 | Levenshtein: 37
+----------------------------------------------------------------------------------------------------
+
+IMAGE 67: 817ae5be-253c-4e16-8869-37186ca73599.jpg
+Ground Truth: \lim_{\theta\to3^{+}}\frac{\frac{d}{d\theta}\left(0-3\cos{\theta}\right)}{\frac{d}{d\theta}\left(\cos{\theta}+\theta\sin^{3}{\theta}\right)}
+Prediction:   lim_{\theta\rightarrow2}\frac{d\frac{d}{d\theta}(0+3cos\theta)}{d\overline{\theta}}(0\theta^{\prime}sin^{2}\theta)
+Exact Match:  ❌ NO
+Char Accuracy: 0.627 | Time: 26.844s | Memory: 0.74MB
+Token Accuracy: 0.000 | Levenshtein: 44
+----------------------------------------------------------------------------------------------------
+
+IMAGE 68: 80f36202-9bbc-451f-9360-f8796ccabd18.jpg
+Ground Truth: \lim_{h\to\frac{\pi}{9}}\frac{\frac{d}{dh}\left(\tan{h}-2\cos{h}\right)}{\frac{d}{dh}\left(h-2\pi\right)}
+Prediction:   =lim_{n\rightarrow\frac{2}{q}}\frac{\frac{d}{n}(tan\nu)-2(0\nu n)}{\frac{1}{n}(n+\frac{d}{4})}
+Exact Match:  ❌ NO
+Char Accuracy: 0.532 | Time: 25.188s | Memory: 0.00MB
+Token Accuracy: 0.000 | Levenshtein: 44
+----------------------------------------------------------------------------------------------------
+
+IMAGE 69: 7133d0cc-1d50-49bf-b6ef-ac47aaced3a4.jpg
+Ground Truth: \lim_{t\to3}\frac{2t^{3}}{t+1}
+Prediction:   lim_{t\rightarrow3}\frac{2t^{3}}{t+1}
+Exact Match:  ❌ NO
+Char Accuracy: 0.757 | Time: 9.601s | Memory: -1.45MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 70: 85bde8f7-ce87-4a23-8dc2-d202c4353d04.jpg
+Ground Truth: \lim_{y\to\infty}\frac{y^{8}-2y^{9}+2y}{y+\sqrt{y^{5}-7y}}
+Prediction:   lim_{y\rightarrow0}\frac{y^{8}+2y^{9}+2y}{y+\sqrt{y^{8}+7y}
+Exact Match:  ❌ NO
+Char Accuracy: 0.729 | Time: 17.056s | Memory: 0.73MB
+Token Accuracy: 0.000 | Levenshtein: 16
+----------------------------------------------------------------------------------------------------
+
+IMAGE 71: 48ae08bd-7240-4ca7-9db6-dcd262835d64.jpg
+Ground Truth: \lim_{x\to7^{-}}\frac{-2}{\sin{x}}
+Prediction:   lim_{x\rightarrow y}\frac{-2}{sinx}
+Exact Match:  ❌ NO
+Char Accuracy: 0.571 | Time: 7.909s | Memory: -0.17MB
+Token Accuracy: 0.000 | Levenshtein: 15
+----------------------------------------------------------------------------------------------------
+
+IMAGE 72: 61753f56-95c9-404e-a056-f04d01ef89c5.jpg
+Ground Truth: \frac{7}{7}\lim_{p\to\pi/2^{-}}\frac{2\left(7p-8\pi\right)}{-4\sin{p}\tan{p}}
+Prediction:   \frac{7}{7}lim_{\frac{\pi}{2}}\frac{2(7p+8\pi)}{4.8lnp+2np}
+Exact Match:  ❌ NO
+Char Accuracy: 0.652 | Time: 17.010s | Memory: 0.19MB
+Token Accuracy: 0.000 | Levenshtein: 23
+----------------------------------------------------------------------------------------------------
+
+IMAGE 73: d89d96a0-2dc6-4b3c-820c-0c3a690ca1db.jpg
+Ground Truth: \lim_{v\to6^{-}}\frac{1-9v}{v-6}
+Prediction:   lim_{v\rightarrow6^{-}}\frac{1+9v}{v-b}
+Exact Match:  ❌ NO
+Char Accuracy: 0.718 | Time: 9.905s | Memory: -0.62MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 74: 81a76b60-5ba5-41ec-a1a9-09ff017ec574.jpg
+Ground Truth: \lim_{p\to\frac{\pi}{7}}\frac{\sec^{7}{p}+\tan^{6}{p}}{2}
+Prediction:   lim_{p\rightarrow\frac{\pi}{7}}\cdot\frac{sec^{7}\rho+tan^{6}\rho}{2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.652 | Time: 14.981s | Memory: -254.55MB
+Token Accuracy: 0.000 | Levenshtein: 24
+----------------------------------------------------------------------------------------------------
+
+IMAGE 75: 7345e9ec-75fe-4f59-add2-c12084dc3079.jpg
+Ground Truth: \lim_{x\to3}\frac{x\left(\sqrt{sx+9}+3\right)}{sx}
+Prediction:   lim_{x\rightarrow3}\frac{x(\sqrt{5x+9}+3)}{5x}
+Exact Match:  ❌ NO
+Char Accuracy: 0.761 | Time: 11.733s | Memory: -1.41MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 76: 4142ff66-a40a-4e7e-8ab9-3509619ee73a.jpg
+Ground Truth: \ln{u}=\frac{\lim_{\theta\to\pi/5^{-}}-2\csc^{3}{\theta}}{\lim_{\theta\to\pi/8^{-}}4\sin^{2}{\theta}\cos{\theta}}
+Prediction:   \frac{lim_{\theta\rightarrow\frac{\Pi}{\Upsilon_{s}}\cdot2\mu_{s}\phi_{s}}{1\pi_{\theta}\frac{1}{s}\theta\omega_{s}\theta}
+Exact Match:  ❌ NO
+Char Accuracy: 0.336 | Time: 28.488s | Memory: 1.47MB
+Token Accuracy: 0.000 | Levenshtein: 81
+----------------------------------------------------------------------------------------------------
+
+IMAGE 77: cd2d12e4-41c6-4f9d-9464-d00c7bfafdec.jpg
+Ground Truth: \lim_{n\to\frac{\pi}{3}}\frac{\frac{d}{dn}\left(\sin{n}-6\cos{n}\right)}{\frac{d}{dn}\left(n-\frac{5\pi}{4}\right)}
+Prediction:   lim_{1-5}\frac{d\frac{d}{d\eta}(s|\eta+bcos\eta)}{\frac{d}{d\pi}(\frac{d}{n}-\frac{d}{4})}
+Exact Match:  ❌ NO
+Char Accuracy: 0.441 | Time: 25.018s | Memory: -0.01MB
+Token Accuracy: 0.000 | Levenshtein: 52
+----------------------------------------------------------------------------------------------------
+
+IMAGE 78: 46859467-fd63-4ee6-8fbb-c92503107c89.jpg
+Ground Truth: \frac{3}{2}\lim_{t\to\pi/2^{-}}\frac{3}{\cos^{4}{t}+8\sin^{4}{t}}
+Prediction:   3/2lim_{t\rightarrow\frac{\pi}{2}}-\frac{3}{cos^{4}t+85\pi t}
+Exact Match:  ❌ NO
+Char Accuracy: 0.369 | Time: 14.626s | Memory: 0.01MB
+Token Accuracy: 0.000 | Levenshtein: 41
+----------------------------------------------------------------------------------------------------
+
+IMAGE 79: 799ba582-3d0c-407e-970d-bd3488dab8ab.jpg
+Ground Truth: \lim_{g\to-4}\frac{g^{9}+9g+1}{g-2}
+Prediction:   lim_{g\rightarrow4}\frac{g^{1}+q_{g+1}}{g^{0}-2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.625 | Time: 12.692s | Memory: -1.39MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 80: a00c91e2-1073-4ee0-a637-be90680bb4ac.jpg
+Ground Truth: \lim_{h\to4^{+}}\frac{\frac{d}{dh}\left(4-\cos{h}\right)}{\frac{d}{dh}\left(\tan{h}+h\cos^{3}{h}\right)}
+Prediction:   lim_{h\rightarrow4^{+}}\frac{\frac{d}{dh}(4t-cos\overline{h})}{dh}(t+d\overline{h}cos^{3}h)
+Exact Match:  ❌ NO
+Char Accuracy: 0.560 | Time: 20.561s | Memory: 1.43MB
+Token Accuracy: 0.000 | Levenshtein: 40
+----------------------------------------------------------------------------------------------------
+
+IMAGE 81: a794a1ef-62a0-4a5b-95f9-11d4c6dfb522.jpg
+Ground Truth: \lim_{r\to\infty}\frac{-6\left(\sin{\frac{8}{r}}-6\frac{6}{r}\sec{\frac{2}{r}}\right)}{-7r^{-9}}
+Prediction:   lim_{r\rightarrow\infty}\frac{-6bsin\frac{4}{7}+\frac{6}{2}+\frac{6}{4}-4}
+Exact Match:  ❌ NO
+Char Accuracy: 0.576 | Time: 17.395s | Memory: -0.43MB
+Token Accuracy: 0.000 | Levenshtein: 36
+----------------------------------------------------------------------------------------------------
+
+IMAGE 82: 17daaf06-45b5-454b-a1b3-824635bba192.jpg
+Ground Truth: \lim_{z\to-3}\frac{\frac{d}{dz}\left(z^{3}-z^{3}-4z-5\right)}{\frac{d}{dz}\left(z^{3}+2z-z-8z+0\right)}
+Prediction:   lim_{z=3}\frac{\frac{d}{2}z^{3}+z^{3}+42-5)}{\frac{d}{2}(z^{3}+z^{2}+d+d+dzz^{2}+0)}
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 25.423s | Memory: 0.49MB
+Token Accuracy: 0.000 | Levenshtein: 28
+----------------------------------------------------------------------------------------------------
+
+IMAGE 83: 1a8bccea-fe38-439e-9be4-c0c3efc5c921.jpg
+Ground Truth: \lim_{h\to2}\frac{2+\sin{h}}{8-7\cos^{6}{h}}
+Prediction:   lim_{h\rightarrow2}\frac{2+sinh}{8+7cos^{6}h}
+Exact Match:  ❌ NO
+Char Accuracy: 0.644 | Time: 10.738s | Memory: -1.51MB
+Token Accuracy: 0.000 | Levenshtein: 16
+----------------------------------------------------------------------------------------------------
+
+IMAGE 84: cdd5deae-128c-4b5b-91fe-ca506963e5be.jpg
+Ground Truth: \lim_{k\to9^{+}}k\sqrt{k-3}\left(k-1\right)
+Prediction:   lim_{k\rightarrow9^{+}}K\sqrt{K-3}(k-1)
+Exact Match:  ❌ NO
+Char Accuracy: 0.718 | Time: 10.632s | Memory: 0.03MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 85: 1992b7e1-c874-47f9-9c2f-3ed5877fa14a.jpg
+Ground Truth: \lim_{y\to3^{+}}e^{\ln{\left(6+y^{\cot{y}}\right)}}
+Prediction:   lim_{y\rightarrow3^{+}}e^{ln(6+y^{cot.y)}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.643 | Time: 10.153s | Memory: -0.09MB
+Token Accuracy: 0.000 | Levenshtein: 15
+----------------------------------------------------------------------------------------------------
+
+IMAGE 86: 78f128d1-9780-468f-a2ee-ba5244b52125.jpg
+Ground Truth: \lim_{p\to\frac{\pi}{2}}\frac{\sin{p}-5\cos{p}}{p-4\pi}
+Prediction:   lim_{p\rightarrow\frac{1}{2}}\frac{sinP+5}cosP}{Pt-8\frac{1}{2}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.469 | Time: 14.764s | Memory: 1.64MB
+Token Accuracy: 0.000 | Levenshtein: 34
+----------------------------------------------------------------------------------------------------
+
+IMAGE 87: 3cff4eb6-fa0f-462a-b3b4-a15d1b60460f.jpg
+Ground Truth: \lim_{h\to\frac{\pi}{3}}\frac{\frac{d}{dh}\left(\tan{h}-3\tan{h}\right)}{\frac{d}{dh}\left(h-\frac{4\pi}{3}\right)}
+Prediction:   lim_{n\rightarrow\frac{n}{3}}\frac{d\frac{h}{(tanh^{-3}tanh)}{\frac{d}{dh}(h+\frac{n}{b})}
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 21.588s | Memory: -0.02MB
+Token Accuracy: 0.000 | Levenshtein: 31
+----------------------------------------------------------------------------------------------------
+
+IMAGE 88: e153495a-08b6-412e-9f47-d68a6d793e63.jpg
+Ground Truth: \lim_{w\to\infty}\frac{w^{5}-3w-2w^{6}}{w+\sqrt{w^{6}+0w^{4}}}
+Prediction:   lim_{N+\infty}\frac{w^{5}+3w^{1}+2w^{6}}{w^{1}+v\sqrt{w^{6}+0w^{4}}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.765 | Time: 19.474s | Memory: -0.02MB
+Token Accuracy: 0.000 | Levenshtein: 16
+----------------------------------------------------------------------------------------------------
+
+IMAGE 89: ba716741-1edf-4cac-8a44-6db14f13cb96.jpg
+Ground Truth: \frac{\lim_{h\to2^{+}}\frac{d}{dh}203\ln{h^{4}}}{\lim_{h\to3^{+}}\frac{d}{dh}\sqrt{y}}
+Prediction:   \frac{\frac{i\pi i}{d\hbar}203\cdot in-\hbar^{4}}{\frac{1}{1\cdot\sqrt{d}\cdot\frac{d}{d\hbar}
+Exact Match:  ❌ NO
+Char Accuracy: 0.330 | Time: 22.202s | Memory: 0.07MB
+Token Accuracy: 0.000 | Levenshtein: 63
+----------------------------------------------------------------------------------------------------
+
+IMAGE 90: bc341cfc-8710-4fd2-9fe7-4f782c1f98a4.jpg
+Ground Truth: \lim_{b\to6}\frac{\sin{3b}}{\sin{6b}}
+Prediction:   lim_{b\rightarrow6}\frac{sin3b}{sin6b}
+Exact Match:  ❌ NO
+Char Accuracy: 0.605 | Time: 8.852s | Memory: -0.92MB
+Token Accuracy: 0.000 | Levenshtein: 15
+----------------------------------------------------------------------------------------------------
+
+IMAGE 91: 93e486f7-1d40-4def-93c2-0fe2caf686e9.jpg
+Ground Truth: \frac{\lim_{p\to2}\frac{d}{dp}3\cos{\left(9p\right)}}{\lim_{p\to1}\frac{d}{dp}p^{7}}
+Prediction:   \frac{lim_{p\rightarrow2}\frac{d}{d\rho}3cos^{\prime}(9\rho)}{lim_{\rho\rightarrow1}\frac{d}{dp}\rho^{\prime}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.545 | Time: 23.427s | Memory: -5.00MB
+Token Accuracy: 0.000 | Levenshtein: 50
+----------------------------------------------------------------------------------------------------
+
+IMAGE 92: d32babd2-e8f5-41e7-9b65-92f6ee79a3fa.jpg
+Ground Truth: \lim_{c\to\frac{\pi}{3}}\frac{8\tan^{3}{c}+9\sin^{4}{c}}{6}
+Prediction:   lim_{i\rightarrow\frac{5}{3}}\frac{btan^{3}c+qsin^{4}c}{6}
+Exact Match:  ❌ NO
+Char Accuracy: 0.644 | Time: 15.117s | Memory: 0.02MB
+Token Accuracy: 0.000 | Levenshtein: 21
+----------------------------------------------------------------------------------------------------
+
+IMAGE 93: 80cfd808-6ce2-484d-a708-df96cac78ec5.jpg
+Ground Truth: \lim_{t\to\frac{\pi}{2}^{-}}\frac{\tan^{8}{t}}{2\frac{-2}{8t+\left(-6\pi\right)^{4}}}
+Prediction:   lim_{t\rightarrow\frac{\pi}{2}-\frac{tan^{8}t}{2}\frac{dt^{4}+tan^{4}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.595 | Time: 15.490s | Memory: 0.05MB
+Token Accuracy: 0.000 | Levenshtein: 30
+----------------------------------------------------------------------------------------------------
+
+IMAGE 94: 50c67b5e-f3e3-44a5-a825-9cedc39b15dc.jpg
+Ground Truth: \lim_{y\to9}\frac{\sin{\left(0\right)}}{\sec{\left(9y\right)}}
+Prediction:   lim_{\mu\rightarrow9}\frac{sin(0)}{sec(9y)}
+Exact Match:  ❌ NO
+Char Accuracy: 0.581 | Time: 9.429s | Memory: -1.37MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 95: ffbe77b7-cb55-4825-95af-73271af054f3.jpg
+Ground Truth: \lim_{w\to7^{+}}\frac{-6\tan{w}\sin^{3}{w}}{\cos{w}+\left(6w\cos{w}+1\right)\cos^{4}{w}}
+Prediction:   lim_{\omega\rightarrow7^{+}}\frac{-6tan\omega sin^{3}\omega}{cos^{t}(\omega+\omega cos\omega+1)cos^{4}\omega}
+Exact Match:  ❌ NO
+Char Accuracy: 0.459 | Time: 22.945s | Memory: 1.38MB
+Token Accuracy: 0.000 | Levenshtein: 59
+----------------------------------------------------------------------------------------------------
+
+IMAGE 96: a38956b6-0239-4eed-be05-6207460c5bb8.jpg
+Ground Truth: \lim_{w\to6}\frac{w\left(93+w\right)}{w}
+Prediction:   lim_{w\rightarrow6}\frac{W(93+W)}{W}
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 8.599s | Memory: -1.37MB
+Token Accuracy: 0.000 | Levenshtein: 12
+----------------------------------------------------------------------------------------------------
+
+IMAGE 97: f37cfaa9-222e-4e08-bb85-7296c25fb617.jpg
+Ground Truth: \ln{x}=\frac{\lim_{\theta\to2^{+}}\frac{d}{d\theta}\left|\ln{\theta}\right|}{\lim_{\theta\to3^{+}}\frac{d}{d\theta}\frac{8}{\theta}}
+Prediction:   lnx=\frac{\theta_{\rightarrow2}+\frac{d}{\theta}|\begin{matrix}in\theta\\ \theta\rightarrow3\frac{d}{d\theta}\theta\\ \end{matrix}
+Exact Match:  ❌ NO
+Char Accuracy: 0.469 | Time: 27.221s | Memory: 1.45MB
+Token Accuracy: 0.000 | Levenshtein: 69
+----------------------------------------------------------------------------------------------------
+
+IMAGE 98: e3617b92-eae7-411e-b53f-804b6915930e.jpg
+Ground Truth: \lim_{t\to7}\frac{\tan{\left(9t\right)}\frac{9}{4}\frac{2}{t}}{\sin{\left(3t\right)}\frac{3}{9}\frac{2}{t}}
+Prediction:   \frac{j_{1}/n}{tan(9t)\frac{1}{n}(3t)\frac{3}{n+1}
+Exact Match:  ❌ NO
+Char Accuracy: 0.400 | Time: 13.821s | Memory: -0.00MB
+Token Accuracy: 0.000 | Levenshtein: 51
+----------------------------------------------------------------------------------------------------
+
+IMAGE 99: f527dd57-3a89-4a30-8b6a-3e61398d4bb1.jpg
+Ground Truth: \lim_{r\to1}\frac{5-2\cos{\left(2r\right)}}{\sin{r}}
+Prediction:   lim_{r\rightarrow1}\frac{5^{+}-2cos(2r)}{sinr}
+Exact Match:  ❌ NO
+Char Accuracy: 0.587 | Time: 10.999s | Memory: -1.57MB
+Token Accuracy: 0.000 | Levenshtein: 19
+----------------------------------------------------------------------------------------------------
+
+IMAGE 100: 4234662b-06f7-438a-a8aa-c6b3ca57ff14.jpg
+Ground Truth: \lim_{x\to-8}58
+Prediction:   lim_{x\rightarrow-8}SS
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 5.737s | Memory: 0.81MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 101: 894a3c47-3d78-4dab-84e2-6b65d135bbe6.jpg
+Ground Truth: \lim_{u\to\pi/3}\frac{\frac{d}{du}\left(\sin{u}-2\cot{u}\right)}{\frac{d}{du}\left(u-\frac{3\pi}{7}\right)}
+Prediction:   lim_{u=\frac{u}{3}}\frac{\frac{d}{dU}(sinu+2+u)}{\frac{d}{dU}(u+3^{11}/7)}
+Exact Match:  ❌ NO
+Char Accuracy: 0.588 | Time: 20.031s | Memory: 0.80MB
+Token Accuracy: 0.000 | Levenshtein: 35
+----------------------------------------------------------------------------------------------------
+
+IMAGE 102: 32a3d68b-0adc-458d-a19c-aeb1c3ee0838.jpg
+Ground Truth: \lim_{b\to2}\frac{\sin{\left(b\right)}}{\sin{\left(0\right)}}
+Prediction:   lim_{b\ne2}\frac{sin(b)}{sin(0)}
+Exact Match:  ❌ NO
+Char Accuracy: 0.769 | Time: 8.989s | Memory: -0.90MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 103: b6b56d29-ab46-41ac-b52f-2f4fff459066.jpg
+Ground Truth: \lim_{g\to5^{+}}\frac{-4\tan{g}\cos^{2}{g}}{\cos^{7}{g}+\left(6g\tan{g}+3\right)\cos^{6}{g}}
+Prediction:   lim_{j=5^{1}}\frac{-4tangcos^{2}g}{gt(1)gtang_{s})|cos^{6}g}
+Exact Match:  ❌ NO
+Char Accuracy: 0.580 | Time: 18.786s | Memory: -0.30MB
+Token Accuracy: 0.000 | Levenshtein: 34
+----------------------------------------------------------------------------------------------------
+
+IMAGE 104: ef35aa66-77cf-4b72-982a-ef75390530b3.jpg
+Ground Truth: \lim_{k\to6}k+8
+Prediction:   lim_{k\rightarrow6}k+8
+Exact Match:  ❌ NO
+Char Accuracy: 0.591 | Time: 6.827s | Memory: -0.07MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 105: b14fe460-8bdb-4411-90e8-5b0912ae944d.jpg
+Ground Truth: \lim_{t\to3}\frac{32}{\sqrt{10-4}+8}
+Prediction:   lim_{t\rightarrow3}\frac{3}{\sqrt{10-4+8}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.714 | Time: 11.391s | Memory: -0.54MB
+Token Accuracy: 0.000 | Levenshtein: 12
+----------------------------------------------------------------------------------------------------
+
+IMAGE 106: bd9fc54a-8f97-4cc6-833f-49eb6ed41908.jpg
+Ground Truth: \lim_{u\to1}\frac{u-2\sec{u}}{u^{7}}
+Prediction:   lim_{u\rightarrow1}\frac{u^{+}2secu}{u^{7}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.628 | Time: 11.235s | Memory: 0.02MB
+Token Accuracy: 0.000 | Levenshtein: 16
+----------------------------------------------------------------------------------------------------
+
+IMAGE 107: 066032b9-44ff-440c-934c-307d3c4b2707.jpg
+Ground Truth: \lim_{t\to\frac{\pi}{2}}\cos^{3}{t}+\lim_{t\to\frac{\pi}{3}}\tan^{9}{t}
+Prediction:   lim_{t\rightarrow\frac{1}{2}cos^{3}ttlim_{t\rightarrow\frac{1}{2}}tan^{3}t
+Exact Match:  ❌ NO
+Char Accuracy: 0.541 | Time: 18.016s | Memory: 1.39MB
+Token Accuracy: 0.000 | Levenshtein: 34
+----------------------------------------------------------------------------------------------------
+
+IMAGE 108: b39f33d3-dd96-4242-ad13-eac434f079e3.jpg
+Ground Truth: \lim_{v\to\infty}\frac{\frac{\log_{70}{v}}{\log_{14}{1}}}{\frac{\log_{63}{v}}{\log_{59}{7}}}
+Prediction:   lim_{\nu\rightarrow0}\frac{\frac{10+0\cdot4}{log_{\mu}=1}{\frac{log_{\mu\mu}q_{\mu}}{log_{\mu}=1}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.480 | Time: 25.534s | Memory: -0.01MB
+Token Accuracy: 0.000 | Levenshtein: 51
+----------------------------------------------------------------------------------------------------
+
+IMAGE 109: f9d380f7-3723-49b8-b278-275b2c7bfd28.jpg
+Ground Truth: \lim_{r\to7}\frac{5r^{5}+8r}{r}
+Prediction:   lim_{i\rightarrow7}\frac{5r^{5}+8r}{r}
+Exact Match:  ❌ NO
+Char Accuracy: 0.737 | Time: 11.074s | Memory: -1.33MB
+Token Accuracy: 0.000 | Levenshtein: 10
+----------------------------------------------------------------------------------------------------
+
+IMAGE 110: 88f5dd4f-eb61-49d8-af1e-45cca8dd1b56.jpg
+Ground Truth: \lim_{c\to4}4\cos{c}
+Prediction:   lim_{c\rightarrow4}4cosc
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 6.483s | Memory: 0.52MB
+Token Accuracy: 0.000 | Levenshtein: 12
+----------------------------------------------------------------------------------------------------
+
+IMAGE 111: 446ab47d-2bc3-45b2-afb9-8145d009806a.jpg
+Ground Truth: \lim_{x\to\pi/3^{-}}\frac{\frac{d}{dx}\sin{x}}{\frac{d}{dx}\frac{2}{3x+2\pi}}
+Prediction:   lim_{k\rightarrow\pi/3=\frac{\frac{d}{dx}sinx}{dx}=x_{k}
+Exact Match:  ❌ NO
+Char Accuracy: 0.442 | Time: 12.716s | Memory: -0.66MB
+Token Accuracy: 0.000 | Levenshtein: 43
+----------------------------------------------------------------------------------------------------
+
+IMAGE 112: ada416b2-e0e9-47f8-be29-306df5adbf51.jpg
+Ground Truth: \lim_{b\to1}\frac{\csc{\left(b\right)}}{b\cos{\left(b\right)}}\frac{3}{3}
+Prediction:   lim_{k\rightarrow1}\frac{c_{s}c(k)}{bcos(k)}3/3
+Exact Match:  ❌ NO
+Char Accuracy: 0.412 | Time: 11.852s | Memory: 0.12MB
+Token Accuracy: 0.000 | Levenshtein: 30
+----------------------------------------------------------------------------------------------------
+
+IMAGE 113: 1982dac3-9649-47cd-bb91-1f392057e293.jpg
+Ground Truth: \lim_{h\to7^{+}}\frac{-\sin{h}\sin^{7}{h}}{\tan{h}+\left(h\sin{h}+5\right)\cos{h}}
+Prediction:   lim_{i\rightarrow1}\frac{-sinhsin^{T}h}{tan^{0}hr(hsinh+5)cosh}
+Exact Match:  ❌ NO
+Char Accuracy: 0.577 | Time: 14.918s | Memory: -2.23MB
+Token Accuracy: 0.000 | Levenshtein: 30
+----------------------------------------------------------------------------------------------------
+

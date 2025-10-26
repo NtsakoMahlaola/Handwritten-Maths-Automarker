@@ -1,0 +1,157 @@
+====================================================================================================
+LATEX-OCR BENCHMARK REPORT - PIX2TEXT-MFR-ONNX
+====================================================================================================
+
+BENCHMARK INFORMATION
+--------------------------------------------------
+Model Name: pix2text-mfr-onnx
+Benchmark Start: 2025-09-18T11:24:23.164549
+Benchmark End: 2025-09-18T11:24:39.373098
+Device Used: CPU
+
+SUMMARY STATISTICS
+--------------------------------------------------
+Total Images: 15
+Successfully Processed: 15
+Failed Processing: 0
+Success Rate: 100.0%
+
+ACCURACY METRICS
+--------------------------------------------------
+Exact Match Rate: 0.0%
+Average Character Accuracy: 0.404
+Median Character Accuracy: 0.383
+Std Character Accuracy: 0.217
+Average Levenshtein Distance: 40.3
+Average Word Error Rate: 1.000
+Average Token Accuracy: 0.000
+
+PERFORMANCE METRICS
+--------------------------------------------------
+Total Processing Time: 16.2s
+Average Inference Time: 1.078s
+Average Memory Usage: 2.24MB
+
+DETAILED PREDICTIONS (15)
+====================================================================================================
+
+IMAGE 1: 01650d074915628e.png
+Ground Truth: i_{Q}:Q\hookrightarrow E
+Prediction:   \sigma _ { Q } : Q ^ { C } \rightarrow E
+Exact Match:  ❌ NO
+Char Accuracy: 0.633 | Time: 0.633s | Memory: 13.87MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 2: 04fc9a7665035a0d.png
+Ground Truth: a_{b,i}=\gamma_{b,i}\frac{b_{i}}{b^{\ominus}}
+Prediction:   \alpha _ { \mathrm { b } \,, \, i } = \gamma _ { \mathrm { b } \,, \, i } \, \frac { \mathrm { b } \, i } { b \, \theta }
+Exact Match:  ❌ NO
+Char Accuracy: 0.344 | Time: 1.182s | Memory: 14.47MB
+Token Accuracy: 0.000 | Levenshtein: 61
+----------------------------------------------------------------------------------------------------
+
+IMAGE 3: 05882db6930f636c.png
+Ground Truth: \Rightarrow ln\frac{x(t)}{x(0)}=kt
+Prediction:   \Longrightarrow \ln \, \frac { \chi \, \left( \mathcal { C } \right) } { \kappa \left( 0 \right) } = k \mathcal { C }
+Exact Match:  ❌ NO
+Char Accuracy: 0.383 | Time: 0.996s | Memory: 1.34MB
+Token Accuracy: 0.000 | Levenshtein: 50
+----------------------------------------------------------------------------------------------------
+
+IMAGE 4: 038ccb46ae3443db.png
+Ground Truth: \mathbb{E}[logX!]=\overline{logX!}
+Prediction:   \prod _ { i } \left[ \log { \bf X } ^ { i } \right] = \overline { { { \log { \bf X } } } }.
+Exact Match:  ❌ NO
+Char Accuracy: 0.421 | Time: 0.977s | Memory: 0.02MB
+Token Accuracy: 0.000 | Levenshtein: 33
+----------------------------------------------------------------------------------------------------
+
+IMAGE 5: 04852f06a82865c1.png
+Ground Truth: \frac{\partial\Pi}{\partial x_{j}}
+Prediction:   \frac { 0 1 1 } { 0 \times 1 }
+Exact Match:  ❌ NO
+Char Accuracy: 0.324 | Time: 0.505s | Memory: 0.01MB
+Token Accuracy: 0.000 | Levenshtein: 23
+----------------------------------------------------------------------------------------------------
+
+IMAGE 6: 0368471ca4fbe892.png
+Ground Truth: R_{U}\in R_{U}\iff R_{U}\notin R_{U}
+Prediction:   R _ { u } ^ { } \in R _ { u } ^ { } \Longleftrightarrow R _ { u } ^ { } \notin R _ { v } ^ { }
+Exact Match:  ❌ NO
+Char Accuracy: 0.476 | Time: 0.994s | Memory: 0.01MB
+Token Accuracy: 0.000 | Levenshtein: 33
+----------------------------------------------------------------------------------------------------
+
+IMAGE 7: 04026cefc5bee356.png
+Ground Truth: (0,1)^{n}\subseteq R^{n}
+Prediction:   \left( \mathcal { O } \,, \, \right) ^ { n } \subseteq R ^ { n }
+Exact Match:  ❌ NO
+Char Accuracy: 0.550 | Time: 0.759s | Memory: 0.02MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 8: 06b2711e539715e0.png
+Ground Truth: \Leftrightarrow1-\frac{1}{r}<\left[\frac{m}{r}\right]_{1}
+Prediction:   \begin{array} { c } { { \displaystyle { \left< \right> } } } \\ { { \displaystyle { \left< \frac { m } { 2 } \right> } } } \\ \end{array}
+Exact Match:  ❌ NO
+Char Accuracy: 0.239 | Time: 1.260s | Memory: 0.21MB
+Token Accuracy: 0.000 | Levenshtein: 83
+----------------------------------------------------------------------------------------------------
+
+IMAGE 9: 0656e77f512563c5.png
+Ground Truth: \hat{A}_{n,\alpha}^{\dagger}
+Prediction:   \int _ { - } ^ { \pi } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - } t _ { - }
+Exact Match:  ❌ NO
+Char Accuracy: 0.073 | Time: 3.462s | Memory: 2.57MB
+Token Accuracy: 0.000 | Levenshtein: 115
+----------------------------------------------------------------------------------------------------
+
+IMAGE 10: 067a327b0c92095f.png
+Ground Truth: \underline{x}\in\mathbb{R}^{n}
+Prediction:   x - \bar { R } ^ { \dagger }
+Exact Match:  ❌ NO
+Char Accuracy: 0.167 | Time: 0.487s | Memory: 0.92MB
+Token Accuracy: 0.000 | Levenshtein: 25
+----------------------------------------------------------------------------------------------------
+
+IMAGE 11: 0050464363a7d02d.png
+Ground Truth: q=\frac{1}{\sqrt{1\cdot\frac{v^{5}}{c^{5}}}}\xi
+Prediction:   g = \frac { 1 } { \int l \cdot \frac { 5 ^ { 5 } } { 0 ^ { 5 } } } ^ { 1 0 }
+Exact Match:  ❌ NO
+Char Accuracy: 0.654 | Time: 0.980s | Memory: 0.07MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 12: 01751ea13ceb1817.png
+Ground Truth: C(X)>X^{0.332}
+Prediction:   C \left( \begin{array} { c } { { X } } \\ \end{array} \right) > X ^ { 0 \cdot 3 3 2 }
+Exact Match:  ❌ NO
+Char Accuracy: 0.217 | Time: 1.000s | Memory: 0.01MB
+Token Accuracy: 0.000 | Levenshtein: 47
+----------------------------------------------------------------------------------------------------
+
+IMAGE 13: 04fc707abea3e7a1.png
+Ground Truth: B=\nabla\times\hat{A}
+Prediction:   \textcircled { S } = \overline { { { V } } } \times \overline { { { A } } }
+Exact Match:  ❌ NO
+Char Accuracy: 0.232 | Time: 0.813s | Memory: 0.01MB
+Token Accuracy: 0.000 | Levenshtein: 43
+----------------------------------------------------------------------------------------------------
+
+IMAGE 14: 025f579aa67dfd7c.png
+Ground Truth: \{A_{i}|i\in\underline{m}\backslash A\}
+Prediction:   \left\{ A _ { i } { \bf 1 } \, i \in \underline { { { m } } } \setminus A \right\}
+Exact Match:  ❌ NO
+Char Accuracy: 0.446 | Time: 0.882s | Memory: 0.02MB
+Token Accuracy: 0.000 | Levenshtein: 36
+----------------------------------------------------------------------------------------------------
+
+IMAGE 15: 05fa73b7807336c8.png
+Ground Truth: \frac{d}{dt}\frac{\partial R}{\partial\dot{\zeta}_{j}}=\frac{\partial R}{\partial\zeta_{j}}
+Prediction:   \frac { d } { d t } \frac { \partial R } { \partial \zeta _ { j } } = \frac { \partial R } { \partial \zeta _ { j } }
+Exact Match:  ❌ NO
+Char Accuracy: 0.901 | Time: 1.240s | Memory: 0.01MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+

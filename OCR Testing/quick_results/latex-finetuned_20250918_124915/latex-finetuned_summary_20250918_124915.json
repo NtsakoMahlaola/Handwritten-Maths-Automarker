@@ -1,0 +1,23 @@
+{
+  "model_name": "latex-finetuned",
+  "total_images": 15,
+  "successfully_processed": 15,
+  "failed_processing": 0,
+  "success_rate": 1.0,
+  "total_processing_time_seconds": 95.4166054725647,
+  "average_inference_time_seconds": 6.3611070315043134,
+  "total_memory_used_mb": 1326.87890625,
+  "average_memory_used_mb": 88.45859375,
+  "exact_match_rate": 0.26666666666666666,
+  "average_character_accuracy": 0.7565453762488098,
+  "median_character_accuracy": 0.7142857142857143,
+  "std_character_accuracy": 0.2284848229151587,
+  "average_levenshtein_distance": 10.2,
+  "median_levenshtein_distance": 4.0,
+  "timestamp": "2025-09-18T12:49:15.742483",
+  "device": "CPU",
+  "average_word_error_rate": 0.611111111111111,
+  "median_word_error_rate": 0.6666666666666666,
+  "average_token_accuracy": 0.3888888888888889,
+  "median_token_accuracy": 0.3333333333333333
+}

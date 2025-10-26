@@ -1,0 +1,23 @@
+{
+  "model_name": "pix2tex",
+  "total_images": 15,
+  "successfully_processed": 15,
+  "failed_processing": 0,
+  "success_rate": 1.0,
+  "total_processing_time_seconds": 28.86593794822693,
+  "average_inference_time_seconds": 1.9243958632151286,
+  "total_memory_used_mb": 19.37890625,
+  "average_memory_used_mb": 1.2919270833333334,
+  "exact_match_rate": 0.0,
+  "average_character_accuracy": 0.1375641497618064,
+  "median_character_accuracy": 0.13636363636363635,
+  "std_character_accuracy": 0.05152725194727073,
+  "average_levenshtein_distance": 148.33333333333334,
+  "median_levenshtein_distance": 152.0,
+  "timestamp": "2025-09-17T09:25:55.631206",
+  "device": "CPU",
+  "average_word_error_rate": 1.0,
+  "median_word_error_rate": 1.0,
+  "average_token_accuracy": 0.0,
+  "median_token_accuracy": 0.0
+}

@@ -1,0 +1,303 @@
+{
+  "model_name": "latex-finetuned",
+  "benchmark_start": "2025-09-18T12:47:40.252151",
+  "predictions": [
+    {
+      "image_name": "01650d074915628e.png",
+      "ground_truth": "i_{Q}:Q\\hookrightarrow E",
+      "prediction": "i_{Q}:R\\subseteq E",
+      "inference_time_seconds": 4.885237693786621,
+      "timestamp": "2025-09-18T12:47:45.146418",
+      "exact_match": 0,
+      "levenshtein_distance": 14,
+      "character_accuracy": 0.41666666666666663,
+      "prediction_length": 18,
+      "ground_truth_length": 24,
+      "length_difference": 6,
+      "prediction_clean": "i_{Q}:R\\subseteq E",
+      "ground_truth_clean": "i_{Q}:Q\\hookrightarrow E",
+      "word_error_rate": 0.5,
+      "token_accuracy": 0.5,
+      "latex_command_accuracy": 0.0,
+      "structural_similarity": 1.0,
+      "semantic_similarity": 0.0,
+      "bleu_score": 0.5,
+      "jaccard_similarity": 0.4090909090909091,
+      "total_time_seconds": 4.887228012084961,
+      "memory_used_mb": 1315.9375,
+      "final_memory_mb": 1761.30078125,
+      "cpu_usage_before": 0.0,
+      "cpu_usage_after": 376.0,
+      "cpu_usage_delta": 376.0,
+      "device": "CPU",
+      "system_info": {
+        "cpu_count": 8,
+        "total_memory_mb": 16118.78515625
+      },
+      "system_memory_usage": {
+        "percent": 84.0,
+        "available_mb": 2575.890625,
+        "used_mb": 13542.89453125
+      }
+    }
+
+
+    {
+  "model_name": "pix2tex",
+  "benchmark_start": "2025-09-17T09:25:26.711493",
+  "predictions": [
+    {
+      "image_name": "01650d074915628e.png",
+      "ground_truth": "i_{Q}:Q\\hookrightarrow E",
+      "prediction": "\\stackrel{\\leftarrow}{\\sim}_{\\mathrm{\\Large{\\scriptstyle{\\scriptstyle{\\sim}}}}}\\stackrel{\\textrm{v}}{\\sim}\\stackrel{\\textrm{f}}{\\sim}\\overbrace{{\\cal{Y}}}^{<}",
+      "inference_time_seconds": 1.4966247081756592,
+      "timestamp": "2025-09-17T09:25:28.212947",
+      "exact_match": 0,
+      "levenshtein_distance": 145,
+      "character_accuracy": 0.08227848101265822,
+      "prediction_length": 158,
+      "ground_truth_length": 24,
+      "length_difference": 134,
+      "prediction_clean": "\\stackrel{\\leftarrow}{\\sim}_{\\mathrm{\\Large{\\scriptstyle{\\scriptstyle{\\sim}}}}}\\stackrel{\\textrm{v}}{\\sim}\\stackrel{\\textrm{f}}{\\sim}\\overbrace{{\\cal{Y}}}^{<}",
+      "ground_truth_clean": "i_{Q}:Q\\hookrightarrow E",
+      "word_error_rate": 1.0,
+      "token_accuracy": 0.0,
+      "latex_command_accuracy": 0.0,
+      "structural_similarity": 0.05882352941176472,
+      "semantic_similarity": 0.0,
+      "bleu_score": 0.0,
+      "jaccard_similarity": 0.41935483870967744,
+      "total_time_seconds": 1.4966247081756592,
+      "memory_used_mb": 17.19921875,
+      "final_memory_mb": 622.58203125,
+      "cpu_usage_before": 0.0,
+      "cpu_usage_after": 367.7,
+      "cpu_usage_delta": 367.7,
+      "device": "CPU",
+      "system_info": {
+        "cpu_count": 8,
+        "total_memory_mb": 16118.78515625
+      },
+      "system_memory_usage": {
+        "percent": 84.8,
+        "available_mb": 2454.23046875,
+        "used_mb": 13664.5546875
+      }
+    }
+
+    {
+  "model_name": "pix2text-mfr-onnx",
+  "benchmark_start": "2025-09-18T11:24:23.164549",
+  "predictions": [
+    {
+      "image_name": "01650d074915628e.png",
+      "ground_truth": "i_{Q}:Q\\hookrightarrow E",
+      "prediction": "\\sigma _ { Q } : Q ^ { C } \\rightarrow E",
+      "inference_time_seconds": 0.6329925060272217,
+      "timestamp": "2025-09-18T11:24:23.799378",
+      "exact_match": 0,
+      "levenshtein_distance": 11,
+      "character_accuracy": 0.6333333333333333,
+      "prediction_length": 30,
+      "ground_truth_length": 24,
+      "length_difference": 6,
+      "prediction_clean": "\\sigma_{Q}: Q^{C}\\rightarrow E",
+      "ground_truth_clean": "i_{Q}:Q\\hookrightarrow E",
+      "word_error_rate": 1.0,
+      "token_accuracy": 0.0,
+      "latex_command_accuracy": 0.0,
+      "structural_similarity": 0.5,
+      "semantic_similarity": 0.0,
+      "bleu_score": 0.3333333333333333,
+      "jaccard_similarity": 0.75,
+      "total_time_seconds": 0.6348288059234619,
+      "memory_used_mb": 13.8671875,
+      "final_memory_mb": 678.5390625,
+      "cpu_usage_before": 0.0,
+      "cpu_usage_after": 394.9,
+      "cpu_usage_delta": 394.9,
+      "device": "CPU",
+      "system_info": {
+        "cpu_count": 8,
+        "total_memory_mb": 16118.78515625
+      },
+      "system_memory_usage": {
+        "percent": 72.5,
+        "available_mb": 4429.953125,
+        "used_mb": 11688.83203125
+      }
+    }
+
+    {
+  "model_name": "trocr",
+  "benchmark_start": "2025-09-17T15:05:38.586746",
+  "predictions": [
+    {
+      "image_name": "01650d074915628e.png",
+      "ground_truth": "i_{Q}:Q\\hookrightarrow E",
+      "prediction": "a case that the other",
+      "inference_time_seconds": 1.0837838649749756,
+      "timestamp": "2025-09-17T15:05:39.682447",
+      "exact_match": 0,
+      "levenshtein_distance": 22,
+      "character_accuracy": 0.08333333333333337,
+      "prediction_length": 21,
+      "ground_truth_length": 24,
+      "length_difference": 3,
+      "prediction_clean": "a case that the other",
+      "ground_truth_clean": "i_{Q}:Q\\hookrightarrow E",
+      "word_error_rate": 1.0,
+      "token_accuracy": 0.0,
+      "latex_command_accuracy": 0.0,
+      "structural_similarity": 0,
+      "semantic_similarity": 0.0,
+      "bleu_score": 0.0,
+      "jaccard_similarity": 0.2631578947368421,
+      "total_time_seconds": 1.084277868270874,
+      "memory_used_mb": 127.3515625,
+      "final_memory_mb": 661.21484375,
+      "cpu_usage_before": 0.0,
+      "cpu_usage_after": 277.1,
+      "cpu_usage_delta": 277.1,
+      "device": "CPU",
+      "system_info": {
+        "cpu_count": 8,
+        "total_memory_mb": 16118.78515625
+      },
+      "system_memory_usage": {
+        "percent": 81.1,
+        "available_mb": 3050.43359375,
+        "used_mb": 13068.3515625
+      }
+    }
+
+
+    {
+  "model_name": "trocr-large-handwritten",
+  "benchmark_start": "2025-09-17T20:28:14.090144",
+  "predictions": [
+    {
+      "image_name": "01650d074915628e.png",
+      "ground_truth": "i_{Q}:Q\\hookrightarrow E",
+      "prediction": "ince : Dr. C.E.",
+      "inference_time_seconds": 14.126088380813599,
+      "timestamp": "2025-09-17T20:28:28.228677",
+      "exact_match": 0,
+      "levenshtein_distance": 21,
+      "character_accuracy": 0.125,
+      "prediction_length": 15,
+      "ground_truth_length": 24,
+      "length_difference": 9,
+      "prediction_clean": "ince : Dr. C.E.",
+      "ground_truth_clean": "i_{Q}:Q\\hookrightarrow E",
+      "word_error_rate": 1.0,
+      "token_accuracy": 0.0,
+      "latex_command_accuracy": 0.0,
+      "structural_similarity": 0,
+      "semantic_similarity": 0.0,
+      "bleu_score": 0.0,
+      "jaccard_similarity": 0.18181818181818182,
+      "total_time_seconds": 14.130035400390625,
+      "memory_used_mb": 2002.2734375,
+      "final_memory_mb": 2640.67578125,
+      "cpu_usage_before": 0.0,
+      "cpu_usage_after": 306.9,
+      "cpu_usage_delta": 306.9,
+      "device": "CPU",
+      "system_info": {
+        "cpu_count": 8,
+        "total_memory_mb": 16118.78515625
+      },
+      "system_memory_usage": {
+        "percent": 90.1,
+        "available_mb": 1591.0390625,
+        "used_mb": 14527.74609375
+      }
+    }
+
+
+    {
+  "model_name": "trocr-math",
+  "benchmark_start": "2025-09-17T17:14:07.574466",
+  "predictions": [
+    {
+      "image_name": "01650d074915628e.png",
+      "ground_truth": "i_{Q}:Q\\hookrightarrow E",
+      "prediction": "i_{Q}:Q\\hookrightarrow E",
+      "inference_time_seconds": 11.351787567138672,
+      "timestamp": "2025-09-17T17:14:18.934615",
+      "exact_match": 1,
+      "levenshtein_distance": 0,
+      "character_accuracy": 1.0,
+      "prediction_length": 24,
+      "ground_truth_length": 24,
+      "length_difference": 0,
+      "prediction_clean": "i_{Q}:Q\\hookrightarrow E",
+      "ground_truth_clean": "i_{Q}:Q\\hookrightarrow E",
+      "word_error_rate": 0.0,
+      "token_accuracy": 1.0,
+      "latex_command_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "semantic_similarity": 1.0,
+      "bleu_score": 1.0,
+      "jaccard_similarity": 1.0,
+      "total_time_seconds": 11.352784156799316,
+      "memory_used_mb": 2102.20703125,
+      "final_memory_mb": 2452.296875,
+      "cpu_usage_before": 0.0,
+      "cpu_usage_after": 216.8,
+      "cpu_usage_delta": 216.8,
+      "device": "CPU",
+      "system_info": {
+        "cpu_count": 8,
+        "total_memory_mb": 16118.78515625
+      },
+      "system_memory_usage": {
+        "percent": 87.4,
+        "available_mb": 2029.6171875,
+        "used_mb": 14089.16796875
+      }
+    }
+
+    {
+  "model_name": "trocr-vision2seq-math",
+  "benchmark_start": "2025-09-17T23:02:21.201956",
+  "predictions": [
+    {
+      "image_name": "01650d074915628e.png",
+      "ground_truth": "i_{Q}:Q\\hookrightarrow E",
+      "prediction": "\\c{}{a2:Q\\hookrightrightrightarrow3 E3",
+      "inference_time_seconds": 46.232120752334595,
+      "timestamp": "2025-09-17T23:03:07.435367",
+      "exact_match": 0,
+      "levenshtein_distance": 18,
+      "character_accuracy": 0.5263157894736843,
+      "prediction_length": 38,
+      "ground_truth_length": 24,
+      "length_difference": 14,
+      "prediction_clean": "\\c{}{a2:Q\\hookrightrightrightarrow3 E3",
+      "ground_truth_clean": "i_{Q}:Q\\hookrightarrow E",
+      "word_error_rate": 1.0,
+      "token_accuracy": 0.0,
+      "latex_command_accuracy": 0.0,
+      "structural_similarity": 0.6666666666666667,
+      "semantic_similarity": 0.0,
+      "bleu_score": 0.0,
+      "jaccard_similarity": 0.7894736842105263,
+      "total_time_seconds": 46.232120752334595,
+      "memory_used_mb": 2176.94140625,
+      "final_memory_mb": 2584.88671875,
+      "cpu_usage_before": 0.0,
+      "cpu_usage_after": 390.7,
+      "cpu_usage_delta": 390.7,
+      "device": "CPU",
+      "system_info": {
+        "cpu_count": 8,
+        "total_memory_mb": 16118.78515625
+      },
+      "system_memory_usage": {
+        "percent": 87.5,
+        "available_mb": 2022.84375,
+        "used_mb": 14095.94140625
+      }
+    }

@@ -1,0 +1,23 @@
+{
+  "model_name": "trocr",
+  "total_images": 15,
+  "successfully_processed": 15,
+  "failed_processing": 0,
+  "success_rate": 1.0,
+  "total_processing_time_seconds": 9.436431646347046,
+  "average_inference_time_seconds": 0.629095443089803,
+  "total_memory_used_mb": 138.4453125,
+  "average_memory_used_mb": 9.2296875,
+  "exact_match_rate": 0.0,
+  "average_character_accuracy": 0.07660967597899633,
+  "median_character_accuracy": 0.08333333333333337,
+  "std_character_accuracy": 0.032578684860946526,
+  "average_levenshtein_distance": 34.2,
+  "median_levenshtein_distance": 31.0,
+  "timestamp": "2025-09-17T15:05:48.099787",
+  "device": "CPU",
+  "average_word_error_rate": 1.0,
+  "median_word_error_rate": 1.0,
+  "average_token_accuracy": 0.0,
+  "median_token_accuracy": 0.0
+}

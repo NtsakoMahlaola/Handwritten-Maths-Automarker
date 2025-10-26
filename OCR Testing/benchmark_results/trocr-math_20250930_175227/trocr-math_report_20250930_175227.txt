@@ -1,0 +1,1235 @@
+====================================================================================================
+LATEX-OCR BENCHMARK REPORT - TROCR-MATH
+====================================================================================================
+
+BENCHMARK INFORMATION
+--------------------------------------------------
+Model Name: trocr-math
+Benchmark Start: 2025-09-30T17:25:22.474913
+Benchmark End: 2025-09-30T17:52:27.207612
+Device Used: CPU
+
+SUMMARY STATISTICS
+--------------------------------------------------
+Total Images: 249
+Successfully Processed: 148
+Failed Processing: 0
+Success Rate: 59.4%
+
+ACCURACY METRICS
+--------------------------------------------------
+Exact Match Rate: 2.7%
+Average Character Accuracy: 0.577
+Median Character Accuracy: 0.609
+Std Character Accuracy: 0.266
+Average Levenshtein Distance: 13.4
+Average Word Error Rate: 0.966
+Average Token Accuracy: 0.031
+
+PERFORMANCE METRICS
+--------------------------------------------------
+Total Processing Time: 1624.2s
+Average Inference Time: 10.975s
+Average Memory Usage: 14.90MB
+
+FAILED IMAGES (101)
+--------------------------------------------------
+• 28_em_149.bmp: File not found
+• 29_em_150.bmp: File not found
+• 29_em_151.bmp: File not found
+• 29_em_152.bmp: File not found
+• 29_em_153.bmp: File not found
+• 29_em_154.bmp: File not found
+• 29_em_155.bmp: File not found
+• 29_em_156.bmp: File not found
+• 29_em_157.bmp: File not found
+• 29_em_158.bmp: File not found
+... and 91 more
+
+DETAILED PREDICTIONS (148)
+====================================================================================================
+
+IMAGE 1: 18_em_0.bmp
+Ground Truth: x _ { k } x x _ { k } + y _ { k } y x _ { k }
+Prediction:   \chi_{k}\chi_{k}+\bigcup_{k}Y_{k}^{\chi_{k}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.386 | Time: 23.895s | Memory: 2160.09MB
+Token Accuracy: 0.000 | Levenshtein: 27
+----------------------------------------------------------------------------------------------------
+
+IMAGE 2: 18_em_1.bmp
+Ground Truth: \sqrt { 4 8 }
+Prediction:   \sqrt{48}
+Exact Match:  ❌ NO
+Char Accuracy: 0.900 | Time: 5.448s | Memory: 26.93MB
+Token Accuracy: 0.000 | Levenshtein: 1
+----------------------------------------------------------------------------------------------------
+
+IMAGE 3: 18_em_2.bmp
+Ground Truth: C _ { 1 } y _ { 1 } ^ { ( n - 1 ) } + C _ { 2 } y _ { 2 } ^ { ( n - 1 ) } + \ldots + C _ { n } y _ { n } ^ { ( n - 1 ) } = 0
+Prediction:   [y_{1}^{(r)}t^{(r)}^{y(r)}...t(x^{(k)}=0
+Exact Match:  ❌ NO
+Char Accuracy: 0.293 | Time: 15.821s | Memory: 7.69MB
+Token Accuracy: 0.000 | Levenshtein: 58
+----------------------------------------------------------------------------------------------------
+
+IMAGE 4: 18_em_3.bmp
+Ground Truth: q _ { 1 } , q _ { 2 } , \ldots , q _ { m }
+Prediction:   \frac{q}{\mu_{1}}^{q_{\frac{1}{2}}\cdot\cdot\cdot,q_{\mu_{l}}}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.302 | Time: 20.197s | Memory: 2.67MB
+Token Accuracy: 0.000 | Levenshtein: 44
+----------------------------------------------------------------------------------------------------
+
+IMAGE 5: 18_em_4.bmp
+Ground Truth: e ^ { - n }
+Prediction:   e^{-\pi^{2}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.417 | Time: 5.945s | Memory: -0.12MB
+Token Accuracy: 0.000 | Levenshtein: 7
+----------------------------------------------------------------------------------------------------
+
+IMAGE 6: 18_em_5.bmp
+Ground Truth: \int g = \lim _ { n \rightarrow \infty } \int g _ { n }
+Prediction:   \int g=lim_{n\rightarrow0}\int g_{n}
+Exact Match:  ❌ NO
+Char Accuracy: 0.761 | Time: 9.494s | Memory: 4.05MB
+Token Accuracy: 0.143 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 7: 18_em_6.bmp
+Ground Truth: g ( b ) - g ( a ) = b - a
+Prediction:   g(b)=\frac{q}{q}(a)=b-a
+Exact Match:  ❌ NO
+Char Accuracy: 0.160 | Time: 9.744s | Memory: -0.02MB
+Token Accuracy: 0.000 | Levenshtein: 21
+----------------------------------------------------------------------------------------------------
+
+IMAGE 8: 18_em_7.bmp
+Ground Truth: \sin ^ { 2 } \theta
+Prediction:   sin^{2}\theta
+Exact Match:  ❌ NO
+Char Accuracy: 0.929 | Time: 5.341s | Memory: 0.27MB
+Token Accuracy: 0.000 | Levenshtein: 1
+----------------------------------------------------------------------------------------------------
+
+IMAGE 9: 18_em_8.bmp
+Ground Truth: x _ { L L L } \leq x _ { L L }
+Prediction:   \pi_{L_{\perp\perp}}\le\chi_{\perp L}
+Exact Match:  ❌ NO
+Char Accuracy: 0.324 | Time: 11.216s | Memory: -0.63MB
+Token Accuracy: 0.000 | Levenshtein: 25
+----------------------------------------------------------------------------------------------------
+
+IMAGE 10: 18_em_9.bmp
+Ground Truth: \frac { a } { b + \sqrt { c } }
+Prediction:   \frac{a}{b+\sqrt{c}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.909 | Time: 8.104s | Memory: 0.64MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 11: 18_em_10.bmp
+Ground Truth: 2 6
+Prediction:   2.6
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 4.145s | Memory: 0.79MB
+Token Accuracy: 0.000 | Levenshtein: 1
+----------------------------------------------------------------------------------------------------
+
+IMAGE 12: 18_em_11.bmp
+Ground Truth: q _ { t } = 2 q
+Prediction:   q_{t}=2q_{t}
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 6.669s | Memory: -0.84MB
+Token Accuracy: 0.000 | Levenshtein: 6
+----------------------------------------------------------------------------------------------------
+
+IMAGE 13: 18_em_12.bmp
+Ground Truth: \frac { p e ^ { t } } { 1 - ( 1 - p ) e ^ { t } }
+Prediction:   \frac{pe^{t}}{1-(1-p)e^{t}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.771 | Time: 9.905s | Memory: -0.04MB
+Token Accuracy: 0.000 | Levenshtein: 8
+----------------------------------------------------------------------------------------------------
+
+IMAGE 14: 18_em_13.bmp
+Ground Truth: 4 ^ { 2 } + 4 ^ { 2 } + \frac { 4 } { 4 }
+Prediction:   4^{2}+4^{2}+\frac{4}{4}
+Exact Match:  ❌ NO
+Char Accuracy: 0.920 | Time: 9.732s | Memory: -0.04MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 15: 18_em_14.bmp
+Ground Truth: \frac { d y } { d x } = \frac { 1 } { \frac { d x } { d y } }
+Prediction:   \frac{dy}{dx}=\frac{1}{\frac{dx}{dy}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.881 | Time: 9.985s | Memory: -0.52MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 16: 18_em_15.bmp
+Ground Truth: k = 1 0 0 0 0 0 0 0 0 0
+Prediction:   k=\1000000
+Exact Match:  ❌ NO
+Char Accuracy: 0.391 | Time: 4.310s | Memory: 0.76MB
+Token Accuracy: 0.000 | Levenshtein: 14
+----------------------------------------------------------------------------------------------------
+
+IMAGE 17: 18_em_16.bmp
+Ground Truth: m \geq 2
+Prediction:   m\ge2
+Exact Match:  ❌ NO
+Char Accuracy: 0.625 | Time: 4.091s | Memory: 0.30MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 18: 18_em_17.bmp
+Ground Truth: u ( t ) = \frac { u ( 0 ) } { 1 - t u ( 0 ) }
+Prediction:   U(t)=\frac{u(0)}{1-tU(0)}
+Exact Match:  ❌ NO
+Char Accuracy: 0.590 | Time: 11.541s | Memory: -0.93MB
+Token Accuracy: 0.000 | Levenshtein: 16
+----------------------------------------------------------------------------------------------------
+
+IMAGE 19: 18_em_18.bmp
+Ground Truth: \theta _ { 3 } = \theta _ { 1 } + \theta _ { 2 }
+Prediction:   \theta_{3}\approx\theta_{1}+\theta_{2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.789 | Time: 9.920s | Memory: 0.05MB
+Token Accuracy: 0.000 | Levenshtein: 8
+----------------------------------------------------------------------------------------------------
+
+IMAGE 20: 18_em_19.bmp
+Ground Truth: y \neq x
+Prediction:   y\ne\overline{x}
+Exact Match:  ❌ NO
+Char Accuracy: 0.250 | Time: 5.362s | Memory: 0.49MB
+Token Accuracy: 0.000 | Levenshtein: 12
+----------------------------------------------------------------------------------------------------
+
+IMAGE 21: 18_em_20.bmp
+Ground Truth: \frac { 1 } { p } + \frac { 1 } { q } = 1
+Prediction:   \frac{1}{p}+\frac{1}{q}=1
+Exact Match:  ❌ NO
+Char Accuracy: 0.926 | Time: 9.032s | Memory: 0.07MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 22: 18_em_21.bmp
+Ground Truth: 1 0 1 1 1 1 1 0 1 1 1 0 0 1 0 1 _ { 2 }
+Prediction:   10||=1110||10\cdot10101_{2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.429 | Time: 7.412s | Memory: 0.05MB
+Token Accuracy: 0.000 | Levenshtein: 20
+----------------------------------------------------------------------------------------------------
+
+IMAGE 23: 18_em_22.bmp
+Ground Truth: p _ { 1 } ^ { \gamma _ { 1 } } p _ { 2 } ^ { \gamma _ { 2 } } \cdots p _ { n } ^ { \gamma _ { n } }
+Prediction:   p_{1}^{r_{1}}p_{2}^{r_{2}}...p_{n}^{r_{1}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.574 | Time: 12.574s | Memory: -0.62MB
+Token Accuracy: 0.000 | Levenshtein: 26
+----------------------------------------------------------------------------------------------------
+
+IMAGE 24: 18_em_23.bmp
+Ground Truth: \frac { 1 8 \div 6 } { 2 4 \div 6 } = \frac { 3 } { 4 }
+Prediction:   \frac{18+6}{24\div6}=\frac{3}{4}
+Exact Match:  ❌ NO
+Char Accuracy: 0.738 | Time: 9.015s | Memory: 0.13MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 25: 18_em_24.bmp
+Ground Truth: \frac { 7 5 2 9 5 3 6 } { 1 5 6 2 5 }
+Prediction:   \frac{752958}{15625}
+Exact Match:  ❌ NO
+Char Accuracy: 0.613 | Time: 5.683s | Memory: 0.64MB
+Token Accuracy: 0.000 | Levenshtein: 12
+----------------------------------------------------------------------------------------------------
+
+IMAGE 26: 20_em_25.bmp
+Ground Truth: \sin ( x + y ) = \sin x \cos y + \cos x \sin y
+Prediction:   \delta_{\mu}(x+y)=sin(x)a\mu y+c_{\mu}x\cdot\frac{sigma_{\mu}y}{y}
+Exact Match:  ❌ NO
+Char Accuracy: 0.197 | Time: 18.041s | Memory: 0.32MB
+Token Accuracy: 0.000 | Levenshtein: 53
+----------------------------------------------------------------------------------------------------
+
+IMAGE 27: 20_em_26.bmp
+Ground Truth: \frac { 9 } { 9 + \sqrt { 9 } }
+Prediction:   \frac{9}{9+\sqrt{9}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.909 | Time: 6.587s | Memory: -0.06MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 28: 20_em_27.bmp
+Ground Truth: R _ { o } = \frac { ( \frac { \beta + 1 } { \beta } ) r _ { e } + ( \beta + 2 + \frac { 2 } { \beta } ) r _ { o } } { 2 + \frac { 2 } { \beta } }
+Prediction:   b=\frac{(\frac{24}{p})^{k+1}(\frac{(p+2+\frac{2}{p})^{2}+\frac{p}{2}}{p})^{k+1}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.381 | Time: 21.607s | Memory: 0.81MB
+Token Accuracy: 0.000 | Levenshtein: 65
+----------------------------------------------------------------------------------------------------
+
+IMAGE 29: 20_em_28.bmp
+Ground Truth: 1 . 3 7 9 1 9 4 1 7 1
+Prediction:   |\cdot374\}||9\cdot417\cdot7\}
+Exact Match:  ❌ NO
+Char Accuracy: 0.133 | Time: 8.656s | Memory: -1.39MB
+Token Accuracy: 0.000 | Levenshtein: 26
+----------------------------------------------------------------------------------------------------
+
+IMAGE 30: 20_em_29.bmp
+Ground Truth: ( - \infty , \infty )
+Prediction:   (-\infty,\infty)
+Exact Match:  ❌ NO
+Char Accuracy: 0.762 | Time: 5.479s | Memory: 0.61MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 31: 20_em_30.bmp
+Ground Truth: I _ { S }
+Prediction:   J_{s}
+Exact Match:  ❌ NO
+Char Accuracy: 0.600 | Time: 4.170s | Memory: 0.36MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 32: 20_em_31.bmp
+Ground Truth: X X ^ { - 1 } = X ^ { - 1 } X = I
+Prediction:   X^{-1}\approx X^{-1}X\approx1
+Exact Match:  ❌ NO
+Char Accuracy: 0.345 | Time: 8.378s | Memory: -0.31MB
+Token Accuracy: 0.000 | Levenshtein: 19
+----------------------------------------------------------------------------------------------------
+
+IMAGE 33: 20_em_32.bmp
+Ground Truth: \frac { \pi } { 3 }
+Prediction:   \frac{\pi r}{z}
+Exact Match:  ❌ NO
+Char Accuracy: 0.800 | Time: 5.115s | Memory: -0.03MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 34: 20_em_33.bmp
+Ground Truth: R _ { a } = \frac { R _ { 1 } R _ { 2 } + R _ { 2 } R _ { 3 } + R _ { 3 } R _ { 1 } } { R _ { 2 } }
+Prediction:   \kappa_{n}=\frac{1\mu_{2}+\hbar_{2}\hbar_{2}-th\hbar_{2}}{\hbar^{2}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.412 | Time: 18.106s | Memory: 0.51MB
+Token Accuracy: 0.000 | Levenshtein: 40
+----------------------------------------------------------------------------------------------------
+
+IMAGE 35: 20_em_34.bmp
+Ground Truth: \sin ( a + b )
+Prediction:   sin(a+b)
+Exact Match:  ❌ NO
+Char Accuracy: 0.571 | Time: 4.849s | Memory: -0.20MB
+Token Accuracy: 0.000 | Levenshtein: 6
+----------------------------------------------------------------------------------------------------
+
+IMAGE 36: 20_em_35.bmp
+Ground Truth: \mu \geq 0
+Prediction:   M\approx0
+Exact Match:  ❌ NO
+Char Accuracy: 0.100 | Time: 4.220s | Memory: -0.11MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 37: 20_em_36.bmp
+Ground Truth: e _ { 5 } - 5 e _ { 4 }
+Prediction:   \varphi_{g}-\overline{y}_{eq}
+Exact Match:  ❌ NO
+Char Accuracy: 0.276 | Time: 7.987s | Memory: -0.10MB
+Token Accuracy: 0.000 | Levenshtein: 21
+----------------------------------------------------------------------------------------------------
+
+IMAGE 38: 20_em_37.bmp
+Ground Truth: \frac { 3 \times 3 ^ { 2 } } { 2 } + \frac { 5 \times ( - 5 ) ^ { 2 } } { 2 } = \frac { 3 \times v _ { 1 } ^ { 2 } } { 2 } + \frac { 5 \times v _ { 2 } ^ { 2 } } { 2 }
+Prediction:   \frac{3\pi i^{2}}{2}+\frac{5\pi(5)^{2}}{2}-\frac{3\chi^{2}}{2}+\frac{5\pi^{2}+2}{2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.629 | Time: 26.634s | Memory: 2.38MB
+Token Accuracy: 0.000 | Levenshtein: 43
+----------------------------------------------------------------------------------------------------
+
+IMAGE 39: 20_em_38.bmp
+Ground Truth: Y _ { t + 1 }
+Prediction:   Y_{t-H}
+Exact Match:  ❌ NO
+Char Accuracy: 0.556 | Time: 4.484s | Memory: -0.55MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 40: 20_em_39.bmp
+Ground Truth: n ^ { 2 } + n - n
+Prediction:   n^{2}-1-x-n
+Exact Match:  ❌ NO
+Char Accuracy: 0.583 | Time: 5.951s | Memory: -0.21MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 41: 20_em_40.bmp
+Ground Truth: \sqrt { 4 x ^ { 5 } + x }
+Prediction:   \sqrt{4x^{5}+x}
+Exact Match:  ❌ NO
+Char Accuracy: 0.882 | Time: 6.488s | Memory: 0.08MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 42: 20_em_41.bmp
+Ground Truth: 9 / 5
+Prediction:   g/5
+Exact Match:  ❌ NO
+Char Accuracy: 0.400 | Time: 3.448s | Memory: 0.79MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 43: 20_em_42.bmp
+Ground Truth: 1 7
+Prediction:   !\overline{Z}
+Exact Match:  ❌ NO
+Char Accuracy: 0.000 | Time: 4.621s | Memory: -0.83MB
+Token Accuracy: 0.000 | Levenshtein: 13
+----------------------------------------------------------------------------------------------------
+
+IMAGE 44: 20_em_43.bmp
+Ground Truth: ( 6 4 8 + 6 4 8 ) ^ { \frac { 1 } { 4 } } + 8
+Prediction:   (398+448-8)^{1/4}+8
+Exact Match:  ❌ NO
+Char Accuracy: 0.353 | Time: 6.786s | Memory: -0.01MB
+Token Accuracy: 0.000 | Levenshtein: 22
+----------------------------------------------------------------------------------------------------
+
+IMAGE 45: 20_em_44.bmp
+Ground Truth: 8 c m
+Prediction:   \overline{zeta}_{em}
+Exact Match:  ❌ NO
+Char Accuracy: 0.050 | Time: 5.437s | Memory: 0.09MB
+Token Accuracy: 0.000 | Levenshtein: 19
+----------------------------------------------------------------------------------------------------
+
+IMAGE 46: 20_em_45.bmp
+Ground Truth: \sqrt { C _ { n } }
+Prediction:   \sqrt{C_{n}}
+Exact Match:  ✅ YES
+Char Accuracy: 1.000 | Time: 5.235s | Memory: -0.10MB
+Token Accuracy: 1.000 | Levenshtein: 0
+----------------------------------------------------------------------------------------------------
+
+IMAGE 47: 20_em_46.bmp
+Ground Truth: \frac { d _ { 1 } - 2 } { d _ { 1 } } \frac { d _ { 2 } } { d _ { 2 } + 2 }
+Prediction:   \frac{d_{1}-2}{d_{1}}\frac{d_{2}}{d_{2}+2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.955 | Time: 14.531s | Memory: -0.43MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 48: 20_em_47.bmp
+Ground Truth: 5 3 9 5
+Prediction:   \overline{\partial}3^{g}5
+Exact Match:  ❌ NO
+Char Accuracy: 0.080 | Time: 7.222s | Memory: 0.68MB
+Token Accuracy: 0.000 | Levenshtein: 23
+----------------------------------------------------------------------------------------------------
+
+IMAGE 49: 20_em_48.bmp
+Ground Truth: f ( 1 . 9 9 ) = 3 . 9 9 2 1 9 2 0 1
+Prediction:   f(1.99)=8.9949^{220}
+Exact Match:  ❌ NO
+Char Accuracy: 0.371 | Time: 9.693s | Memory: -0.02MB
+Token Accuracy: 0.000 | Levenshtein: 22
+----------------------------------------------------------------------------------------------------
+
+IMAGE 50: 20_em_49.bmp
+Ground Truth: 6 f t
+Prediction:   6f\cdot\epsilon
+Exact Match:  ❌ NO
+Char Accuracy: 0.133 | Time: 7.701s | Memory: -0.08MB
+Token Accuracy: 0.000 | Levenshtein: 13
+----------------------------------------------------------------------------------------------------
+
+IMAGE 51: 23_em_50.bmp
+Ground Truth: d ^ { - 7 }
+Prediction:   dL^{-7}
+Exact Match:  ❌ NO
+Char Accuracy: 0.714 | Time: 5.236s | Memory: 0.14MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 52: 23_em_51.bmp
+Ground Truth: n = p _ { 1 } ^ { e _ { 1 } } p _ { 2 } ^ { e _ { 2 } } \ldots p _ { m } ^ { e _ { m } }
+Prediction:   n=p_{1}^{d}p_{2}^{e_{2}^{...p_{m}}^{e_{m}}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.660 | Time: 14.870s | Memory: -0.60MB
+Token Accuracy: 0.000 | Levenshtein: 17
+----------------------------------------------------------------------------------------------------
+
+IMAGE 53: 23_em_52.bmp
+Ground Truth: 2 p
+Prediction:   Z\models
+Exact Match:  ❌ NO
+Char Accuracy: 0.000 | Time: 4.951s | Memory: 1.38MB
+Token Accuracy: 0.000 | Levenshtein: 8
+----------------------------------------------------------------------------------------------------
+
+IMAGE 54: 23_em_53.bmp
+Ground Truth: \frac { 1 } { 3 } + \frac { 1 } { 3 }
+Prediction:   \frac{1}{3}+\frac{1}{3}
+Exact Match:  ❌ NO
+Char Accuracy: 0.958 | Time: 9.718s | Memory: -0.85MB
+Token Accuracy: 0.000 | Levenshtein: 1
+----------------------------------------------------------------------------------------------------
+
+IMAGE 55: 23_em_54.bmp
+Ground Truth: \beta _ { 0 } = 1 0 0 0
+Prediction:   \beta_{0}=1000
+Exact Match:  ❌ NO
+Char Accuracy: 0.778 | Time: 5.401s | Memory: 0.04MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 56: 23_em_55.bmp
+Ground Truth: \sqrt { 1 1 3 }
+Prediction:   \sqrt{1\cdot1}\sigma
+Exact Match:  ❌ NO
+Char Accuracy: 0.400 | Time: 7.708s | Memory: 0.18MB
+Token Accuracy: 0.000 | Levenshtein: 12
+----------------------------------------------------------------------------------------------------
+
+IMAGE 57: 23_em_56.bmp
+Ground Truth: 9 + 2
+Prediction:   q+2
+Exact Match:  ❌ NO
+Char Accuracy: 0.400 | Time: 5.772s | Memory: 0.65MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 58: 23_em_57.bmp
+Ground Truth: \sqrt { 3 ^ { 2 } + 2 ^ { 2 } } = \sqrt { 1 3 }
+Prediction:   \sqrt{s^{2}+z^{2}}=\sqrt{13}
+Exact Match:  ❌ NO
+Char Accuracy: 0.839 | Time: 11.526s | Memory: -1.41MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 59: 23_em_58.bmp
+Ground Truth: z ^ { d } + z
+Prediction:   z^{d}+z
+Exact Match:  ❌ NO
+Char Accuracy: 0.875 | Time: 5.589s | Memory: 0.88MB
+Token Accuracy: 0.000 | Levenshtein: 1
+----------------------------------------------------------------------------------------------------
+
+IMAGE 60: 23_em_59.bmp
+Ground Truth: \sum _ { r = 1 } ^ { n } a r ^ { b } = a \sum _ { r = 1 } ^ { n } r ^ { b }
+Prediction:   \sum_{r=1}^{n}a^{r}=a\sum_{r=1}^{n}r^{b}
+Exact Match:  ❌ NO
+Char Accuracy: 0.812 | Time: 15.434s | Memory: -0.83MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 61: 23_em_60.bmp
+Ground Truth: \frac { 2 } { 3 } + \frac { 1 } { 9 } = ( \frac { 7 } { 9 } )
+Prediction:   \frac{2}{3}+\frac{1}{9}=(\frac{7}{9})
+Exact Match:  ❌ NO
+Char Accuracy: 0.925 | Time: 12.602s | Memory: -0.03MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 62: 23_em_61.bmp
+Ground Truth: \cos 2 \alpha
+Prediction:   C\circ\Sigma_{2\gamma}
+Exact Match:  ❌ NO
+Char Accuracy: 0.182 | Time: 7.759s | Memory: 0.92MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 63: 23_em_62.bmp
+Ground Truth: t ^ { 2 } + t + x
+Prediction:   2^{2}+t+x
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 6.127s | Memory: -0.32MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 64: 23_em_63.bmp
+Ground Truth: F = \sqrt { F _ { x } ^ { 2 } + F _ { y } ^ { 2 } }
+Prediction:   F=\sqrt{F_{x}^{2}+F_{y}^{2}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.903 | Time: 11.621s | Memory: -0.38MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 65: 23_em_64.bmp
+Ground Truth: \log _ { e } x
+Prediction:   log_{e}x_{e}
+Exact Match:  ❌ NO
+Char Accuracy: 0.583 | Time: 6.641s | Memory: 0.42MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 66: 23_em_65.bmp
+Ground Truth: f ( n - 1 )
+Prediction:   f(n-1)
+Exact Match:  ❌ NO
+Char Accuracy: 0.545 | Time: 6.051s | Memory: 0.42MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 67: 23_em_66.bmp
+Ground Truth: z ^ { 3 } + z = z
+Prediction:   z^{3}+z=z
+Exact Match:  ❌ NO
+Char Accuracy: 0.750 | Time: 7.413s | Memory: -0.41MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 68: 23_em_67.bmp
+Ground Truth: 2 ( ( x + 2 ) ^ { 2 } - 4 + 1 )
+Prediction:   2((x+2)^{2}-4+1)
+Exact Match:  ❌ NO
+Char Accuracy: 0.615 | Time: 8.694s | Memory: 0.14MB
+Token Accuracy: 0.000 | Levenshtein: 10
+----------------------------------------------------------------------------------------------------
+
+IMAGE 69: 23_em_68.bmp
+Ground Truth: \frac { q - p } { \sqrt { p q } }
+Prediction:   \frac{q-p}{\sqrt{p^{0}/}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.720 | Time: 9.701s | Memory: -0.08MB
+Token Accuracy: 0.000 | Levenshtein: 7
+----------------------------------------------------------------------------------------------------
+
+IMAGE 70: 23_em_69.bmp
+Ground Truth: X \leq 1 5
+Prediction:   x\le15
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 5.129s | Memory: 0.41MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 71: 23_em_70.bmp
+Ground Truth: \alpha + \beta = \beta + \alpha
+Prediction:   \alpha_{t}\beta=\beta+\alpha
+Exact Match:  ❌ NO
+Char Accuracy: 0.742 | Time: 8.885s | Memory: -0.24MB
+Token Accuracy: 0.000 | Levenshtein: 8
+----------------------------------------------------------------------------------------------------
+
+IMAGE 72: 23_em_71.bmp
+Ground Truth: c T ^ { \prime }
+Prediction:   cT^{\prime}
+Exact Match:  ❌ NO
+Char Accuracy: 0.917 | Time: 7.196s | Memory: 0.14MB
+Token Accuracy: 0.000 | Levenshtein: 1
+----------------------------------------------------------------------------------------------------
+
+IMAGE 73: 23_em_72.bmp
+Ground Truth: \sum _ { i = 1 } ^ { n } x _ { n } = \sum _ { i = 1 } ^ { n } y _ { n }
+Prediction:   \sum_{i=1}^{n}x_{n}=\sum_{i=1}^{n}y_{n}
+Exact Match:  ❌ NO
+Char Accuracy: 0.886 | Time: 19.688s | Memory: -0.69MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 74: 23_em_73.bmp
+Ground Truth: B _ { m + 1 }
+Prediction:   B_{m+1}
+Exact Match:  ❌ NO
+Char Accuracy: 0.778 | Time: 6.094s | Memory: 0.76MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 75: 26_em_75.bmp
+Ground Truth: 1 - 2 a + b - 2 a b = 1 - 2 b + a - 2 a b
+Prediction:   1-2a+b-2ab=1-2b+a-2ab
+Exact Match:  ❌ NO
+Char Accuracy: 0.512 | Time: 13.733s | Memory: -0.79MB
+Token Accuracy: 0.000 | Levenshtein: 20
+----------------------------------------------------------------------------------------------------
+
+IMAGE 76: 26_em_76.bmp
+Ground Truth: - m p
+Prediction:   -m_{b}
+Exact Match:  ❌ NO
+Char Accuracy: 0.167 | Time: 5.695s | Memory: 0.68MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 77: 26_em_77.bmp
+Ground Truth: x ^ { i } e _ { i } = \sum _ { i } x ^ { i } e _ { i }
+Prediction:   x^{p}e_{q}=\sum_{q}r^{p}e_{q}
+Exact Match:  ❌ NO
+Char Accuracy: 0.767 | Time: 14.354s | Memory: -0.63MB
+Token Accuracy: 0.000 | Levenshtein: 7
+----------------------------------------------------------------------------------------------------
+
+IMAGE 78: 26_em_78.bmp
+Ground Truth: 1 6 9
+Prediction:   \{1.69}
+Exact Match:  ❌ NO
+Char Accuracy: 0.286 | Time: 5.624s | Memory: 0.73MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 79: 26_em_79.bmp
+Ground Truth: - a + b + c
+Prediction:   -a+b+c
+Exact Match:  ❌ NO
+Char Accuracy: 0.545 | Time: 6.540s | Memory: 0.01MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 80: 26_em_80.bmp
+Ground Truth: \frac { 3 1 9 } { 2 8 } = 1 1 . 3 9
+Prediction:   \frac{3/9}{18}=11.39
+Exact Match:  ❌ NO
+Char Accuracy: 0.643 | Time: 8.521s | Memory: -0.08MB
+Token Accuracy: 0.000 | Levenshtein: 10
+----------------------------------------------------------------------------------------------------
+
+IMAGE 81: 26_em_81.bmp
+Ground Truth: - 2 x + \sin ( 2 x + 2 ) - 2
+Prediction:   -2x+sin(x+2)-2
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 7.543s | Memory: 0.07MB
+Token Accuracy: 0.000 | Levenshtein: 14
+----------------------------------------------------------------------------------------------------
+
+IMAGE 82: 26_em_82.bmp
+Ground Truth: \frac { 1 } { 2 } t ^ { 2 } u ( t )
+Prediction:   \frac{1}{2}t^{2}k(t)
+Exact Match:  ❌ NO
+Char Accuracy: 0.826 | Time: 9.906s | Memory: -0.16MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 83: 26_em_83.bmp
+Ground Truth: d _ { t } = \frac { a ( t ) - a ( t - 1 ) } { a ( t ) }
+Prediction:   d_{t}=\frac{a(t)-a(t-1)}{a(t)}
+Exact Match:  ❌ NO
+Char Accuracy: 0.682 | Time: 14.138s | Memory: -0.66MB
+Token Accuracy: 0.000 | Levenshtein: 14
+----------------------------------------------------------------------------------------------------
+
+IMAGE 84: 26_em_84.bmp
+Ground Truth: S _ { \infty } = \lim _ { n \rightarrow \infty } \frac { a ( 1 - r ^ { n } ) } { 1 - r } = \frac { a } { 1 - r }
+Prediction:   \zeta_{\mu}=\frac{(p\mu)}{\mu(\frac{p-v^{\prime}}{1-\nu^{\prime})}=\frac{a}{1-\nu}
+Exact Match:  ❌ NO
+Char Accuracy: 0.238 | Time: 25.605s | Memory: 1.60MB
+Token Accuracy: 0.000 | Levenshtein: 64
+----------------------------------------------------------------------------------------------------
+
+IMAGE 85: 26_em_85.bmp
+Ground Truth: \log _ { u } g
+Prediction:   log_{\mu}\frac{q}{\sqrt{8-\frac{u^{8}}{8}}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.140 | Time: 13.596s | Memory: -1.53MB
+Token Accuracy: 0.000 | Levenshtein: 37
+----------------------------------------------------------------------------------------------------
+
+IMAGE 86: 26_em_86.bmp
+Ground Truth: \log _ { a } x
+Prediction:   \mathbb{L}_{\Delta\eta}_{a}x
+Exact Match:  ❌ NO
+Char Accuracy: 0.250 | Time: 9.627s | Memory: 0.68MB
+Token Accuracy: 0.000 | Levenshtein: 21
+----------------------------------------------------------------------------------------------------
+
+IMAGE 87: 26_em_87.bmp
+Ground Truth: \int x \cos ( x ) d x = x \sin ( x ) - \int \sin ( x ) d x
+Prediction:   \int_{\mathbb{Z}(z)^{k_{\mathbb{T})-\frac{w^{\prime}}{t}(x)-\int_{\mathbb{T}+t)}^{N}
+Exact Match:  ❌ NO
+Char Accuracy: 0.167 | Time: 26.931s | Memory: 0.93MB
+Token Accuracy: 0.000 | Levenshtein: 70
+----------------------------------------------------------------------------------------------------
+
+IMAGE 88: 26_em_88.bmp
+Ground Truth: v ^ { 2 } - v _ { v } ^ { 2 } = v _ { v } ^ { 2 }
+Prediction:   \overline{y}-\overline{\nu}_{\nu}^{2}}=\nu_{\nu}^{2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.385 | Time: 16.212s | Memory: -1.49MB
+Token Accuracy: 0.000 | Levenshtein: 32
+----------------------------------------------------------------------------------------------------
+
+IMAGE 89: 26_em_89.bmp
+Ground Truth: x ^ { 2 } + y ^ { 2 } = l _ { 1 } ^ { 2 } + l _ { 2 } ^ { 2 } + 2 l _ { 1 } l _ { 2 } c _ { 2 }
+Prediction:   z^{2}+y^{2}=l_{1}^{2}+l_{2}^{2}+2L_{1}l_{2}C_{2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.849 | Time: 20.640s | Memory: 0.79MB
+Token Accuracy: 0.000 | Levenshtein: 8
+----------------------------------------------------------------------------------------------------
+
+IMAGE 90: 26_em_90.bmp
+Ground Truth: \int \frac { 1 9 } { \sqrt { 9 x - 3 8 } } d x
+Prediction:   \int\frac{10}{\sqrt{9\kappa^{2}-90}}dx
+Exact Match:  ❌ NO
+Char Accuracy: 0.553 | Time: 12.196s | Memory: -0.65MB
+Token Accuracy: 0.000 | Levenshtein: 17
+----------------------------------------------------------------------------------------------------
+
+IMAGE 91: 26_em_91.bmp
+Ground Truth: k [ a ^ { - 1 } ]
+Prediction:   \{k[a^{-1}]}
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 7.014s | Memory: 0.50MB
+Token Accuracy: 0.000 | Levenshtein: 6
+----------------------------------------------------------------------------------------------------
+
+IMAGE 92: 26_em_92.bmp
+Ground Truth: - \frac { 1 1 \pi } { 8 }
+Prediction:   -\frac{11x}{8}
+Exact Match:  ❌ NO
+Char Accuracy: 0.684 | Time: 6.781s | Memory: -0.03MB
+Token Accuracy: 0.000 | Levenshtein: 6
+----------------------------------------------------------------------------------------------------
+
+IMAGE 93: 26_em_93.bmp
+Ground Truth: 4 \times 4 + 4 - 4
+Prediction:   4\times4+4-4
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 6.463s | Memory: -0.04MB
+Token Accuracy: 0.000 | Levenshtein: 6
+----------------------------------------------------------------------------------------------------
+
+IMAGE 94: 26_em_94.bmp
+Ground Truth: [ \frac { 1 } { 2 } \sin ^ { 2 } ( 1 ) ] - [ \frac { 1 } { 2 } \sin ^ { 2 } ( 0 ) ]
+Prediction:   [\frac{1}{2}sin^{2}(\nu)}]-[\frac{1}{2}sin^{2}(0)]
+Exact Match:  ❌ NO
+Char Accuracy: 0.780 | Time: 18.562s | Memory: 1.04MB
+Token Accuracy: 0.000 | Levenshtein: 13
+----------------------------------------------------------------------------------------------------
+
+IMAGE 95: 26_em_95.bmp
+Ground Truth: \sqrt { a } \sqrt { b } = \sqrt { a b }
+Prediction:   \sqrt{a}\sqrt{b}=\sqrt{ab}
+Exact Match:  ❌ NO
+Char Accuracy: 0.929 | Time: 12.265s | Memory: -0.90MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 96: 26_em_96.bmp
+Ground Truth: 4 + 4 + \frac { 4 } { 4 }
+Prediction:   4+4+\frac{4}{4}
+Exact Match:  ❌ NO
+Char Accuracy: 0.789 | Time: 7.642s | Memory: 0.14MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 97: 26_em_97.bmp
+Ground Truth: \sqrt { - 4 } = \sqrt { - 1 } \sqrt { 4 }
+Prediction:   \sqrt{-t}=\sqrt{-1}\sqrt{4}
+Exact Match:  ❌ NO
+Char Accuracy: 0.867 | Time: 15.503s | Memory: -0.71MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 98: 26_em_98.bmp
+Ground Truth: ( \sqrt { 2 } x + 2 ) ( x + 3 )
+Prediction:   (\sqrt{2}x+2)(x+3)
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 9.658s | Memory: 0.66MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 99: 26_em_99.bmp
+Ground Truth: 1 0 , 0 0 0 + 1 , 0 0 0 = 1 1 , 0 0 0
+Prediction:   10,000+1,000=11,000
+Exact Match:  ❌ NO
+Char Accuracy: 0.514 | Time: 8.386s | Memory: 0.08MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 100: 27_em_100.bmp
+Ground Truth: \sqrt { 4 5 }
+Prediction:   \sqrt{\sqrt{15}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 7.609s | Memory: -0.17MB
+Token Accuracy: 0.000 | Levenshtein: 8
+----------------------------------------------------------------------------------------------------
+
+IMAGE 101: 27_em_101.bmp
+Ground Truth: 1 + \sqrt { 5 } = x _ { 1 } + y _ { 1 } \sqrt { 5 }
+Prediction:   1+\sqrt{5}=\kappa_{17}\frac{1}{4}\sqrt{5}
+Exact Match:  ❌ NO
+Char Accuracy: 0.585 | Time: 14.796s | Memory: -0.50MB
+Token Accuracy: 0.000 | Levenshtein: 17
+----------------------------------------------------------------------------------------------------
+
+IMAGE 102: 27_em_102.bmp
+Ground Truth: \lim _ { a \rightarrow \infty } f ( a )
+Prediction:   lim_{a\rightarrow\infty}\frac{1}{n}(a)
+Exact Match:  ❌ NO
+Char Accuracy: 0.605 | Time: 13.211s | Memory: 0.05MB
+Token Accuracy: 0.000 | Levenshtein: 15
+----------------------------------------------------------------------------------------------------
+
+IMAGE 103: 27_em_103.bmp
+Ground Truth: \exists y \exists x F
+Prediction:   \exists y\Xi_{x}F
+Exact Match:  ❌ NO
+Char Accuracy: 0.619 | Time: 7.697s | Memory: 0.63MB
+Token Accuracy: 0.200 | Levenshtein: 8
+----------------------------------------------------------------------------------------------------
+
+IMAGE 104: 27_em_104.bmp
+Ground Truth: w = q _ { H } - q _ { C }
+Prediction:   i_{w}^{p}=q_{H}-q_{e}
+Exact Match:  ❌ NO
+Char Accuracy: 0.476 | Time: 10.952s | Memory: -0.05MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 105: 27_em_105.bmp
+Ground Truth: ( a - 2 x ) ( a + 2 x )
+Prediction:   (a-2x)(a+2x)
+Exact Match:  ❌ NO
+Char Accuracy: 0.522 | Time: 8.267s | Memory: 0.05MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 106: 27_em_106.bmp
+Ground Truth: \alpha ^ { 2 } + \beta ^ { 2 } = ( \alpha + \beta ) ^ { 2 } - 2 \alpha \beta
+Prediction:   2+\beta^{2}=(\alpha+\beta)^{2}-2\alpha_{\beta}
+Exact Match:  ❌ NO
+Char Accuracy: 0.672 | Time: 15.750s | Memory: -0.62MB
+Token Accuracy: 0.000 | Levenshtein: 20
+----------------------------------------------------------------------------------------------------
+
+IMAGE 107: 27_em_107.bmp
+Ground Truth: \int k x ^ { n } d x = k \int x ^ { n } d x
+Prediction:   \int sin^{x}dx=k\int x^{n}dx
+Exact Match:  ❌ NO
+Char Accuracy: 0.727 | Time: 10.468s | Memory: 0.61MB
+Token Accuracy: 0.111 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 108: 27_em_108.bmp
+Ground Truth: 0 + A
+Prediction:   0+\overline{A}
+Exact Match:  ❌ NO
+Char Accuracy: 0.143 | Time: 4.888s | Memory: -0.04MB
+Token Accuracy: 0.000 | Levenshtein: 12
+----------------------------------------------------------------------------------------------------
+
+IMAGE 109: 27_em_109.bmp
+Ground Truth: f ^ { ( i + k ) } ( 0 ) = f ^ { ( i ) } ( 0 ) f ^ { ( k ) } ( 0 )
+Prediction:   f_{j}^{(1+\infty)}(0)=\{\begin{matrix}(0)^{(\infty)}&0\\ j&0\end{matrix})f_{j}^{(k)}(0)
+Exact Match:  ❌ NO
+Char Accuracy: 0.241 | Time: 23.111s | Memory: 1.02MB
+Token Accuracy: 0.000 | Levenshtein: 66
+----------------------------------------------------------------------------------------------------
+
+IMAGE 110: 27_em_110.bmp
+Ground Truth: ( 2 9 ) - 2 ( 1 6 ) + ( 3 ) = 2 9 - 3 2 + 3 = 0
+Prediction:   (2^{4})-2(16)+(3)=29-52+3=0
+Exact Match:  ❌ NO
+Char Accuracy: 0.447 | Time: 9.242s | Memory: -1.47MB
+Token Accuracy: 0.000 | Levenshtein: 26
+----------------------------------------------------------------------------------------------------
+
+IMAGE 111: 27_em_111.bmp
+Ground Truth: x ^ { 2 } - y ^ { 2 } = x ^ { 2 } + 2 x y + y ^ { 2 } - 2 x y - 2 y ^ { 2 }
+Prediction:   x^{2}-y^{2}=x^{2}+2xy+y^{2}-2xy-2y^{2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.745 | Time: 14.653s | Memory: 1.51MB
+Token Accuracy: 0.000 | Levenshtein: 13
+----------------------------------------------------------------------------------------------------
+
+IMAGE 112: 27_em_112.bmp
+Ground Truth: M _ { 3 }
+Prediction:   M_{3}
+Exact Match:  ✅ YES
+Char Accuracy: 1.000 | Time: 4.434s | Memory: -0.61MB
+Token Accuracy: 1.000 | Levenshtein: 0
+----------------------------------------------------------------------------------------------------
+
+IMAGE 113: 27_em_113.bmp
+Ground Truth: x = \frac { a f ( b ) - b f ( a ) } { f ( b ) - f ( a ) }
+Prediction:   x=\frac{a_{f}(x)-b\frac{(a)}{b(a)-\frac{x^{2}}{c^{2}}}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.255 | Time: 15.579s | Memory: 0.14MB
+Token Accuracy: 0.000 | Levenshtein: 41
+----------------------------------------------------------------------------------------------------
+
+IMAGE 114: 27_em_114.bmp
+Ground Truth: \int \sin 2 \theta d \theta
+Prediction:   \int sin2\theta\circ l\theta
+Exact Match:  ❌ NO
+Char Accuracy: 0.679 | Time: 6.571s | Memory: 0.27MB
+Token Accuracy: 0.167 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 115: 27_em_115.bmp
+Ground Truth: 7 \sqrt { 2 }
+Prediction:   7\sqrt{2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.900 | Time: 4.883s | Memory: -0.09MB
+Token Accuracy: 0.000 | Levenshtein: 1
+----------------------------------------------------------------------------------------------------
+
+IMAGE 116: 27_em_116.bmp
+Ground Truth: v _ { 7 } + v _ { 3 } + v _ { 4 } - v _ { 8 } = 0
+Prediction:   U_{7}+W_{3}+U_{4}-U_{8}=0
+Exact Match:  ❌ NO
+Char Accuracy: 0.724 | Time: 9.289s | Memory: -0.53MB
+Token Accuracy: 0.000 | Levenshtein: 8
+----------------------------------------------------------------------------------------------------
+
+IMAGE 117: 27_em_117.bmp
+Ground Truth: \cos \theta \sin \theta + \theta + \theta ^ { 2 }
+Prediction:   cos\theta sin\theta+\theta+\theta^{2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.822 | Time: 8.480s | Memory: -0.02MB
+Token Accuracy: 0.000 | Levenshtein: 8
+----------------------------------------------------------------------------------------------------
+
+IMAGE 118: 27_em_118.bmp
+Ground Truth: \sqrt { 3 2 } + \sqrt { 3 2 }
+Prediction:   \sqrt{32}+\sqrt{32}
+Exact Match:  ❌ NO
+Char Accuracy: 0.864 | Time: 6.910s | Memory: 0.67MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 119: 27_em_119.bmp
+Ground Truth: 6 7 7 8
+Prediction:   6.778
+Exact Match:  ❌ NO
+Char Accuracy: 0.571 | Time: 4.253s | Memory: 0.32MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 120: 27_em_120.bmp
+Ground Truth: \sqrt { 1 5 }
+Prediction:   \sqrt{15}
+Exact Match:  ❌ NO
+Char Accuracy: 0.900 | Time: 4.990s | Memory: -0.15MB
+Token Accuracy: 0.000 | Levenshtein: 1
+----------------------------------------------------------------------------------------------------
+
+IMAGE 121: 27_em_121.bmp
+Ground Truth: 1 - z + z ^ { 2 } - z ^ { 3 } + z ^ { 4 } - z ^ { 5 } + \ldots
+Prediction:   1-z+z^{2}-z^{3}+z^{4}-z^{5}+i
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 15.279s | Memory: -0.91MB
+Token Accuracy: 0.000 | Levenshtein: 14
+----------------------------------------------------------------------------------------------------
+
+IMAGE 122: 27_em_122.bmp
+Ground Truth: \pm \sqrt [ x ] { b }
+Prediction:   \pm\sqrt[x]{b}
+Exact Match:  ❌ NO
+Char Accuracy: 0.778 | Time: 7.326s | Memory: 0.84MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 123: 27_em_123.bmp
+Ground Truth: \int 2 x ^ { - 2 } d x
+Prediction:   \int2x^{-2}dx
+Exact Match:  ❌ NO
+Char Accuracy: 0.765 | Time: 7.046s | Memory: -0.17MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 124: 27_em_124.bmp
+Ground Truth: a \div b
+Prediction:   \overline{QL}=\frac{0}{\emptyset}Y_{\emptyset}
+Exact Match:  ❌ NO
+Char Accuracy: 0.043 | Time: 15.062s | Memory: -0.56MB
+Token Accuracy: 0.000 | Levenshtein: 44
+----------------------------------------------------------------------------------------------------
+
+IMAGE 125: 28_em_125.bmp
+Ground Truth: \frac { 2 } { \sqrt { 2 + \sqrt { 2 } } }
+Prediction:   \frac{2}{\sqrt{2+\sqrt{2}}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.931 | Time: 11.166s | Memory: 0.61MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 126: 28_em_126.bmp
+Ground Truth: \frac { \sum _ { k = 1 } ^ { N } k ^ { 2 } } { a }
+Prediction:   \frac{\sum_{k=1}^{N}k^{2}}{a}
+Exact Match:  ❌ NO
+Char Accuracy: 0.935 | Time: 14.082s | Memory: -0.55MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 127: 28_em_127.bmp
+Ground Truth: X , X _ { t }
+Prediction:   X_{j}:X_{t}
+Exact Match:  ❌ NO
+Char Accuracy: 0.545 | Time: 6.572s | Memory: 0.45MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 128: 28_em_128.bmp
+Ground Truth: \frac { x ^ { 2 } } { 9 } - \frac { y ^ { 2 } } { 4 9 } = 1
+Prediction:   \frac{x^{9}}{9}-\frac{y^{2}}{49}=1
+Exact Match:  ❌ NO
+Char Accuracy: 0.892 | Time: 15.124s | Memory: -0.55MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 129: 28_em_129.bmp
+Ground Truth: - \frac { 1 } { \sqrt { 2 } } ( \frac { b } { \sqrt { 2 } } - 0 )
+Prediction:   -\frac{1}{\sqrt{2}}(\frac{l_{0}}{\sqrt{2}}-0)
+Exact Match:  ❌ NO
+Char Accuracy: 0.800 | Time: 16.332s | Memory: 0.17MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 130: 28_em_130.bmp
+Ground Truth: \log x + \log y = \log x y
+Prediction:   logx+log_{y}=logx_{y}
+Exact Match:  ❌ NO
+Char Accuracy: 0.462 | Time: 10.285s | Memory: 0.67MB
+Token Accuracy: 0.000 | Levenshtein: 14
+----------------------------------------------------------------------------------------------------
+
+IMAGE 131: 28_em_131.bmp
+Ground Truth: z y + 2 z y + 2 z + 2 y
+Prediction:   z_{y}+2z_{y}+2z+2y
+Exact Match:  ❌ NO
+Char Accuracy: 0.435 | Time: 11.193s | Memory: -0.18MB
+Token Accuracy: 0.000 | Levenshtein: 13
+----------------------------------------------------------------------------------------------------
+
+IMAGE 132: 28_em_132.bmp
+Ground Truth: S / V
+Prediction:   s/v
+Exact Match:  ❌ NO
+Char Accuracy: 0.200 | Time: 6.427s | Memory: 0.88MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 133: 28_em_133.bmp
+Ground Truth: 3 = \frac { 3 } { 2 } ( 3 ^ { 1 } - 1 ) = 3
+Prediction:   z=\frac{8}{2}(z^{\prime}-1)=9
+Exact Match:  ❌ NO
+Char Accuracy: 0.452 | Time: 21.596s | Memory: -1.42MB
+Token Accuracy: 0.000 | Levenshtein: 17
+----------------------------------------------------------------------------------------------------
+
+IMAGE 134: 28_em_134.bmp
+Ground Truth: \frac { n _ { A } } { n }
+Prediction:   \frac{m_{A}}{n_{2}}
+Exact Match:  ❌ NO
+Char Accuracy: 0.737 | Time: 15.747s | Memory: 0.71MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 135: 28_em_135.bmp
+Ground Truth: e _ { 2 } - 2 e _ { 1 }
+Prediction:   e_{2}-2e_{1}
+Exact Match:  ❌ NO
+Char Accuracy: 0.857 | Time: 13.932s | Memory: -0.16MB
+Token Accuracy: 0.000 | Levenshtein: 2
+----------------------------------------------------------------------------------------------------
+
+IMAGE 136: 28_em_136.bmp
+Ground Truth: \pi _ { t + 1 }
+Prediction:   \prod_{b}+1
+Exact Match:  ❌ NO
+Char Accuracy: 0.364 | Time: 13.755s | Memory: -0.10MB
+Token Accuracy: 0.000 | Levenshtein: 7
+----------------------------------------------------------------------------------------------------
+
+IMAGE 137: 28_em_137.bmp
+Ground Truth: 3 , 4 , 5 , 6 , \ldots
+Prediction:   \begin{matrix}3&4&j\\ 5&6\\ j&6\end{matrix}
+Exact Match:  ❌ NO
+Char Accuracy: 0.163 | Time: 26.237s | Memory: -0.53MB
+Token Accuracy: 0.000 | Levenshtein: 36
+----------------------------------------------------------------------------------------------------
+
+IMAGE 138: 28_em_138.bmp
+Ground Truth: R _ { 0 } ^ { 0 }
+Prediction:   R_{0}^{0}
+Exact Match:  ✅ YES
+Char Accuracy: 1.000 | Time: 11.658s | Memory: 0.54MB
+Token Accuracy: 1.000 | Levenshtein: 0
+----------------------------------------------------------------------------------------------------
+
+IMAGE 139: 28_em_139.bmp
+Ground Truth: x y x + x y + y x + y = x ^ { 2 } y + x y + x y + y
+Prediction:   x\int x+x\{+\frac{x}{x^{5}}\backslash x\rangle+x\rangle+x\gamma
+Exact Match:  ❌ NO
+Char Accuracy: 0.143 | Time: 36.923s | Memory: 1.04MB
+Token Accuracy: 0.000 | Levenshtein: 54
+----------------------------------------------------------------------------------------------------
+
+IMAGE 140: 28_em_140.bmp
+Ground Truth: 3 ( - 5 ) ^ { 2 } + 3 ( - 5 - 2 ) - ( - 5 ) ( 2 ) ^ { 2 }
+Prediction:   x(-v)^{2}+a(-x-1)-(-5)(2)^{2}
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 23.921s | Memory: -1.42MB
+Token Accuracy: 0.000 | Levenshtein: 24
+----------------------------------------------------------------------------------------------------
+
+IMAGE 141: 28_em_141.bmp
+Ground Truth: \frac { 2 A B } { A + B }
+Prediction:   \frac{2AB}{A+B}
+Exact Match:  ❌ NO
+Char Accuracy: 0.789 | Time: 9.910s | Memory: 0.50MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 142: 28_em_142.bmp
+Ground Truth: \frac { 4 4 4 6 7 } { 3 8 9 7 3 }
+Prediction:   \frac{4.446.67}{38.473}
+Exact Match:  ❌ NO
+Char Accuracy: 0.630 | Time: 15.370s | Memory: 0.10MB
+Token Accuracy: 0.000 | Levenshtein: 10
+----------------------------------------------------------------------------------------------------
+
+IMAGE 143: 28_em_143.bmp
+Ground Truth: [ [ S ] ] = [ S ]
+Prediction:   [\begin{matrix}[s&I\end{matrix}]=[s]
+Exact Match:  ❌ NO
+Char Accuracy: 0.083 | Time: 24.168s | Memory: -0.54MB
+Token Accuracy: 0.000 | Levenshtein: 33
+----------------------------------------------------------------------------------------------------
+
+IMAGE 144: 28_em_144.bmp
+Ground Truth: \sum _ { i } k _ { i }
+Prediction:   \sum_{i}k_{i}
+Exact Match:  ✅ YES
+Char Accuracy: 1.000 | Time: 13.346s | Memory: 0.46MB
+Token Accuracy: 1.000 | Levenshtein: 0
+----------------------------------------------------------------------------------------------------
+
+IMAGE 145: 28_em_145.bmp
+Ground Truth: f ( x ) = \frac { \infty } { \infty }
+Prediction:   \int_{\frac{0}{(\infty)}=\frac{0}{\infty}
+Exact Match:  ❌ NO
+Char Accuracy: 0.415 | Time: 23.261s | Memory: -0.45MB
+Token Accuracy: 0.000 | Levenshtein: 24
+----------------------------------------------------------------------------------------------------
+
+IMAGE 146: 28_em_146.bmp
+Ground Truth: \frac { 1 9 9 } { 1 1 }
+Prediction:   \frac{1^{9}\cdot9}{1\cdot1}
+Exact Match:  ❌ NO
+Char Accuracy: 0.519 | Time: 20.291s | Memory: 0.52MB
+Token Accuracy: 0.000 | Levenshtein: 13
+----------------------------------------------------------------------------------------------------
+
+IMAGE 147: 28_em_147.bmp
+Ground Truth: [ B ]
+Prediction:   [\begin{matrix}8\\ 8\end{matrix}]
+Exact Match:  ❌ NO
+Char Accuracy: 0.091 | Time: 20.208s | Memory: -0.05MB
+Token Accuracy: 0.000 | Levenshtein: 30
+----------------------------------------------------------------------------------------------------
+
+IMAGE 148: 28_em_148.bmp
+Ground Truth: x ( t ) = x _ { 1 } ( t ) + x _ { 2 } ( t )
+Prediction:   x(t)=x_{1}(t)+x_{2}(t)
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 23.046s | Memory: 0.05MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+

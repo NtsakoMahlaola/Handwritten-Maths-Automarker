@@ -1,0 +1,157 @@
+====================================================================================================
+LATEX-OCR BENCHMARK REPORT - TROCR-LARGE-HANDWRITTEN
+====================================================================================================
+
+BENCHMARK INFORMATION
+--------------------------------------------------
+Model Name: trocr-large-handwritten
+Benchmark Start: 2025-09-17T21:43:19.872573
+Benchmark End: 2025-09-17T21:45:05.132121
+Device Used: CPU
+
+SUMMARY STATISTICS
+--------------------------------------------------
+Total Images: 15
+Successfully Processed: 15
+Failed Processing: 0
+Success Rate: 100.0%
+
+ACCURACY METRICS
+--------------------------------------------------
+Exact Match Rate: 0.0%
+Average Character Accuracy: 0.113
+Median Character Accuracy: 0.089
+Std Character Accuracy: 0.092
+Average Levenshtein Distance: 33.3
+Average Word Error Rate: 1.000
+Average Token Accuracy: 0.000
+
+PERFORMANCE METRICS
+--------------------------------------------------
+Total Processing Time: 105.2s
+Average Inference Time: 7.015s
+Average Memory Usage: 146.82MB
+
+DETAILED PREDICTIONS (15)
+====================================================================================================
+
+IMAGE 1: 01650d074915628e.png
+Ground Truth: i_{Q}:Q\hookrightarrow E
+Prediction:   ince : Dr. C.E.
+Exact Match:  ❌ NO
+Char Accuracy: 0.125 | Time: 8.431s | Memory: 2158.64MB
+Token Accuracy: 0.000 | Levenshtein: 21
+----------------------------------------------------------------------------------------------------
+
+IMAGE 2: 04fc9a7665035a0d.png
+Ground Truth: a_{b,i}=\gamma_{b,i}\frac{b_{i}}{b^{\ominus}}
+Prediction:   orbrin : Your be
+Exact Match:  ❌ NO
+Char Accuracy: 0.089 | Time: 6.175s | Memory: 33.38MB
+Token Accuracy: 0.000 | Levenshtein: 41
+----------------------------------------------------------------------------------------------------
+
+IMAGE 3: 05882db6930f636c.png
+Ground Truth: \Rightarrow ln\frac{x(t)}{x(0)}=kt
+Prediction:   is in extra text
+Exact Match:  ❌ NO
+Char Accuracy: 0.206 | Time: 5.718s | Memory: 9.54MB
+Token Accuracy: 0.000 | Levenshtein: 27
+----------------------------------------------------------------------------------------------------
+
+IMAGE 4: 038ccb46ae3443db.png
+Ground Truth: \mathbb{E}[logX!]=\overline{logX!}
+Prediction:   teckog x ! ) e togna
+Exact Match:  ❌ NO
+Char Accuracy: 0.176 | Time: 8.395s | Memory: -0.09MB
+Token Accuracy: 0.000 | Levenshtein: 28
+----------------------------------------------------------------------------------------------------
+
+IMAGE 5: 04852f06a82865c1.png
+Ground Truth: \frac{\partial\Pi}{\partial x_{j}}
+Prediction:   ex #
+Exact Match:  ❌ NO
+Char Accuracy: 0.029 | Time: 4.896s | Memory: 1.86MB
+Token Accuracy: 0.000 | Levenshtein: 33
+----------------------------------------------------------------------------------------------------
+
+IMAGE 6: 0368471ca4fbe892.png
+Ground Truth: R_{U}\in R_{U}\iff R_{U}\notin R_{U}
+Prediction:   Russia Rome CEO from the Rev.
+Exact Match:  ❌ NO
+Char Accuracy: 0.222 | Time: 7.047s | Memory: -0.81MB
+Token Accuracy: 0.000 | Levenshtein: 28
+----------------------------------------------------------------------------------------------------
+
+IMAGE 7: 04026cefc5bee356.png
+Ground Truth: (0,1)^{n}\subseteq R^{n}
+Prediction:   ( O. I'm E. Run
+Exact Match:  ❌ NO
+Char Accuracy: 0.167 | Time: 7.370s | Memory: -0.32MB
+Token Accuracy: 0.000 | Levenshtein: 20
+----------------------------------------------------------------------------------------------------
+
+IMAGE 8: 06b2711e539715e0.png
+Ground Truth: \Leftrightarrow1-\frac{1}{r}<\left[\frac{m}{r}\right]_{1}
+Prediction:   0.0, C. C.2 ) .
+Exact Match:  ❌ NO
+Char Accuracy: 0.000 | Time: 8.639s | Memory: 0.15MB
+Token Accuracy: 0.000 | Levenshtein: 46
+----------------------------------------------------------------------------------------------------
+
+IMAGE 9: 0656e77f512563c5.png
+Ground Truth: \hat{A}_{n,\alpha}^{\dagger}
+Prediction:   Atrid .
+Exact Match:  ❌ NO
+Char Accuracy: 0.071 | Time: 5.737s | Memory: 0.71MB
+Token Accuracy: 0.000 | Levenshtein: 26
+----------------------------------------------------------------------------------------------------
+
+IMAGE 10: 067a327b0c92095f.png
+Ground Truth: \underline{x}\in\mathbb{R}^{n}
+Prediction:   & ETR.
+Exact Match:  ❌ NO
+Char Accuracy: 0.033 | Time: 5.696s | Memory: 0.02MB
+Token Accuracy: 0.000 | Levenshtein: 29
+----------------------------------------------------------------------------------------------------
+
+IMAGE 11: 0050464363a7d02d.png
+Ground Truth: q=\frac{1}{\sqrt{1\cdot\frac{v^{5}}{c^{5}}}}\xi
+Prediction:   gFO v.000s
+Exact Match:  ❌ NO
+Char Accuracy: 0.021 | Time: 6.514s | Memory: -0.69MB
+Token Accuracy: 0.000 | Levenshtein: 46
+----------------------------------------------------------------------------------------------------
+
+IMAGE 12: 01751ea13ceb1817.png
+Ground Truth: C(X)>X^{0.332}
+Prediction:   0 ( X ) # XO. 352 .
+Exact Match:  ❌ NO
+Char Accuracy: 0.316 | Time: 8.357s | Memory: -0.10MB
+Token Accuracy: 0.000 | Levenshtein: 13
+----------------------------------------------------------------------------------------------------
+
+IMAGE 13: 04fc707abea3e7a1.png
+Ground Truth: B=\nabla\times\hat{A}
+Prediction:   B.V.S.
+Exact Match:  ❌ NO
+Char Accuracy: 0.048 | Time: 6.561s | Memory: 0.10MB
+Token Accuracy: 0.000 | Levenshtein: 20
+----------------------------------------------------------------------------------------------------
+
+IMAGE 14: 025f579aa67dfd7c.png
+Ground Truth: \{A_{i}|i\in\underline{m}\backslash A\}
+Prediction:   " A " ) ie con AZ
+Exact Match:  ❌ NO
+Char Accuracy: 0.154 | Time: 6.933s | Memory: 0.19MB
+Token Accuracy: 0.000 | Levenshtein: 33
+----------------------------------------------------------------------------------------------------
+
+IMAGE 15: 05fa73b7807336c8.png
+Ground Truth: \frac{d}{dt}\frac{\partial R}{\partial\dot{\zeta}_{j}}=\frac{\partial R}{\partial\zeta_{j}}
+Prediction:   at 2/2/2/3/3/
+Exact Match:  ❌ NO
+Char Accuracy: 0.033 | Time: 8.758s | Memory: -0.24MB
+Token Accuracy: 0.000 | Levenshtein: 88
+----------------------------------------------------------------------------------------------------
+

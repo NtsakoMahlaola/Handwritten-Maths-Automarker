@@ -1,0 +1,157 @@
+====================================================================================================
+LATEX-OCR BENCHMARK REPORT - PIX2TEX
+====================================================================================================
+
+BENCHMARK INFORMATION
+--------------------------------------------------
+Model Name: pix2tex
+Benchmark Start: 2025-09-17T09:25:26.711493
+Benchmark End: 2025-09-17T09:25:55.633343
+Device Used: CPU
+
+SUMMARY STATISTICS
+--------------------------------------------------
+Total Images: 15
+Successfully Processed: 15
+Failed Processing: 0
+Success Rate: 100.0%
+
+ACCURACY METRICS
+--------------------------------------------------
+Exact Match Rate: 0.0%
+Average Character Accuracy: 0.138
+Median Character Accuracy: 0.136
+Std Character Accuracy: 0.052
+Average Levenshtein Distance: 148.3
+Average Word Error Rate: 1.000
+Average Token Accuracy: 0.000
+
+PERFORMANCE METRICS
+--------------------------------------------------
+Total Processing Time: 28.9s
+Average Inference Time: 1.924s
+Average Memory Usage: 1.29MB
+
+DETAILED PREDICTIONS (15)
+====================================================================================================
+
+IMAGE 1: 01650d074915628e.png
+Ground Truth: i_{Q}:Q\hookrightarrow E
+Prediction:   \stackrel{\leftarrow}{\sim}_{\mathrm{\Large{\scriptstyle{\scriptstyle{\sim}}}}}\stackrel{\textrm{v}}{\sim}\stackrel{\textrm{f}}{\sim}\overbrace{{\cal{Y}}}^{<}
+Exact Match:  ❌ NO
+Char Accuracy: 0.082 | Time: 1.497s | Memory: 17.20MB
+Token Accuracy: 0.000 | Levenshtein: 145
+----------------------------------------------------------------------------------------------------
+
+IMAGE 2: 04fc9a7665035a0d.png
+Ground Truth: a_{b,i}=\gamma_{b,i}\frac{b_{i}}{b^{\ominus}}
+Prediction:   \widehat{Q}\times\underline{{{1}}}_{t}\cdot\underline{{{1}}}_{\underline{{{y}}},t}
+Exact Match:  ❌ NO
+Char Accuracy: 0.195 | Time: 0.697s | Memory: -0.30MB
+Token Accuracy: 0.000 | Levenshtein: 66
+----------------------------------------------------------------------------------------------------
+
+IMAGE 3: 05882db6930f636c.png
+Ground Truth: \Rightarrow ln\frac{x(t)}{x(0)}=kt
+Prediction:   \triangle\gg\left|r\right.\frac{\not\chi^{\prime}\left(\not\zeta\right)}{\not\Psi^{\prime}\left(\not\Lambda\right)}-\not\zeta\mp
+Exact Match:  ❌ NO
+Char Accuracy: 0.198 | Time: 1.016s | Memory: 5.98MB
+Token Accuracy: 0.000 | Levenshtein: 81
+----------------------------------------------------------------------------------------------------
+
+IMAGE 4: 038ccb46ae3443db.png
+Ground Truth: \mathbb{E}[logX!]=\overline{logX!}
+Prediction:   \widehat{\left|{\bf l}_{-}}\left[\left|0\right.\!\right.\!\right.\!\right.\widehat{{\bf v}}\left|\left.\right.\right\}\,z\left.\widehat{\left|{\cal O}\frac{{\bf v}}{-}\right.\widehat{{\bf v}^{4}}}.
+Exact Match:  ❌ NO
+Char Accuracy: 0.116 | Time: 1.944s | Memory: 6.58MB
+Token Accuracy: 0.000 | Levenshtein: 152
+----------------------------------------------------------------------------------------------------
+
+IMAGE 5: 04852f06a82865c1.png
+Ground Truth: \frac{\partial\Pi}{\partial x_{j}}
+Prediction:   \begin{array}{c}{{\stackrel{\mathcal{S}}{\sim}}}\\ {{\begin{array}{\sim}}}\\ {{\sim}}\\ {{\sim}}\end{array}\right\}
+Exact Match:  ❌ NO
+Char Accuracy: 0.196 | Time: 1.068s | Memory: 4.09MB
+Token Accuracy: 0.000 | Levenshtein: 90
+----------------------------------------------------------------------------------------------------
+
+IMAGE 6: 0368471ca4fbe892.png
+Ground Truth: R_{U}\in R_{U}\iff R_{U}\notin R_{U}
+Prediction:   \left.\zeta_{\mathrm{w}}\in\mathcal{F}_{l l}\right.\stackrel{\leftarrow}{\mathcal{E}}{\mathcal{S}}\stackrel{\sim}{\mathcal{E}}_{\mathrm{w}}\not\leftrightarrow\mathcal{E}_{\nu}
+Exact Match:  ❌ NO
+Char Accuracy: 0.131 | Time: 1.531s | Memory: 0.52MB
+Token Accuracy: 0.000 | Levenshtein: 152
+----------------------------------------------------------------------------------------------------
+
+IMAGE 7: 04026cefc5bee356.png
+Ground Truth: (0,1)^{n}\subseteq R^{n}
+Prediction:   \left(\begin{array}{l}{{\left(\sum_{J}\,\,I}{{}_{J}\,\,I\!\!\!\right)^{\prime}}}\\ {{{}_{}}}\end{array}\right)^{\gamma\vee}\stackrel{J^{-}}{\longrightarrow}^{\prime}\not="\,\not K\!\!\!\slash^{\prime}\!\!\!\sim
+Exact Match:  ❌ NO
+Char Accuracy: 0.086 | Time: 2.667s | Memory: -55.58MB
+Token Accuracy: 0.000 | Levenshtein: 171
+----------------------------------------------------------------------------------------------------
+
+IMAGE 8: 06b2711e539715e0.png
+Ground Truth: \Leftrightarrow1-\frac{1}{r}<\left[\frac{m}{r}\right]_{1}
+Prediction:   \left.\chi_{-}^{{}}\right.\left.\begin{array}{c c}{{\left\{\begin{array}{c}{{}}\\ {{}}&{{}}\\ {{\overline{{{\chi}}}_{-}^{{}}}}\end{array}\right\}\right.\begin{array}{c}{{\left[\begin{array}{c}{{\gamma\gamma}}\\ {{}}\\ {{}}\end{array}\right]}}\end{array}\right.
+Exact Match:  ❌ NO
+Char Accuracy: 0.147 | Time: 3.780s | Memory: 6.71MB
+Token Accuracy: 0.000 | Levenshtein: 209
+----------------------------------------------------------------------------------------------------
+
+IMAGE 9: 0656e77f512563c5.png
+Ground Truth: \hat{A}_{n,\alpha}^{\dagger}
+Prediction:   \left.\begin{array}{c c}{{\not D\times}}&{{\mathop{\bf1}}}\\ {{\Bigg\}\bigotimes_{\tilde{\Lambda}}\sum_{\\{\atop\tilde{\Lambda}}\sum_{\tilde{\Lambda}}\sum_{\\{\tilde{\bf X}\}\bigotimes_{\tilde{\Lambda}}}\right.
+Exact Match:  ❌ NO
+Char Accuracy: 0.091 | Time: 2.579s | Memory: 3.81MB
+Token Accuracy: 0.000 | Levenshtein: 190
+----------------------------------------------------------------------------------------------------
+
+IMAGE 10: 067a327b0c92095f.png
+Ground Truth: \underline{x}\in\mathbb{R}^{n}
+Prediction:   \begin{array}{r l}{\operatorname{\H}_{x\to-x}^{\prime}}&{{}{\mathcal{L}}_{x\to0}^{\prime}}\\ {\operatorname{\H}_{x\to-x}^{\prime}}&{{}{\mathcal{L}}_{\mu\nu}^{\prime}}\end{array}
+Exact Match:  ❌ NO
+Char Accuracy: 0.136 | Time: 2.378s | Memory: -10.36MB
+Token Accuracy: 0.000 | Levenshtein: 152
+----------------------------------------------------------------------------------------------------
+
+IMAGE 11: 0050464363a7d02d.png
+Ground Truth: q=\frac{1}{\sqrt{1\cdot\frac{v^{5}}{c^{5}}}}\xi
+Prediction:   \begin{array}{c}{{(\lambda_{\mathbf{\Lambda}}\enspace\Sigma\ \ \frac{\left|\begin{array}{c}{{\left|\begin{array}{{\begin{array}{{\begin{array}{{\frac{\displaystyle\lambda}}\quad\mathrm{\Lambda}}\quad\right|}}{\mathrm{\Lambda}}\end{array}\right|}}}{\left(\begin{array}{c}{{\displaystyle\Omega\left(\frac{\displaystyle\Omega}{\displaystyle\Omega}}\end{array}\right)}}\end{array}\right|}}}\end{array}
+Exact Match:  ❌ NO
+Char Accuracy: 0.096 | Time: 4.579s | Memory: 30.99MB
+Token Accuracy: 0.000 | Levenshtein: 319
+----------------------------------------------------------------------------------------------------
+
+IMAGE 12: 01751ea13ceb1817.png
+Ground Truth: C(X)>X^{0.332}
+Prediction:   \bigcap_{-}\left(\bigcup_{\mathrm{<}}\chi_{\n}\right)\;\;>\;\;\bigvee\setminus
+Exact Match:  ❌ NO
+Char Accuracy: 0.045 | Time: 0.588s | Memory: 1.00MB
+Token Accuracy: 0.000 | Levenshtein: 64
+----------------------------------------------------------------------------------------------------
+
+IMAGE 13: 04fc707abea3e7a1.png
+Ground Truth: B=\nabla\times\hat{A}
+Prediction:   \sqrt{_{-\!}^{2}}\supset\ N\setminus\gamma\bigotimes
+Exact Match:  ❌ NO
+Char Accuracy: 0.154 | Time: 0.449s | Memory: 1.76MB
+Token Accuracy: 0.000 | Levenshtein: 44
+----------------------------------------------------------------------------------------------------
+
+IMAGE 14: 025f579aa67dfd7c.png
+Ground Truth: \{A_{i}|i\in\underline{m}\backslash A\}
+Prediction:   \left\{\begin{array}{l}{{\Lambda_{\mid\cdot}\mid}}\end{array}\right.\stackrel{.}{t}\d<\underbrace{{\mathcal V}}{\longrightarrow}\bigwedge\stackrel{\sim}{\mathcal V}
+Exact Match:  ❌ NO
+Char Accuracy: 0.171 | Time: 1.254s | Memory: 4.16MB
+Token Accuracy: 0.000 | Levenshtein: 136
+----------------------------------------------------------------------------------------------------
+
+IMAGE 15: 05fa73b7807336c8.png
+Ground Truth: \frac{d}{dt}\frac{\partial R}{\partial\dot{\zeta}_{j}}=\frac{\partial R}{\partial\zeta_{j}}
+Prediction:   \frac{\not D}{\widehat U_{\zeta}}\sqrt{\displaystyle F}\left(\begin{array}{c c c}{{\displaystyle\frac{\displaystyle\int\displaystyle\sqrt{\displaystyle\int}}{\displaystyle\partial\displaystyle\sqrt{\displaystyle\int}}}&{{}}\\ {{}}&{{\displaystyle\sqrt{\displaystyle\int}}}&{{}}&{{\displaystyle\sqrt{\displaystyle\int}}}\end{array}\right)
+Exact Match:  ❌ NO
+Char Accuracy: 0.218 | Time: 2.839s | Memory: 2.80MB
+Token Accuracy: 0.000 | Levenshtein: 254
+----------------------------------------------------------------------------------------------------
+

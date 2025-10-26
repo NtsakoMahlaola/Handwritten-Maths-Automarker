@@ -1,0 +1,23 @@
+{
+  "model_name": "pix2text-mfr-onnx",
+  "total_images": 15,
+  "successfully_processed": 15,
+  "failed_processing": 0,
+  "success_rate": 1.0,
+  "total_processing_time_seconds": 16.168519258499146,
+  "average_inference_time_seconds": 1.077901283899943,
+  "total_memory_used_mb": 33.54296875,
+  "average_memory_used_mb": 2.236197916666667,
+  "exact_match_rate": 0.0,
+  "average_character_accuracy": 0.4039063847055787,
+  "median_character_accuracy": 0.3827160493827161,
+  "std_character_accuracy": 0.21702726177734152,
+  "average_levenshtein_distance": 40.333333333333336,
+  "median_levenshtein_distance": 33.0,
+  "timestamp": "2025-09-18T11:24:39.373098",
+  "device": "CPU",
+  "average_word_error_rate": 1.0,
+  "median_word_error_rate": 1.0,
+  "average_token_accuracy": 0.0,
+  "median_token_accuracy": 0.0
+}

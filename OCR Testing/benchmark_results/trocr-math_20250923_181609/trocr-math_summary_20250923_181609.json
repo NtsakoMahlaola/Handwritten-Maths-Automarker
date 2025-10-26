@@ -1,0 +1,23 @@
+{
+  "model_name": "trocr-math",
+  "total_images": 59,
+  "successfully_processed": 59,
+  "failed_processing": 0,
+  "success_rate": 1.0,
+  "total_processing_time_seconds": 4199.524704694748,
+  "average_inference_time_seconds": 71.17838482533472,
+  "total_memory_used_mb": 2144.8359375,
+  "average_memory_used_mb": 36.353151483050844,
+  "exact_match_rate": 0.0,
+  "average_character_accuracy": 0.31052409867453884,
+  "median_character_accuracy": 0.29166666666666663,
+  "std_character_accuracy": 0.19822783260457433,
+  "average_levenshtein_distance": 10.11864406779661,
+  "median_levenshtein_distance": 9.0,
+  "timestamp": "2025-09-23T18:16:09.700053",
+  "device": "CPU",
+  "average_word_error_rate": 1.0,
+  "median_word_error_rate": 1.0,
+  "average_token_accuracy": 0.0,
+  "median_token_accuracy": 0.0
+}

@@ -1,0 +1,509 @@
+====================================================================================================
+LATEX-OCR BENCHMARK REPORT - TROCR-MATH
+====================================================================================================
+
+BENCHMARK INFORMATION
+--------------------------------------------------
+Model Name: trocr-math
+Benchmark Start: 2025-09-23T17:06:10.018023
+Benchmark End: 2025-09-23T18:16:09.703622
+Device Used: CPU
+
+SUMMARY STATISTICS
+--------------------------------------------------
+Total Images: 59
+Successfully Processed: 59
+Failed Processing: 0
+Success Rate: 100.0%
+
+ACCURACY METRICS
+--------------------------------------------------
+Exact Match Rate: 0.0%
+Average Character Accuracy: 0.311
+Median Character Accuracy: 0.292
+Std Character Accuracy: 0.198
+Average Levenshtein Distance: 10.1
+Average Word Error Rate: 1.000
+Average Token Accuracy: 0.000
+
+PERFORMANCE METRICS
+--------------------------------------------------
+Total Processing Time: 4199.5s
+Average Inference Time: 71.178s
+Average Memory Usage: 36.35MB
+
+DETAILED PREDICTIONS (59)
+====================================================================================================
+
+IMAGE 1: 1.png
+Ground Truth: 3 + 4
+Prediction:   3+4=
+Exact Match:  ❌ NO
+Char Accuracy: 0.400 | Time: 14.287s | Memory: 2148.72MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 2: 2.png
+Ground Truth: (8 - 5)
+Prediction:   8-5=
+Exact Match:  ❌ NO
+Char Accuracy: 0.429 | Time: 7.916s | Memory: -1.02MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 3: 3.png
+Ground Truth: 6  \times  2
+Prediction:   6\times2=
+Exact Match:  ❌ NO
+Char Accuracy: 0.700 | Time: 10.171s | Memory: 1.18MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 4: 4.png
+Ground Truth: 9  \div  3
+Prediction:   9\div3=
+Exact Match:  ❌ NO
+Char Accuracy: 0.625 | Time: 7.635s | Memory: 32.06MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 5: 5.png
+Ground Truth: 7 + 2
+Prediction:   7+2=
+Exact Match:  ❌ NO
+Char Accuracy: 0.400 | Time: 6.075s | Memory: 1.17MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 6: 6.png
+Ground Truth: (10 - 4)
+Prediction:   10-4=
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 6.145s | Memory: 5.81MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 7: 7.png
+Ground Truth: 5  \times  3
+Prediction:   5\times3:=
+Exact Match:  ❌ NO
+Char Accuracy: 0.600 | Time: 7.536s | Memory: -0.02MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 8: 8.png
+Ground Truth: 12  \div  4
+Prediction:   12:\frac{1}{r}4:=
+Exact Match:  ❌ NO
+Char Accuracy: 0.235 | Time: 9.375s | Memory: -0.05MB
+Token Accuracy: 0.000 | Levenshtein: 13
+----------------------------------------------------------------------------------------------------
+
+IMAGE 9: 9.png
+Ground Truth: 2 + 6
+Prediction:   2+b=
+Exact Match:  ❌ NO
+Char Accuracy: 0.400 | Time: 6.145s | Memory: 2.87MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 10: 10.png
+Ground Truth: (8 - 1)
+Prediction:   8-1:=
+Exact Match:  ❌ NO
+Char Accuracy: 0.286 | Time: 6.285s | Memory: -0.29MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 11: 11.png
+Ground Truth: 12 + 7
+Prediction:   12+7=
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 6.072s | Memory: 0.36MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 12: 12.png
+Ground Truth: 25 + 13
+Prediction:   25+13:=
+Exact Match:  ❌ NO
+Char Accuracy: 0.429 | Time: 6.363s | Memory: -0.32MB
+Token Accuracy: 0.000 | Levenshtein: 4
+----------------------------------------------------------------------------------------------------
+
+IMAGE 13: 13.png
+Ground Truth: 48 + 36
+Prediction:   48+36=\cdot\cdot\cdot
+Exact Match:  ❌ NO
+Char Accuracy: 0.143 | Time: 10.072s | Memory: 0.11MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 14: 14.png
+Ground Truth: 102 + 59
+Prediction:   102+59=
+Exact Match:  ❌ NO
+Char Accuracy: 0.625 | Time: 6.157s | Memory: 1.95MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 15: 15.png
+Ground Truth: 523 + 178
+Prediction:   523+178=
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 7.111s | Memory: -0.26MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 16: 16.png
+Ground Truth: 18 - 9
+Prediction:   18-9=
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 6.312s | Memory: 0.26MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 17: 17.png
+Ground Truth: 42 - 27
+Prediction:   (4^{2}-27)=
+Exact Match:  ❌ NO
+Char Accuracy: 0.364 | Time: 8.368s | Memory: -0.38MB
+Token Accuracy: 0.000 | Levenshtein: 7
+----------------------------------------------------------------------------------------------------
+
+IMAGE 18: 18.png
+Ground Truth: 90 - 46
+Prediction:   42-27=
+Exact Match:  ❌ NO
+Char Accuracy: 0.143 | Time: 5.940s | Memory: 4.43MB
+Token Accuracy: 0.000 | Levenshtein: 6
+----------------------------------------------------------------------------------------------------
+
+IMAGE 19: 19.png
+Ground Truth: 300 - 123
+Prediction:   300-123=
+Exact Match:  ❌ NO
+Char Accuracy: 0.667 | Time: 6.857s | Memory: 0.01MB
+Token Accuracy: 0.000 | Levenshtein: 3
+----------------------------------------------------------------------------------------------------
+
+IMAGE 20: 20.png
+Ground Truth: 892 - 456
+Prediction:   (892-456)}
+Exact Match:  ❌ NO
+Char Accuracy: 0.500 | Time: 7.406s | Memory: -0.01MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 21: 21.png
+Ground Truth: 6  \times  7
+Prediction:   b\times\dot{y}=
+Exact Match:  ❌ NO
+Char Accuracy: 0.333 | Time: 8.903s | Memory: -0.29MB
+Token Accuracy: 0.000 | Levenshtein: 10
+----------------------------------------------------------------------------------------------------
+
+IMAGE 22: 22.png
+Ground Truth: 8  \times  9
+Prediction:   8*q:=
+Exact Match:  ❌ NO
+Char Accuracy: 0.100 | Time: 6.637s | Memory: 0.08MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 23: 23.png
+Ground Truth: 15  \times  4
+Prediction:   15*4:=
+Exact Match:  ❌ NO
+Char Accuracy: 0.182 | Time: 6.872s | Memory: -0.03MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 24: 24.png
+Ground Truth: 32  \times  5
+Prediction:   32*5=
+Exact Match:  ❌ NO
+Char Accuracy: 0.182 | Time: 6.703s | Memory: 0.29MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 25: 25.png
+Ground Truth: 123  \times  3
+Prediction:   123:X:3:=
+Exact Match:  ❌ NO
+Char Accuracy: 0.250 | Time: 8.095s | Memory: -0.43MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 26: 26.png
+Ground Truth: 81  \div  9
+Prediction:   81\pm q=
+Exact Match:  ❌ NO
+Char Accuracy: 0.333 | Time: 6.912s | Memory: 0.29MB
+Token Accuracy: 0.000 | Levenshtein: 6
+----------------------------------------------------------------------------------------------------
+
+IMAGE 27: 27.png
+Ground Truth: 72  \div  8
+Prediction:   72\frac{1}{8}=
+Exact Match:  ❌ NO
+Char Accuracy: 0.214 | Time: 8.637s | Memory: -0.16MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 28: 28.png
+Ground Truth: 144  \div  12
+Prediction:   144\frac{1}{12}=
+Exact Match:  ❌ NO
+Char Accuracy: 0.312 | Time: 8.557s | Memory: 0.02MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 29: 29.png
+Ground Truth: 300  \div  15
+Prediction:   300\frac{1}{15}=
+Exact Match:  ❌ NO
+Char Accuracy: 0.312 | Time: 9.234s | Memory: 0.00MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 30: 30.png
+Ground Truth: 980  \div  14
+Prediction:   980\div14=\cdot\cdot\cdot
+Exact Match:  ❌ NO
+Char Accuracy: 0.280 | Time: 11.931s | Memory: 1.04MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 31: 31.png
+Ground Truth: 5 + 4  \times  2
+Prediction:   5+4\times2=\cdot\cdot
+Exact Match:  ❌ NO
+Char Accuracy: 0.286 | Time: 11.078s | Memory: 0.08MB
+Token Accuracy: 0.000 | Levenshtein: 15
+----------------------------------------------------------------------------------------------------
+
+IMAGE 32: 32.png
+Ground Truth: ( 8 + 4 )  \div  2
+Prediction:   (8+4)\div2=
+Exact Match:  ❌ NO
+Char Accuracy: 0.562 | Time: 8.227s | Memory: -0.15MB
+Token Accuracy: 0.000 | Levenshtein: 7
+----------------------------------------------------------------------------------------------------
+
+IMAGE 33: 33.png
+Ground Truth: 3  \times  (7 - 2)
+Prediction:   3\times(7\cdot2)=
+Exact Match:  ❌ NO
+Char Accuracy: 0.529 | Time: 9.905s | Memory: 0.11MB
+Token Accuracy: 0.000 | Levenshtein: 8
+----------------------------------------------------------------------------------------------------
+
+IMAGE 34: 34.png
+Ground Truth: 9  + 12  \div  3
+Prediction:   9+12\div3=
+Exact Match:  ❌ NO
+Char Accuracy: 0.615 | Time: 7.842s | Memory: -0.09MB
+Token Accuracy: 0.000 | Levenshtein: 5
+----------------------------------------------------------------------------------------------------
+
+IMAGE 35: 35.png
+Ground Truth: 3  \times 3  \times  3
+Prediction:   (25-3)\times2=
+Exact Match:  ❌ NO
+Char Accuracy: 0.368 | Time: 8.457s | Memory: 0.00MB
+Token Accuracy: 0.000 | Levenshtein: 12
+----------------------------------------------------------------------------------------------------
+
+IMAGE 36: 36.png
+Ground Truth: 4  \times 4  \times  2 - 3
+Prediction:   3\times3\times3=
+Exact Match:  ❌ NO
+Char Accuracy: 0.522 | Time: 8.488s | Memory: 0.82MB
+Token Accuracy: 0.000 | Levenshtein: 11
+----------------------------------------------------------------------------------------------------
+
+IMAGE 37: 37.png
+Ground Truth: 0.5 + 0.3
+Prediction:   4\times4\times2-3=
+Exact Match:  ❌ NO
+Char Accuracy: 0.056 | Time: 9.350s | Memory: 0.25MB
+Token Accuracy: 0.000 | Levenshtein: 17
+----------------------------------------------------------------------------------------------------
+
+IMAGE 38: 38.png
+Ground Truth: 2.7 - 1.4
+Prediction:   0.5+0.3=
+Exact Match:  ❌ NO
+Char Accuracy: 0.111 | Time: 8.603s | Memory: -0.07MB
+Token Accuracy: 0.000 | Levenshtein: 8
+----------------------------------------------------------------------------------------------------
+
+IMAGE 39: 39.png
+Ground Truth: 3.6 + 2
+Prediction:   2\cdot7-1\cdot4=
+Exact Match:  ❌ NO
+Char Accuracy: 0.000 | Time: 10.544s | Memory: 0.09MB
+Token Accuracy: 0.000 | Levenshtein: 16
+----------------------------------------------------------------------------------------------------
+
+IMAGE 40: 40.png
+Ground Truth: 7.2 + 1.2
+Prediction:   3.6+2:=
+Exact Match:  ❌ NO
+Char Accuracy: 0.222 | Time: 7.946s | Memory: -0.20MB
+Token Accuracy: 0.000 | Levenshtein: 7
+----------------------------------------------------------------------------------------------------
+
+IMAGE 41: 41.png
+Ground Truth: 5.5 + 2.5
+Prediction:   7,2\notin1,2
+Exact Match:  ❌ NO
+Char Accuracy: 0.000 | Time: 8.535s | Memory: 0.08MB
+Token Accuracy: 0.000 | Levenshtein: 12
+----------------------------------------------------------------------------------------------------
+
+IMAGE 42: 42.png
+Ground Truth: (10 + 5 )  \times  2 - 6
+Prediction:   5.5+2.5
+Exact Match:  ❌ NO
+Char Accuracy: 0.091 | Time: 7.573s | Memory: 0.02MB
+Token Accuracy: 0.000 | Levenshtein: 20
+----------------------------------------------------------------------------------------------------
+
+IMAGE 43: 43.png
+Ground Truth: 3 \times  (4 + 6)  \div  2
+Prediction:   (10+5)\times2-6=
+Exact Match:  ❌ NO
+Char Accuracy: 0.130 | Time: 8.878s | Memory: 0.05MB
+Token Accuracy: 0.000 | Levenshtein: 20
+----------------------------------------------------------------------------------------------------
+
+IMAGE 44: 44.png
+Ground Truth: 50  \div  (5 + 5)  \times  4
+Prediction:   3\times(4+b)\div2=
+Exact Match:  ❌ NO
+Char Accuracy: 0.250 | Time: 9.502s | Memory: 0.07MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 45: 45.png
+Ground Truth: (20 - 8 )  \times  3 + 5
+Prediction:   50\frac{1}{1}(5+5)\times4=
+Exact Match:  ❌ NO
+Char Accuracy: 0.077 | Time: 15.461s | Memory: 0.45MB
+Token Accuracy: 0.000 | Levenshtein: 24
+----------------------------------------------------------------------------------------------------
+
+IMAGE 46: 46.png
+Ground Truth: 100 - (25 + 15)  \times  2
+Prediction:   (20-8)\times3+5=
+Exact Match:  ❌ NO
+Char Accuracy: 0.292 | Time: 9.052s | Memory: 0.10MB
+Token Accuracy: 0.000 | Levenshtein: 17
+----------------------------------------------------------------------------------------------------
+
+IMAGE 47: 47.png
+Ground Truth: 14 + 7
+Prediction:   100-(25+15)\times2=
+Exact Match:  ❌ NO
+Char Accuracy: 0.105 | Time: 8.389s | Memory: -0.04MB
+Token Accuracy: 0.000 | Levenshtein: 17
+----------------------------------------------------------------------------------------------------
+
+IMAGE 48: 48.png
+Ground Truth: 55 - 23
+Prediction:   1k+y=
+Exact Match:  ❌ NO
+Char Accuracy: 0.000 | Time: 6.573s | Memory: -0.04MB
+Token Accuracy: 0.000 | Levenshtein: 7
+----------------------------------------------------------------------------------------------------
+
+IMAGE 49: 49.png
+Ground Truth: 8  \times  6
+Prediction:   55-23=
+Exact Match:  ❌ NO
+Char Accuracy: 0.000 | Time: 6.491s | Memory: 0.30MB
+Token Accuracy: 0.000 | Levenshtein: 10
+----------------------------------------------------------------------------------------------------
+
+IMAGE 50: 50.png
+Ground Truth: 64  \div  8
+Prediction:   8\times b=
+Exact Match:  ❌ NO
+Char Accuracy: 0.100 | Time: 7.302s | Memory: -0.26MB
+Token Accuracy: 0.000 | Levenshtein: 9
+----------------------------------------------------------------------------------------------------
+
+IMAGE 51: 51.png
+Ground Truth: (12 + 6 )  \times  2
+Prediction:   bh\notin B=
+Exact Match:  ❌ NO
+Char Accuracy: 0.111 | Time: 10.367s | Memory: 0.25MB
+Token Accuracy: 0.000 | Levenshtein: 16
+----------------------------------------------------------------------------------------------------
+
+IMAGE 52: 52.png
+Ground Truth: 125  \div  (5  \times  5)
+Prediction:   (12+6)\times2=
+Exact Match:  ❌ NO
+Char Accuracy: 0.333 | Time: 11.646s | Memory: -0.40MB
+Token Accuracy: 0.000 | Levenshtein: 14
+----------------------------------------------------------------------------------------------------
+
+IMAGE 53: 53.png
+Ground Truth: 9  \times  9 - 20
+Prediction:   125\div(5\times5)=
+Exact Match:  ❌ NO
+Char Accuracy: 0.111 | Time: 12.364s | Memory: 0.18MB
+Token Accuracy: 0.000 | Levenshtein: 16
+----------------------------------------------------------------------------------------------------
+
+IMAGE 54: 54.png
+Ground Truth: (8 - 3)  \times  4
+Prediction:   qXq-20=
+Exact Match:  ❌ NO
+Char Accuracy: 0.062 | Time: 10.482s | Memory: 0.36MB
+Token Accuracy: 0.000 | Levenshtein: 15
+----------------------------------------------------------------------------------------------------
+
+IMAGE 55: 55.png
+Ground Truth: 200  \div  50 + 8
+Prediction:   20\div50+8=
+Exact Match:  ❌ NO
+Char Accuracy: 0.600 | Time: 10.952s | Memory: -0.39MB
+Token Accuracy: 0.000 | Levenshtein: 6
+----------------------------------------------------------------------------------------------------
+
+IMAGE 56: 56.png
+Ground Truth: (10  \times  2 ) - (3  \times  4)
+Prediction:   (18-3)\times4=
+Exact Match:  ❌ NO
+Char Accuracy: 0.379 | Time: 11.654s | Memory: 0.04MB
+Token Accuracy: 0.000 | Levenshtein: 18
+----------------------------------------------------------------------------------------------------
+
+IMAGE 57: 57.png
+Ground Truth: (9 + 1) - (9 - 1)
+Prediction:   (10\times2)\cdot(3\times4)=
+Exact Match:  ❌ NO
+Char Accuracy: 0.148 | Time: 3683.867s | Memory: -48.16MB
+Token Accuracy: 0.000 | Levenshtein: 23
+----------------------------------------------------------------------------------------------------
+
+IMAGE 58: 58.png
+Ground Truth: 4  \times  (3 + 5) - 7
+Prediction:   (9+1)\times(9-1)\equiv
+Exact Match:  ❌ NO
+Char Accuracy: 0.273 | Time: 20.040s | Memory: -2.92MB
+Token Accuracy: 0.000 | Levenshtein: 16
+----------------------------------------------------------------------------------------------------
+
+IMAGE 59: 59.png
+Ground Truth: 8  \times  (7 - 3)
+Prediction:   4\times(3+5)-7:=
+Exact Match:  ❌ NO
+Char Accuracy: 0.375 | Time: 15.247s | Memory: -3.06MB
+Token Accuracy: 0.000 | Levenshtein: 10
+----------------------------------------------------------------------------------------------------
+

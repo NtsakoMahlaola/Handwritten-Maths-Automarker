@@ -1,0 +1,675 @@
+{
+  "metadata": {
+    "model": "Mathstral_Marker",
+    "timestamp": "2025-10-13 22:23:26",
+    "total_tests": 22,
+    "passed_tests": 13,
+    "failed_tests": 9,
+    "success_rate": "59.1%"
+  },
+  "test_results": [
+    {
+      "test_id": "test_001",
+      "description": "Complex Roots - Completely wrong approach",
+      "status": "PASS",
+      "response_time_seconds": 99.59,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": ".\n{\"final_mark\":2,\"mistakes_made\":[\"Assumed only one cube root exists\",\"Did not find all roots\"],\"feedback\":\"You made an error in your calculation. The cube roots of -8 are -2, 1 + i√3, and 1 - i√3. You found one correct root but did not find the other two. Remember that complex equations can have multiple solutions.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly identified this as incorrect. The student only found one of the three cube roots.\"}",
+      "parsed_response": {
+        "final_mark": 2,
+        "mistakes_made": [
+          "Assumed only one cube root exists",
+          "Did not find all roots"
+        ],
+        "feedback": "You made an error in your calculation. The cube roots of -8 are -2, 1 + i√3, and 1 - i√3. You found one correct root but did not find the other two. Remember that complex equations can have multiple solutions.",
+        "agrees_with_sympy": true,
+        "reasoning": "SymPy correctly identified this as incorrect. The student only found one of the three cube roots."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_002",
+      "description": "Eigenvalues - Fundamental conceptual errors",
+      "status": "PASS",
+      "response_time_seconds": 80.05,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "[ {\"final_mark\":4.0,\"mistakes_made\":[\"initial error in sign while expanding determinant - corrected by student verification\",\"confusion about multiplicity\"],\"feedback\":\"Good work identifying the eigenvalues! You made an arithmetic error initially when setting up the characteristic equation: (2-λ)×(2-λ)=4-2λ+λ², not 4-2λ. The correct equation is λ² - 4λ + 3 = 0, which factors as (λ-1)(λ-3)=0, giving eigenvalues 1 and 3. You correctly identified the eigenvector for λ=3, which confirms both solutions.\",\"agrees_with_sympy\":false,\"reasoning\":\"SymPy incorrectly marked this as incorrect. The student made an algebraic error in setting up the characteristic equation but then correctly solved it by verification.\"}",
+      "parsed_response": {
+        "final_mark": 4.0,
+        "mistakes_made": [
+          "initial error in sign while expanding determinant - corrected by student verification",
+          "confusion about multiplicity"
+        ],
+        "feedback": "Good work identifying the eigenvalues! You made an arithmetic error initially when setting up the characteristic equation: (2-λ)×(2-λ)=4-2λ+λ², not 4-2λ. The correct equation is λ² - 4λ + 3 = 0, which factors as (λ-1)(λ-3)=0, giving eigenvalues 1 and 3. You correctly identified the eigenvector for λ=3, which confirms both solutions.",
+        "agrees_with_sympy": false,
+        "reasoning": "SymPy incorrectly marked this as incorrect. The student made an algebraic error in setting up the characteristic equation but then correctly solved it by verification."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_003",
+      "description": "Limits - Multiple serious errors",
+      "status": "PASS",
+      "response_time_seconds": 75.54,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "},\n\n{\"final_mark\":2,\"mistakes_made\":[\"incorrect application of L'Hopital's rule\",\"direct substitution is invalid for limits\"],\"feedback\":\"L'Hopital's rule is only applicable to indeterminate forms like 0/0 or infinity/infinity. Direct substitution doesn't work because the limit is actually -1/6, not approximately -0.17. Your initial answer using L'Hopital's rule was correct: -1/6.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly identified this as incorrect. The student's direct substitution attempt is invalid and doesn't give the correct answer.\"}",
+      "parsed_response": {
+        "final_mark": 2,
+        "mistakes_made": [
+          "incorrect application of L'Hopital's rule",
+          "direct substitution is invalid for limits"
+        ],
+        "feedback": "L'Hopital's rule is only applicable to indeterminate forms like 0/0 or infinity/infinity. Direct substitution doesn't work because the limit is actually -1/6, not approximately -0.17. Your initial answer using L'Hopital's rule was correct: -1/6.",
+        "agrees_with_sympy": true,
+        "reasoning": "SymPy correctly identified this as incorrect. The student's direct substitution attempt is invalid and doesn't give the correct answer."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_004",
+      "description": "Modular Arithmetic - Completely wrong method",
+      "status": "FAIL",
+      "response_time_seconds": 75.3,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": ".\nolicitationFields: [\"final_mark\",\"mistakes_made\",\"feedback\",\"agrees_with_sympy\",\"reasoning\"]/\"final_mark\":3.5/\"mistakes_made\":[\"assumed inverse exists without coprimeness check\"]/\"feedback\":\"Your solution is correct, but you should not assume an inverse exists unless you've checked that the numbers are coprime (which they aren't). This is a common mistake. You correctly found the solution by trial and error, which shows good mathematical intuition.\"/\"agrees_with_sympy\":true/\"reasoning\":\"SymPy is correct. The student found the correct solution but made an error in assuming an inverse existed without justification.\"}}]",
+      "parsed_response": {
+        "error": "No JSON object found",
+        "raw_response": ".\nolicitationFields: [\"final_mark\",\"mistakes_made\",\"feedback\",\"agrees_with_sympy\",\"reasoning\"]/\"final_mark\":3.5/\"mistakes_made\":[\"assumed inverse exists without coprimeness check\"]/\"feedback\":\"Your solution is correct, but you should not assume an inverse exists unless you've checked that the numbers are coprime (which they aren't). This is a common mistake. You correctly found the solution by trial and error, which shows good mathematical intuition.\"/\"agrees_with_sympy\":true/\"reasoning\":\"SymPy is correct. The student found the correct solution but made an error in assuming an inverse existed without justification.\"}}]"
+      },
+      "validation": {
+        "has_required_fields": false,
+        "field_validation": {
+          "final_mark": "MISSING",
+          "mistakes_made": "MISSING",
+          "feedback": "MISSING",
+          "agrees_with_sympy": "MISSING",
+          "reasoning": "MISSING"
+        },
+        "data_types_correct": true,
+        "overall_valid": false,
+        "issues": [
+          "Missing required field: final_mark",
+          "Missing required field: mistakes_made",
+          "Missing required field: feedback",
+          "Missing required field: agrees_with_sympy",
+          "Missing required field: reasoning"
+        ]
+      }
+    },
+    {
+      "test_id": "test_005",
+      "description": "Differential Equations - Wrong method throughout",
+      "status": "PASS",
+      "response_time_seconds": 74.42,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "\u0001\n{\"final_mark\":1.5,\"mistakes_made\":[\"guessed solution without systematic method\",\"tried incorrect guessed solution\"],\"feedback\":\"You should not guess solutions without a systematic method for exact equations. For exact equations (M · dx + N · dy = 0), the potential function is ∫M dx + ∫N dy, and the solution is given by F(x, y) = C. You should learn this standard method rather than trying random guesses.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly identified this as incorrect. The student used an unsystematic approach and tried an incorrect guessed solution.\"}",
+      "parsed_response": {
+        "final_mark": 1.5,
+        "mistakes_made": [
+          "guessed solution without systematic method",
+          "tried incorrect guessed solution"
+        ],
+        "feedback": "You should not guess solutions without a systematic method for exact equations. For exact equations (M · dx + N · dy = 0), the potential function is ∫M dx + ∫N dy, and the solution is given by F(x, y) = C. You should learn this standard method rather than trying random guesses.",
+        "agrees_with_sympy": true,
+        "reasoning": "SymPy correctly identified this as incorrect. The student used an unsystematic approach and tried an incorrect guessed solution."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_006",
+      "description": "Series Convergence - Wrong test applied",
+      "status": "FAIL",
+      "response_time_seconds": 85.58,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "[SUFFIX]\nfinal_mark\":4.0,\"mistakes_made\":[\"used ratio and root tests that are inconclusive for 1\",\"incorrectly compared with divergent series\",\"didn't use appropriate convergence test (p-series)\"],\"feedback\":\"You started on the right track but got confused by misapplying the ratio and root tests. The appropriate test here is the p-series test, which directly tells us it diverges because 1/√n is like 1/n^(1/2) with p=1/2<1.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly identified this as divergent. The student's confusion arose from using inappropriate tests.\"}}]",
+      "parsed_response": {
+        "error": "No JSON object found",
+        "raw_response": "[SUFFIX]\nfinal_mark\":4.0,\"mistakes_made\":[\"used ratio and root tests that are inconclusive for 1\",\"incorrectly compared with divergent series\",\"didn't use appropriate convergence test (p-series)\"],\"feedback\":\"You started on the right track but got confused by misapplying the ratio and root tests. The appropriate test here is the p-series test, which directly tells us it diverges because 1/√n is like 1/n^(1/2) with p=1/2<1.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly identified this as divergent. The student's confusion arose from using inappropriate tests.\"}}]"
+      },
+      "validation": {
+        "has_required_fields": false,
+        "field_validation": {
+          "final_mark": "MISSING",
+          "mistakes_made": "MISSING",
+          "feedback": "MISSING",
+          "agrees_with_sympy": "MISSING",
+          "reasoning": "MISSING"
+        },
+        "data_types_correct": true,
+        "overall_valid": false,
+        "issues": [
+          "Missing required field: final_mark",
+          "Missing required field: mistakes_made",
+          "Missing required field: feedback",
+          "Missing required field: agrees_with_sympy",
+          "Missing required field: reasoning"
+        ]
+      }
+    },
+    {
+      "test_id": "test_007",
+      "description": "Group Theory - Perfect proof",
+      "status": "FAIL",
+      "response_time_seconds": 61.11,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": ",\nFinal Mark: 5.0\nMistakes Made: None\nFeedback: Perfect proof! You correctly defined the cyclic group, showed that any two elements commute using the group generator, and concluded that the group is abelian.\nAgrees With SymPy: Yes\nReasoning: SymPy correctly validated the proof. The student demonstrated clear understanding of group theory concepts.",
+      "parsed_response": {
+        "error": "No JSON object found",
+        "raw_response": ",\nFinal Mark: 5.0\nMistakes Made: None\nFeedback: Perfect proof! You correctly defined the cyclic group, showed that any two elements commute using the group generator, and concluded that the group is abelian.\nAgrees With SymPy: Yes\nReasoning: SymPy correctly validated the proof. The student demonstrated clear understanding of group theory concepts."
+      },
+      "validation": {
+        "has_required_fields": false,
+        "field_validation": {
+          "final_mark": "MISSING",
+          "mistakes_made": "MISSING",
+          "feedback": "MISSING",
+          "agrees_with_sympy": "MISSING",
+          "reasoning": "MISSING"
+        },
+        "data_types_correct": true,
+        "overall_valid": false,
+        "issues": [
+          "Missing required field: final_mark",
+          "Missing required field: mistakes_made",
+          "Missing required field: feedback",
+          "Missing required field: agrees_with_sympy",
+          "Missing required field: reasoning"
+        ]
+      }
+    },
+    {
+      "test_id": "test_008",
+      "description": "Matrix Inversion - Perfect computation",
+      "status": "PASS",
+      "response_time_seconds": 70.21,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "r {\"final_mark\":5.0,\"mistakes_made\":[],\"feedback\":\"Perfect! You correctly computed the inverse using the formula and verified it satisfies AA⁻¹ = I.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy is correct. The student demonstrated clear understanding of matrix inversion.\"}",
+      "parsed_response": {
+        "final_mark": 5.0,
+        "mistakes_made": [],
+        "feedback": "Perfect! You correctly computed the inverse using the formula and verified it satisfies AA⁻¹ = I.",
+        "agrees_with_sympy": true,
+        "reasoning": "SymPy is correct. The student demonstrated clear understanding of matrix inversion."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_009",
+      "description": "Multivariable Optimization - Partial understanding",
+      "status": "FAIL",
+      "response_time_seconds": 66.09,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": ",\nfinal_mark\":5.0,\"mistakes_made\":[],\"feedback\":\"Excellent work! You correctly identified the critical point and analyzed the second derivative test to confirm it's a minimum. Your solution is clear and well-organized.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly validated the answer. The student demonstrated thorough understanding of multivariable optimization.\"}}]",
+      "parsed_response": {
+        "error": "No JSON object found",
+        "raw_response": ",\nfinal_mark\":5.0,\"mistakes_made\":[],\"feedback\":\"Excellent work! You correctly identified the critical point and analyzed the second derivative test to confirm it's a minimum. Your solution is clear and well-organized.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly validated the answer. The student demonstrated thorough understanding of multivariable optimization.\"}}]"
+      },
+      "validation": {
+        "has_required_fields": false,
+        "field_validation": {
+          "final_mark": "MISSING",
+          "mistakes_made": "MISSING",
+          "feedback": "MISSING",
+          "agrees_with_sympy": "MISSING",
+          "reasoning": "MISSING"
+        },
+        "data_types_correct": true,
+        "overall_valid": false,
+        "issues": [
+          "Missing required field: final_mark",
+          "Missing required field: mistakes_made",
+          "Missing required field: feedback",
+          "Missing required field: agrees_with_sympy",
+          "Missing required field: reasoning"
+        ]
+      }
+    },
+    {
+      "test_id": "test_010",
+      "description": "Conditional Probability - Minor calculation error",
+      "status": "FAIL",
+      "response_time_seconds": 62.14,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "final_mark\":5,\"mistakes_made\":[],\"feedback\":\"Perfect! You correctly applied the conditional probability formula and verified your answer using Bayes' theorem.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy is correct. The student demonstrated proper understanding of conditional probability.\"",
+      "parsed_response": {
+        "error": "No JSON object found",
+        "raw_response": "final_mark\":5,\"mistakes_made\":[],\"feedback\":\"Perfect! You correctly applied the conditional probability formula and verified your answer using Bayes' theorem.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy is correct. The student demonstrated proper understanding of conditional probability.\""
+      },
+      "validation": {
+        "has_required_fields": false,
+        "field_validation": {
+          "final_mark": "MISSING",
+          "mistakes_made": "MISSING",
+          "feedback": "MISSING",
+          "agrees_with_sympy": "MISSING",
+          "reasoning": "MISSING"
+        },
+        "data_types_correct": true,
+        "overall_valid": false,
+        "issues": [
+          "Missing required field: final_mark",
+          "Missing required field: mistakes_made",
+          "Missing required field: feedback",
+          "Missing required field: agrees_with_sympy",
+          "Missing required field: reasoning"
+        ]
+      }
+    },
+    {
+      "test_id": "test_011",
+      "description": "Laplace Transforms - Correct but messy",
+      "status": "PASS",
+      "response_time_seconds": 77.85,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "*/\n{\"final_mark\":5.0,\"mistakes_made\":[],\"feedback\":\"Perfect! You correctly applied the Laplace transform rules and shift theorem. Your verification using integration confirms the result is correct.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly validated the Laplace transform. The student demonstrated proper understanding of Laplace transform properties.\"}",
+      "parsed_response": {
+        "final_mark": 5.0,
+        "mistakes_made": [],
+        "feedback": "Perfect! You correctly applied the Laplace transform rules and shift theorem. Your verification using integration confirms the result is correct.",
+        "agrees_with_sympy": true,
+        "reasoning": "SymPy correctly validated the Laplace transform. The student demonstrated proper understanding of Laplace transform properties."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_012",
+      "description": "Uniform Continuity - Correct but poorly explained",
+      "status": "FAIL",
+      "response_time_seconds": 66.7,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": ",\nfinal_mark\":4.0,\"mistakes_made\":[],\"feedback\":\"Good proof structure and clear understanding of the definition. You correctly identified a suitable ε and demonstrated existence of x,y for any δ that violates uniform continuity.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy is correct. The student provided a strong proof using the correct definition and found an appropriate counterexample to demonstrate lack of uniform continuity.\"",
+      "parsed_response": {
+        "error": "No JSON object found",
+        "raw_response": ",\nfinal_mark\":4.0,\"mistakes_made\":[],\"feedback\":\"Good proof structure and clear understanding of the definition. You correctly identified a suitable ε and demonstrated existence of x,y for any δ that violates uniform continuity.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy is correct. The student provided a strong proof using the correct definition and found an appropriate counterexample to demonstrate lack of uniform continuity.\""
+      },
+      "validation": {
+        "has_required_fields": false,
+        "field_validation": {
+          "final_mark": "MISSING",
+          "mistakes_made": "MISSING",
+          "feedback": "MISSING",
+          "agrees_with_sympy": "MISSING",
+          "reasoning": "MISSING"
+        },
+        "data_types_correct": true,
+        "overall_valid": false,
+        "issues": [
+          "Missing required field: final_mark",
+          "Missing required field: mistakes_made",
+          "Missing required field: feedback",
+          "Missing required field: agrees_with_sympy",
+          "Missing required field: reasoning"
+        ]
+      }
+    },
+    {
+      "test_id": "test_013",
+      "description": "Diophantine Equations - Mostly wrong with one right step",
+      "status": "PASS",
+      "response_time_seconds": 71.63,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "[control_22] {\"final_mark\":5.0,\"mistakes_made\":[],\"feedback\":\"Perfect solution! You correctly simplified the equation, solved for x, used modular arithmetic to find y in terms of integers, and finally expressed both variables in terms of a single parameter t.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly validated the answer. The student demonstrated strong understanding of Diophantine equations.\"}",
+      "parsed_response": {
+        "final_mark": 5.0,
+        "mistakes_made": [],
+        "feedback": "Perfect solution! You correctly simplified the equation, solved for x, used modular arithmetic to find y in terms of integers, and finally expressed both variables in terms of a single parameter t.",
+        "agrees_with_sympy": true,
+        "reasoning": "SymPy correctly validated the answer. The student demonstrated strong understanding of Diophantine equations."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_014",
+      "description": "Taylor Series - Correct answer but wrong reasoning",
+      "status": "PASS",
+      "response_time_seconds": 85.47,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "[control_22] {\"final_mark\":4.0,\"mistakes_made\":[\"confused sign pattern\",\"incorrect calculation of coefficients\"],\"feedback\":\"Your calculation is correct, but you confused the sign pattern. The Taylor series for sin(x) alternates signs, following (−1)^n·x^(2n+1)/(2n+1)!. You correctly computed the coefficients, but applied an incorrect sign pattern. Review the pattern: x - x³/6 + x⁵/120 - ...\",\"agrees_with_sympy\":false,\"reasoning\":\"SymPy is correct, but the student's reasoning was flawed by confusing the sign pattern\"}`",
+      "parsed_response": {
+        "final_mark": 4.0,
+        "mistakes_made": [
+          "confused sign pattern",
+          "incorrect calculation of coefficients"
+        ],
+        "feedback": "Your calculation is correct, but you confused the sign pattern. The Taylor series for sin(x) alternates signs, following (−1)^n·x^(2n+1)/(2n+1)!. You correctly computed the coefficients, but applied an incorrect sign pattern. Review the pattern: x - x³/6 + x⁵/120 - ...",
+        "agrees_with_sympy": false,
+        "reasoning": "SymPy is correct, but the student's reasoning was flawed by confusing the sign pattern"
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_015",
+      "description": "Vector Spaces - Right conclusion, wrong method",
+      "status": "FAIL",
+      "response_time_seconds": 76.8,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": ".\n\nFINAL MARK: 4.0\nMISTAKES MADE: Longer method used, but fundamentally correct\nFEEDBACK: Excellent work showing span by linear combination! While this is more complicated than the rank argument, it's a valid alternative approach that shows comprehensively how to express any vector as a linear combination. Your calculations are correct and systematic.\nAGREES WITH SYMPY: Yes\nREASONING: SymPy correctly validated the span claim. The student used an equivalent but longer method and executed it well.",
+      "parsed_response": {
+        "error": "No JSON object found",
+        "raw_response": ".\n\nFINAL MARK: 4.0\nMISTAKES MADE: Longer method used, but fundamentally correct\nFEEDBACK: Excellent work showing span by linear combination! While this is more complicated than the rank argument, it's a valid alternative approach that shows comprehensively how to express any vector as a linear combination. Your calculations are correct and systematic.\nAGREES WITH SYMPY: Yes\nREASONING: SymPy correctly validated the span claim. The student used an equivalent but longer method and executed it well."
+      },
+      "validation": {
+        "has_required_fields": false,
+        "field_validation": {
+          "final_mark": "MISSING",
+          "mistakes_made": "MISSING",
+          "feedback": "MISSING",
+          "agrees_with_sympy": "MISSING",
+          "reasoning": "MISSING"
+        },
+        "data_types_correct": true,
+        "overall_valid": false,
+        "issues": [
+          "Missing required field: final_mark",
+          "Missing required field: mistakes_made",
+          "Missing required field: feedback",
+          "Missing required field: agrees_with_sympy",
+          "Missing required field: reasoning"
+        ]
+      }
+    },
+    {
+      "test_id": "test_016",
+      "description": "Bernoulli Equations - Minor sign error",
+      "status": "PASS",
+      "response_time_seconds": 102.8,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": ".\n\n{\"final_mark\":4,\"mistakes_made\":[\"sign error in Bernoulli transformation\",\"incorrect form of solution\"],\"feedback\":\"You correctly identified the equation as Bernoullic and used the substitution v=y^(1-n), but then made a sign error: dv/dx - v = x should give d/dx(ve^x) = xe^x, leading to ve^x = ∫xe^x dx. This requires integration by parts again and careful handling of constants, resulting in the correct answer y=1/(Ce^x - x - 1). Your approach is sound but the final steps need more care with constants and sign errors.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly identified this as incorrect. The student made a fundamental error in the Bernoulli transformation, leading to an incorrect form of solution.\"}",
+      "parsed_response": {
+        "final_mark": 4,
+        "mistakes_made": [
+          "sign error in Bernoulli transformation",
+          "incorrect form of solution"
+        ],
+        "feedback": "You correctly identified the equation as Bernoullic and used the substitution v=y^(1-n), but then made a sign error: dv/dx - v = x should give d/dx(ve^x) = xe^x, leading to ve^x = ∫xe^x dx. This requires integration by parts again and careful handling of constants, resulting in the correct answer y=1/(Ce^x - x - 1). Your approach is sound but the final steps need more care with constants and sign errors.",
+        "agrees_with_sympy": true,
+        "reasoning": "SymPy correctly identified this as incorrect. The student made a fundamental error in the Bernoulli transformation, leading to an incorrect form of solution."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_017",
+      "description": "Metric Spaces - Good but missing justification",
+      "status": "PASS",
+      "response_time_seconds": 80.58,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "\u0001\n{\"final_mark\":5.0,\"mistakes_made\":[],\"feedback\":\"Perfect verification! You correctly checked all three metric axioms and used the monotonicity of a related function to prove the triangle inequality.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly validated the metric. The student demonstrated thorough understanding of metric space theory.\"}",
+      "parsed_response": {
+        "final_mark": 5.0,
+        "mistakes_made": [],
+        "feedback": "Perfect verification! You correctly checked all three metric axioms and used the monotonicity of a related function to prove the triangle inequality.",
+        "agrees_with_sympy": true,
+        "reasoning": "SymPy correctly validated the metric. The student demonstrated thorough understanding of metric space theory."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_018",
+      "description": "Complex Integration - Correct but poorly explained",
+      "status": "FAIL",
+      "response_time_seconds": 62.38,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "<unk>Final Mark: 5.0\nMistakes Made: None\nFeedback: Perfect application of Cauchy's integral formula! You correctly identified the singularity, used the appropriate theorem, and computed the result accurately. Your work is thorough and well-explained.\nAgrees With SymPy: Yes\nReasoning: SymPy correctly validated the answer. The student demonstrated strong understanding of complex analysis.",
+      "parsed_response": {
+        "error": "No JSON object found",
+        "raw_response": "<unk>Final Mark: 5.0\nMistakes Made: None\nFeedback: Perfect application of Cauchy's integral formula! You correctly identified the singularity, used the appropriate theorem, and computed the result accurately. Your work is thorough and well-explained.\nAgrees With SymPy: Yes\nReasoning: SymPy correctly validated the answer. The student demonstrated strong understanding of complex analysis."
+      },
+      "validation": {
+        "has_required_fields": false,
+        "field_validation": {
+          "final_mark": "MISSING",
+          "mistakes_made": "MISSING",
+          "feedback": "MISSING",
+          "agrees_with_sympy": "MISSING",
+          "reasoning": "MISSING"
+        },
+        "data_types_correct": true,
+        "overall_valid": false,
+        "issues": [
+          "Missing required field: final_mark",
+          "Missing required field: mistakes_made",
+          "Missing required field: feedback",
+          "Missing required field: agrees_with_sympy",
+          "Missing required field: reasoning"
+        ]
+      }
+    },
+    {
+      "test_id": "test_019",
+      "description": "Ring Theory - Almost perfect with minor omission",
+      "status": "FAIL",
+      "response_time_seconds": 66.54,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "[control_25]\nfinal_mark\":5.0,\"mistakes_made\":[],\"feedback\":\"Perfect proof! You correctly showed that ℤ[i] is a subring of the field ℂ, so it has no zero divisors.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly validated the solution. The student provided a complete and rigorous proof.\"}]",
+      "parsed_response": {
+        "error": "No JSON object found",
+        "raw_response": "[control_25]\nfinal_mark\":5.0,\"mistakes_made\":[],\"feedback\":\"Perfect proof! You correctly showed that ℤ[i] is a subring of the field ℂ, so it has no zero divisors.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly validated the solution. The student provided a complete and rigorous proof.\"}]"
+      },
+      "validation": {
+        "has_required_fields": false,
+        "field_validation": {
+          "final_mark": "MISSING",
+          "mistakes_made": "MISSING",
+          "feedback": "MISSING",
+          "agrees_with_sympy": "MISSING",
+          "reasoning": "MISSING"
+        },
+        "data_types_correct": true,
+        "overall_valid": false,
+        "issues": [
+          "Missing required field: final_mark",
+          "Missing required field: mistakes_made",
+          "Missing required field: feedback",
+          "Missing required field: agrees_with_sympy",
+          "Missing required field: reasoning"
+        ]
+      }
+    },
+    {
+      "test_id": "test_020",
+      "description": "Multiple Integration - Minor arithmetic error",
+      "status": "PASS",
+      "response_time_seconds": 53.42,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "[control_28] {\"final_mark\":5.0,\"mistakes_made\":[],\"feedback\":\"Perfect! You correctly evaluated the double integral by integrating in steps and applying proper integration rules.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy is correct. The student demonstrated clear understanding of multiple integration.\"}",
+      "parsed_response": {
+        "final_mark": 5.0,
+        "mistakes_made": [],
+        "feedback": "Perfect! You correctly evaluated the double integral by integrating in steps and applying proper integration rules.",
+        "agrees_with_sympy": true,
+        "reasoning": "SymPy is correct. The student demonstrated clear understanding of multiple integration."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_021",
+      "description": "Bayes Theorem - Completely wrong formula",
+      "status": "PASS",
+      "response_time_seconds": 51.9,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "<s>W {\"final_mark\":1,\"mistakes_made\":[\"confused Bayes' theorem formula\"],\"feedback\":\"You applied the formula incorrectly. The correct formula is P(A|B) = P(B|A) × P(A)/P(B). You need to divide by P(positive), not multiply it directly.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy correctly identified this as incorrect. The student didn't understand the proper application of Bayes' theorem.\"}",
+      "parsed_response": {
+        "final_mark": 1,
+        "mistakes_made": [
+          "confused Bayes' theorem formula"
+        ],
+        "feedback": "You applied the formula incorrectly. The correct formula is P(A|B) = P(B|A) × P(A)/P(B). You need to divide by P(positive), not multiply it directly.",
+        "agrees_with_sympy": true,
+        "reasoning": "SymPy correctly identified this as incorrect. The student didn't understand the proper application of Bayes' theorem."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "test_id": "test_022",
+      "description": "Linear Transformations - Correct but messy work",
+      "status": "PASS",
+      "response_time_seconds": 52.28,
+      "prompt_preview": "BEGIN MATHS AUTOMARKING TASK. You are a math teacher grader. Analyze the student's derivation step b...",
+      "raw_response": "[control_28] {\"final_mark\":5.0,\"mistakes_made\":[],\"feedback\":\"Perfect! You correctly identified the basis vectors and their images under rotation, which allowed you to construct the matrix directly.\",\"agrees_with_sympy\":true,\"reasoning\":\"SymPy is correct. The student demonstrated clear understanding of linear transformations.\"}",
+      "parsed_response": {
+        "final_mark": 5.0,
+        "mistakes_made": [],
+        "feedback": "Perfect! You correctly identified the basis vectors and their images under rotation, which allowed you to construct the matrix directly.",
+        "agrees_with_sympy": true,
+        "reasoning": "SymPy is correct. The student demonstrated clear understanding of linear transformations."
+      },
+      "validation": {
+        "has_required_fields": true,
+        "field_validation": {
+          "final_mark": "PRESENT",
+          "mistakes_made": "PRESENT",
+          "feedback": "PRESENT",
+          "agrees_with_sympy": "PRESENT",
+          "reasoning": "PRESENT"
+        },
+        "data_types_correct": true,
+        "overall_valid": true,
+        "issues": []
+      }
+    }
+  ]
+}

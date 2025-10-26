@@ -1,0 +1,113 @@
+{
+  "model_configs": {
+    "gpt-4": {
+      "enabled": true,
+      "api_key_env": "OPENAI_API_KEY",
+      "model_name": "gpt-4",
+      "max_tokens": 1000,
+      "temperature": 0.1,
+      "timeout": 30
+    },
+    "gpt-3.5-turbo": {
+      "enabled": true,
+      "api_key_env": "OPENAI_API_KEY",
+      "model_name": "gpt-3.5-turbo",
+      "max_tokens": 800,
+      "temperature": 0.1,
+      "timeout": 30
+    },
+    "claude-3": {
+      "enabled": false,
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "model_name": "claude-3-sonnet-20240229",
+      "max_tokens": 1000,
+      "temperature": 0.1,
+      "timeout": 30
+    },
+    "gemini-pro": {
+      "enabled": false,
+      "api_key_env": "GOOGLE_API_KEY",
+      "model_name": "gemini-pro",
+      "max_tokens": 1000,
+      "temperature": 0.1,
+      "timeout": 30
+    },
+    "local-llm": {
+      "enabled": false,
+      "api_endpoint": "http://localhost:11434/api/generate",
+      "model_name": "llama2:7b",
+      "max_tokens": 800,
+      "timeout": 60
+    }
+  },
+  "marking_criteria": {
+    "strict_mode": {
+      "exact_match_weight": 0.8,
+      "algebraic_equivalence_weight": 0.2,
+      "partial_credit_steps": false,
+      "syntax_tolerance": 0.1
+    },
+    "standard_mode": {
+      "exact_match_weight": 0.4,
+      "algebraic_equivalence_weight": 0.4,
+      "partial_credit_steps": true,
+      "syntax_tolerance": 0.3,
+      "partial_credit_weight": 0.2
+    },
+    "lenient_mode": {
+      "exact_match_weight": 0.2,
+      "algebraic_equivalence_weight": 0.3,
+      "partial_credit_steps": true,
+      "syntax_tolerance": 0.5,
+      "partial_credit_weight": 0.5
+    }
+  },
+  "test_sets": {
+    "calculus_derivatives": {
+      "file": "test_sets/calculus_derivatives.json",
+      "description": "Basic derivative calculations",
+      "difficulty": "beginner",
+      "topics": [
+        "derivatives",
+        "chain_rule",
+        "product_rule"
+      ]
+    },
+    "linear_algebra": {
+      "file": "test_sets/linear_algebra.json",
+      "description": "Matrix operations and transformations",
+      "difficulty": "intermediate",
+      "topics": [
+        "matrices",
+        "determinants",
+        "eigenvalues"
+      ]
+    },
+    "integration": {
+      "file": "test_sets/integration.json",
+      "description": "Integration techniques and applications",
+      "difficulty": "intermediate",
+      "topics": [
+        "integration",
+        "substitution",
+        "integration_by_parts"
+      ]
+    },
+    "differential_equations": {
+      "file": "test_sets/differential_equations.json",
+      "description": "Solving differential equations",
+      "difficulty": "advanced",
+      "topics": [
+        "ode",
+        "pde",
+        "laplace_transform"
+      ]
+    }
+  },
+  "output_settings": {
+    "save_detailed_logs": true,
+    "save_model_responses": true,
+    "generate_latex_reports": true,
+    "create_comparison_charts": true
+  }
+}

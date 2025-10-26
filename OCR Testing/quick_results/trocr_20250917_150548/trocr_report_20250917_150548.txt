@@ -1,0 +1,157 @@
+====================================================================================================
+LATEX-OCR BENCHMARK REPORT - TROCR
+====================================================================================================
+
+BENCHMARK INFORMATION
+--------------------------------------------------
+Model Name: trocr
+Benchmark Start: 2025-09-17T15:05:38.586746
+Benchmark End: 2025-09-17T15:05:48.099787
+Device Used: CPU
+
+SUMMARY STATISTICS
+--------------------------------------------------
+Total Images: 15
+Successfully Processed: 15
+Failed Processing: 0
+Success Rate: 100.0%
+
+ACCURACY METRICS
+--------------------------------------------------
+Exact Match Rate: 0.0%
+Average Character Accuracy: 0.077
+Median Character Accuracy: 0.083
+Std Character Accuracy: 0.033
+Average Levenshtein Distance: 34.2
+Average Word Error Rate: 1.000
+Average Token Accuracy: 0.000
+
+PERFORMANCE METRICS
+--------------------------------------------------
+Total Processing Time: 9.4s
+Average Inference Time: 0.629s
+Average Memory Usage: 9.23MB
+
+DETAILED PREDICTIONS (15)
+====================================================================================================
+
+IMAGE 1: 01650d074915628e.png
+Ground Truth: i_{Q}:Q\hookrightarrow E
+Prediction:   a case that the other
+Exact Match:  ❌ NO
+Char Accuracy: 0.083 | Time: 1.084s | Memory: 127.35MB
+Token Accuracy: 0.000 | Levenshtein: 22
+----------------------------------------------------------------------------------------------------
+
+IMAGE 2: 04fc9a7665035a0d.png
+Ground Truth: a_{b,i}=\gamma_{b,i}\frac{b_{i}}{b^{\ominus}}
+Prediction:   a b c d e f
+Exact Match:  ❌ NO
+Char Accuracy: 0.067 | Time: 0.624s | Memory: 3.52MB
+Token Accuracy: 0.000 | Levenshtein: 42
+----------------------------------------------------------------------------------------------------
+
+IMAGE 3: 05882db6930f636c.png
+Ground Truth: \Rightarrow ln\frac{x(t)}{x(0)}=kt
+Prediction:   was in a dozen time
+Exact Match:  ❌ NO
+Char Accuracy: 0.118 | Time: 0.554s | Memory: 6.25MB
+Token Accuracy: 0.000 | Levenshtein: 30
+----------------------------------------------------------------------------------------------------
+
+IMAGE 4: 038ccb46ae3443db.png
+Ground Truth: \mathbb{E}[logX!]=\overline{logX!}
+Prediction:   mentioned well to focus on
+Exact Match:  ❌ NO
+Char Accuracy: 0.088 | Time: 0.599s | Memory: -5.45MB
+Token Accuracy: 0.000 | Levenshtein: 31
+----------------------------------------------------------------------------------------------------
+
+IMAGE 5: 04852f06a82865c1.png
+Ground Truth: \frac{\partial\Pi}{\partial x_{j}}
+Prediction:   S. S. J.
+Exact Match:  ❌ NO
+Char Accuracy: 0.029 | Time: 0.620s | Memory: -0.88MB
+Token Accuracy: 0.000 | Levenshtein: 33
+----------------------------------------------------------------------------------------------------
+
+IMAGE 6: 0368471ca4fbe892.png
+Ground Truth: R_{U}\in R_{U}\iff R_{U}\notin R_{U}
+Prediction:   was a small man who had never never
+Exact Match:  ❌ NO
+Char Accuracy: 0.056 | Time: 0.687s | Memory: 3.47MB
+Token Accuracy: 0.000 | Levenshtein: 34
+----------------------------------------------------------------------------------------------------
+
+IMAGE 7: 04026cefc5bee356.png
+Ground Truth: (0,1)^{n}\subseteq R^{n}
+Prediction:   a b c d e f
+Exact Match:  ❌ NO
+Char Accuracy: 0.083 | Time: 0.665s | Memory: -2.17MB
+Token Accuracy: 0.000 | Levenshtein: 22
+----------------------------------------------------------------------------------------------------
+
+IMAGE 8: 06b2711e539715e0.png
+Ground Truth: \Leftrightarrow1-\frac{1}{r}<\left[\frac{m}{r}\right]_{1}
+Prediction:   was also a successful
+Exact Match:  ❌ NO
+Char Accuracy: 0.087 | Time: 0.549s | Memory: 5.00MB
+Token Accuracy: 0.000 | Levenshtein: 42
+----------------------------------------------------------------------------------------------------
+
+IMAGE 9: 0656e77f512563c5.png
+Ground Truth: \hat{A}_{n,\alpha}^{\dagger}
+Prediction:   It is a new
+Exact Match:  ❌ NO
+Char Accuracy: 0.107 | Time: 0.548s | Memory: -5.66MB
+Token Accuracy: 0.000 | Levenshtein: 25
+----------------------------------------------------------------------------------------------------
+
+IMAGE 10: 067a327b0c92095f.png
+Ground Truth: \underline{x}\in\mathbb{R}^{n}
+Prediction:   a b. O.R.M.
+Exact Match:  ❌ NO
+Char Accuracy: 0.067 | Time: 0.710s | Memory: 2.55MB
+Token Accuracy: 0.000 | Levenshtein: 28
+----------------------------------------------------------------------------------------------------
+
+IMAGE 11: 0050464363a7d02d.png
+Ground Truth: q=\frac{1}{\sqrt{1\cdot\frac{v^{5}}{c^{5}}}}\xi
+Prediction:   a man who was a
+Exact Match:  ❌ NO
+Char Accuracy: 0.064 | Time: 0.564s | Memory: -3.20MB
+Token Accuracy: 0.000 | Levenshtein: 44
+----------------------------------------------------------------------------------------------------
+
+IMAGE 12: 01751ea13ceb1817.png
+Ground Truth: C(X)>X^{0.332}
+Prediction:   to succeed in the world
+Exact Match:  ❌ NO
+Char Accuracy: 0.000 | Time: 0.572s | Memory: 6.43MB
+Token Accuracy: 0.000 | Levenshtein: 23
+----------------------------------------------------------------------------------------------------
+
+IMAGE 13: 04fc707abea3e7a1.png
+Ground Truth: B=\nabla\times\hat{A}
+Prediction:   play in the world
+Exact Match:  ❌ NO
+Char Accuracy: 0.095 | Time: 0.512s | Memory: -0.06MB
+Token Accuracy: 0.000 | Levenshtein: 19
+----------------------------------------------------------------------------------------------------
+
+IMAGE 14: 025f579aa67dfd7c.png
+Ground Truth: \{A_{i}|i\in\underline{m}\backslash A\}
+Prediction:   is now a new time in the
+Exact Match:  ❌ NO
+Char Accuracy: 0.128 | Time: 0.616s | Memory: 0.37MB
+Token Accuracy: 0.000 | Levenshtein: 34
+----------------------------------------------------------------------------------------------------
+
+IMAGE 15: 05fa73b7807336c8.png
+Ground Truth: \frac{d}{dt}\frac{\partial R}{\partial\dot{\zeta}_{j}}=\frac{\partial R}{\partial\zeta_{j}}
+Prediction:   old size . She
+Exact Match:  ❌ NO
+Char Accuracy: 0.077 | Time: 0.532s | Memory: 0.91MB
+Token Accuracy: 0.000 | Levenshtein: 84
+----------------------------------------------------------------------------------------------------
+
